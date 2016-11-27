@@ -12242,7 +12242,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 .starTitle h4,
 .starTitle h1 {
-  color: #fff;
+  color: #222222;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -12298,15 +12298,15 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 /* Yaku */
 .link-yaku {
-  color: #fff;
+  color: #222222;
 }
 .link-yaku:focus {
   outline: none;
   outline-offset: 0;
-  color: #fff;
+  color: #222222;
 }
 .link-yaku:active {
-  color: #fff;
+  color: #222222;
 }
 .link-yaku span {
   display: inline-block;
