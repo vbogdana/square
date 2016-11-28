@@ -512,12 +512,12 @@
 		</div><!-- end container -->
 	</section>
 	<!-- =============== END CONTACT ================ -->
-		<!-- =============== START MAP ================ -->
+	<!-- =============== START MAP ================ -->
 	<section class="googleMap">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
-					<div id="map-canvas" class="google-map" data-lat="44.820092" data-long="20.456819" data-img="assets/img/contact/marker.png"></div>
+					<div id="map-canvas" class="google-map" data-lat="44.820092" data-long="20.456819" data-img="<?php echo url("") ?>/images/location.svg" height='10px' width='10px'></div>
 				</div>
 			</div>
 		</div>
