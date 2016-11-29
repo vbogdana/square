@@ -9457,6 +9457,8 @@ html body {
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+  transform: scale(0.2);
+  -webkit-transform: scale(0.2);  
 }
 .shopHomePage ul li figure .content .shopHover,
 .shop-products ul li figure .content .shopHover,
@@ -9479,6 +9481,8 @@ html body {
 .footer ul li:hover figure .content {
   opacity: 1;
   visibility: visible;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
 }
 .shopHomePage .icon-button,
 .shop-products .icon-button,
@@ -9558,16 +9562,15 @@ html body {
   display: inline-block;
   font-weight: 700;
   color: #333;
-  font-family: 'Libre Baskerville', serif;
-  padding-bottom: 3.5rem;
+  font-family: 'Michroma', serif;
+  padding-bottom: 1.5rem;
 }
-.shopHomePage .price:before,
-.shop-products .price:before,
-.footer .price:before {
-  content: '';
+
+.shopHomePage .fixLine,
+.shop-products .fixLine{
   width: 1.9rem;
   height: 0.1rem;
-  position: absolute;
+  position: relative;
   background-color: #000;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -9575,8 +9578,9 @@ html body {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   left: 50%;
-  top: 4rem;
+  margin-bottom: 2rem;
 }
+
 .shopHomePage .proTitle a,
 .shop-products .proTitle a,
 .footer .proTitle a {
@@ -10345,6 +10349,11 @@ body {
 /***********************************************************************************************/
 .countdownSection {
   position: relative;
+  
+}
+.countdownSection .container{
+    padding-top: 10px;
+    background: rgba(0,0,0,0.37);
 }
 .displayCounter {
   display: inline-block;
@@ -14200,7 +14209,7 @@ body ul {
   text-transform: uppercase;
 }
 .sectionTitle h2 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Michroma', sans-serif;
   font-weight: 400;
   font-size: 3rem;
   letter-spacing: 2px;
