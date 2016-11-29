@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Michroma');
+@import url('https://fonts.googleapis.com/css?family=Michroma');        /* odlican za title */
 @import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i');
 @import url('https://fonts.googleapis.com/css?family=Palanquin:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Play:400,700');
@@ -4951,9 +4951,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .breadcrumb-fullscreen-parent.affix {
   overflow: hidden;
   z-index: 6;
-  bottom: -webkit-calc(100% - 67px);
-  bottom: -moz-calc(100% - 67px);
-  bottom: calc(100% - 67px);
+  bottom: -webkit-calc(100% - 70px);
+  bottom: -moz-calc(100% - 70px);
+  bottom: calc(100% - 70px);
 }
 .breadcrumbCustom {
   height: 50rem!important;
@@ -10131,7 +10131,7 @@ body {
     transform: translateX(-50%);
   }
 }
-@media only screen and (max-width: 1025px) and only screen and (max-width: 767px) {
+@media only screen and (max-width: 1025px) and (max-width: 767px) {
   .list-albums .list-feature li .album-icon {
     height: 270px;
   }
@@ -11310,7 +11310,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     display: none;
   }
   .topHeader {
-    padding-bottom: 2.8rem!important;
+    // padding-bottom: 2.8rem!important;
   }
   .sm-countdown.sm-style2 .unit {
     width: 0.5rem;
@@ -12223,7 +12223,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   top: 0;
   padding-bottom: 1.8rem;
   width: 100%;
-  padding: 1.8rem 5rem;
+  padding: 0.5rem 5rem;
   z-index: 4;
   -webkit-transition-delay: 0;
   transition-delay: 0;
@@ -12244,7 +12244,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   position: relative;
 }
 .logo-container-top img {
-  max-height: 75px;
+  max-height: 60px;
   max-width: 100%;
 }
 .breadcrumb-fullscreen-parent.affix .ava-slider-container {
@@ -12260,7 +12260,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 .starTitle h4,
 .starTitle h1 {
-  color: #222222;
+  color: #fff;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -12316,15 +12316,15 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 /* Yaku */
 .link-yaku {
-  color: #222222;
+  color: #fff;
 }
 .link-yaku:focus {
   outline: none;
   outline-offset: 0;
-  color: #222222;
+  color: #fff;
 }
 .link-yaku:active {
-  color: #222222;
+  color: #fff;
 }
 .link-yaku span {
   display: inline-block;
@@ -12812,147 +12812,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   display: inline-flex;
   float: right;
   position: relative;
-}
-.rightTopHeader .cartContainer {
-  position: relative;
-  color: #fff;
-  top: 3px;
-  -webkit-transition-delay: 0;
-  transition-delay: 0;
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-property: all;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-}
-.rightTopHeader .cartContainer .myCart ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.rightTopHeader .cartContainer .myCart ul li {
-  float: left;
-  padding: 0;
-}
-.rightTopHeader .cartContainer .myCart .cartTitle {
-  text-transform: uppercase;
-  font-family: 'Karla', sans-serif;
-  font-weight: 600;
-  font-size: 1.3rem;
-  position: relative;
-}
-.rightTopHeader .cartContainer .myCart .cartTitle i {
-  font-size: 1.6rem;
-}
-.rightTopHeader .cartContainer .myCart .cartTitle span {
-  position: absolute;
-  top: -3px;
-  right: -4px;
-  z-index: 10;
-  font-size: 11px;
-  line-height: 11px;
-  background: #bb9b69;
-  border-radius: 50%;
-  padding: 3px 6px;
-}
-.rightTopHeader .cartContainer .myCart .cartNum {
-  font-family: 'Karla', sans-serif;
-  font-weight: 600;
-  font-size: 1.3rem;
-  padding: 0 0.9rem;
-  position: relative;
-  top: 0;
-}
-.rightTopHeader .cartContainer:hover .cartParent {
-  display: block;
-}
-.rightTopHeader .cartParent {
-  position: absolute;
-  top: 100%;
-  display: none;
-  margin-left: -25rem;
-  left: -50%;
-  width: 33.8rem;
-}
-.rightTopHeader .cartItems {
-  background-color: #fafafa;
-  border: 1px solid #cecece;
-  margin-top: 3rem;
-}
-.rightTopHeader .cartItems ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.rightTopHeader .cartItems ul li {
-  padding: 1.8rem;
-  border-bottom: 1px solid #cecece;
-}
-.rightTopHeader .cartItems ul li .priceCart {
-  width: 100%;
-  color: #fff;
-  display: inline-block;
-}
-.rightTopHeader .cartItems ul li .priceCart img {
-  margin-right: 1.5rem;
-  float: left;
-}
-.rightTopHeader .cartItems ul li .priceCart a {
-  padding: 0;
-  margin: 0;
-  display: block;
-  font-size: 1.5rem;
-  font-family: 'Karla', sans-serif;
-  font-weight: 600;
-  color: #525252;
-  position: relative;
-}
-.rightTopHeader .cartItems ul li .priceCart a:before {
-  content: '\f00d';
-  position: absolute;
-  font-family: FontAwesome;
-  top: 0;
-  right: 0;
-}
-.rightTopHeader .cartItems ul li .priceCart a:hover {
-  text-decoration: none;
-  color: #bb9b69;
-}
-.rightTopHeader .cartItems ul li .priceCart .quantity {
-  margin-top: 0!important;
-}
-.rightTopHeader .cartItems ul li .priceCart p {
-  color: #757575;
-  font-family: 'Karla', sans-serif;
-  font-weight: 600;
-  font-size: 1.4rem;
-  padding-right: 0.2rem;
-}
-.rightTopHeader .cartItems ul li .priceCart p span {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  font-size: 1.1rem;
-  padding-left: 1rem;
-}
-.rightTopHeader .cartItems ul li .priceCart p {
-  margin-top: 1rem;
-  margin-bottom: 0rem;
-}
-.rightTopHeader .buttonView,
-.rightTopHeader .buttonCheck {
-  top: 0;
-  display: inline-block;
-  position: relative;
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: #fff;
-  font-family: 'Karla', sans-serif;
-  margin-top: 3rem;
-  padding: 1.5rem 3rem;
-  background-color: #bb9b69;
-  border-color: transparent;
-  letter-spacing: 2px;
+  margin-top: 1.3rem;
 }
 .rightTopHeader .buttonView {
   margin-left: 2.3rem;
