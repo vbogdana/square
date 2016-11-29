@@ -11,7 +11,7 @@
 	<meta name="description" content="NEKI OPIS SAJTA" />
 	
 	<title>Club Square Belgrade - STUDENTSKI TRG 15</title>
-	<link rel="icon" href="  ">
+	<link rel="icon" href="favicon.ico">
 	<!-- ========== CSS INCLUDES ========== -->
 	<link rel="stylesheet" href="<?php echo url("") ?>/css/master.css">
         <!-- 
@@ -82,17 +82,22 @@
                     <div class="breadcrumb-fullscreen-parent phone-menu-bg">
                         <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
                             <div class="starTitle starVideo">
-                                <h4>Club</h4>
+                                <h4><img src="<?php echo url("") ?>/images/kockalogo.png" alt="" class="s logo" style="height: 270px; width: 270px;"></h4>
                                 <div class="grid__item">
                                     <h1>
                                         <a class="link link-yaku" href="#">
-                                            <span>S</span><span>Q</span><span>U</span><span>A</span><span>R</span><span>E</span>					
+                                            <span><img src="<?php echo url("") ?>/images/slogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                            <span><img src="<?php echo url("") ?>/images/qlogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                            <span><img src="<?php echo url("") ?>/images/ulogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                            <span><img src="<?php echo url("") ?>/images/alogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                            <span><img src="<?php echo url("") ?>/images/rlogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                            <span><img src="<?php echo url("") ?>/images/elogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
                                         </a>
                                     </h1>
                                 </div>
                                 <h4>Belgrade,STUDENTSKI TRG 15</h4>
                             </div>
-                            <div id="bgndVideo" class="player" data-property="{videoURL:'bmzXk5E4gAs',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}">
+                            <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}">
 
                             </div>
                         </div>
