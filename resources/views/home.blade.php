@@ -58,19 +58,18 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="assets/img/shop/shopProduct.png" alt="">
+                                        <img src="<?php echo url("") ?>/images/thursday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="shopHover">
                                             <div class="price">
-                                                &pound; 15,99
+                                                The NINETIES
                                             </div>
+                                            <div class="fixLine"></div>
                                             <div  class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                                <a href="">THURSDAY</a>
                                             </div>
-                                            <div class="product">Hoodie Aqura</div>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                            <div class="product">DJ ALEX TIC</div>
                                         </div>
                                     </div>
                                 </figure>
@@ -78,19 +77,18 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="assets/img/shop/shopProduct.png" alt="">
+                                        <img src="<?php echo url("") ?>/images/friday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="shopHover">
                                             <div class="price">
-                                                &pound; 15,99
+                                                Make some Love
                                             </div>
+                                            <div class="fixLine"></div>
                                             <div  class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                                <a href="">FRIDAY</a>
                                             </div>
-                                            <div class="product">Hoodie Aqura</div>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                            <div class="product">ME - HIGH - LOW</div>
                                         </div>
                                     </div>
                                 </figure>
@@ -98,19 +96,18 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="assets/img/shop/shopProduct.png" alt="">
+                                        <img src="<?php echo url("") ?>/images/saturday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="shopHover">
                                             <div class="price">
-                                                &pound; 15,99
+                                                Blood & Mode 
                                             </div>
+                                            <div class="fixLine"></div>
                                             <div  class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                                <a href="shopSingle.html">SATURDAY</a>
                                             </div>
-                                            <div class="product">Hoodie Aqura</div>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                            <div class="product">COLLE & MARC FUNK </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -118,20 +115,19 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="assets/img/shop/shopProduct.png" alt="">
+                                        <img src="<?php echo url("") ?>/images/sunday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="shopHover">
                                             <div class="price">
-                                                &pound; 15,99
+                                                Total RNB
                                             </div>
+                                            <div class="fixLine"></div>
                                             <div  class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                                <a href="">SUNDAY</a>
                                             </div>
-                                            <div class="product">Hoodie Aqura</div>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                            <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
-                                        </div>
+                                            <div class="product">DJ Prema</div>
+                                             </div>
                                     </div>
                                 </figure>
                             </li>
@@ -146,13 +142,13 @@
 	
 
 <!-- =============== START EVENTS SECTION-2 ================ -->
-<section class="padding hide-section countdownSection background-properties" style="background-image: url(assets/img/events/countdownHome.png);">
+<section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/NEXTEVENT.jpg);">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12"> 
                 <div class="countdownTitle">
                     <h4>Next Event</h4>
-                    <a href="singleEvent.html"><img src="assets/img/events/box.png" alt="Event"></a>
+                  <!--  <a href="singleEvent.html"><img src="assets/img/events/box.png" alt="Event"></a> -->
                 </div>
                 <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/10/23">
                     <div class="displayCounter">
