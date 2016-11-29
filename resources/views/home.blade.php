@@ -190,12 +190,12 @@
         <div class="row">
             <div class="sectionTitle">
                 <span class="heading-t3"></span>
-                <h2><a href="video.html">Upload Video</a></h2>
+                <h2><a href="video.html">VIDEO GALLERY</a></h2>
                 <span class="heading-b3"></span>
-                <p>Check out my latest videos and follow me on <a href="#">Youtube</a> & <a href="#">Vimeo</a> to view more.</p>
+                <p>Check out our latest videos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
             </div><!-- end sectionTtile -->
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VV-Q-aRHTDE"  allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VRjdddZosEU"  allowfullscreen></iframe>
             </div><!-- end col-sm-4 -->
             <div class="col-sm-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VxG5C4q_rEs"  allowfullscreen></iframe>
