@@ -66,10 +66,9 @@
                                                 The NINETIES
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle">
-                                                <a href="">THURSDAY</a>
-                                            </div>
+                                            <div  class="proTitle"> THURSDAY  </div>
                                             <div class="product">DJ ALEX TIC</div>
+                                            <div class="dateOfParty"" > 10/12/2016 </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -85,10 +84,9 @@
                                                 Make some Love
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle">
-                                                <a href="">FRIDAY</a>
-                                            </div>
+                                            <div  class="proTitle"> FRIDAY </div>
                                             <div class="product">ME - HIGH - LOW</div>
+                                            <div class="dateOfParty"" > 11/12/2016 </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -104,10 +102,9 @@
                                                 Blood & Mode 
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle">
-                                                <a href="shopSingle.html">SATURDAY</a>
-                                            </div>
+                                            <div  class="proTitle"> SATURDAY </div>
                                             <div class="product">COLLE & MARC FUNK </div>
+                                            <div class="dateOfParty"" > 12/12/2016 </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -123,10 +120,9 @@
                                                 Total RNB
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle">
-                                                <a href="">SUNDAY</a>
-                                            </div>
+                                            <div  class="proTitle"> SUNDAY  </div>
                                             <div class="product">DJ Prema</div>
+                                            <div class="dateOfParty"" > 13/12/2016 </div>
                                              </div>
                                     </div>
                                 </figure>

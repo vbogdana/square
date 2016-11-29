@@ -9456,7 +9456,7 @@ html body {
   transition-timing-function: ease-in-out;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  transition: 0.4s;
+  transition: 0.8s;
   transform: scale(0.2);
   -webkit-transform: scale(0.2);  
 }
@@ -9580,7 +9580,7 @@ html body {
   left: 50%;
   margin-bottom: 2rem;
 }
-
+/*
 .shopHomePage .proTitle a,
 .shop-products .proTitle a,
 .footer .proTitle a {
@@ -9588,10 +9588,18 @@ html body {
   font-size: 1.8rem;
   text-transform: uppercase;
   color: #5f5e5e;
+  font-family: 'El Messiri',sans-serif;
   font-weight: 600;
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
+*/
+
+.shopHomePage .proTitle,
+.shop-products .proTitle{
+    font-family: 'El Messiri',sans-serif;
+}
+
 .shopHomePage .proTitle a:hover,
 .shop-products .proTitle a:hover,
 .footer .proTitle a:hover {
@@ -9605,10 +9613,19 @@ html body {
 .shopHomePage .product,
 .shop-products .product,
 .footer .product {
-  color: #adacac;
-  font-family: 'Karla', sans-serif;
-  font-size: 1.1rem;
+  /*color: #adacac;*/
+  /*color: rgb(115, 77, 38);*/
+  color: rgb (51,51,51);
+  font-family: 'El Messiri', sans-serif;
+  font-size: 2rem;
   font-weight: 600;
+}
+.shopHomePage .dateOfParty,
+.shop-products .dateOfParty{
+    font-family: 'Michroma',sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 5rem;
 }
 /***********************************************************************************************/
 /* END HOME-SHOP SECTION */
