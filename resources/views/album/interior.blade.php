@@ -48,44 +48,14 @@
                                     <figcaption>
                                         <!-- Single Album Image -->
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/wide/bgnocu-1.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/wide/bgnocu-31.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-1.jpg"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-31.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
                                     <!-- Single Album View Button -->
 
-                                </figure>
-                            </article>
-                            <!-- Single Album Article -->
-                            <article class="col-sm-3 col-xs-6">
-                                <!-- Single Album Contant Container -->
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-2.jpg" alt="">
-                                            <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-2.jpg"></a>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </article>
-                            <!-- Single Album Article -->
-                            <article class="col-sm-3 col-xs-6">
-                                <!-- Single Album Contant Container -->
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-3.jpg" alt="">
-                                            <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-3.jpg"></a>
-                                            </div>
-                                        </div>
-                                    </figcaption>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -119,15 +89,45 @@
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
+                            <article class="col-sm-3 col-xs-6">
+                                <!-- Single Album Contant Container -->
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-9.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-9.jpg"></a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-3 col-xs-6">
+                                <!-- Single Album Contant Container -->
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-18.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-18.jpg"></a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
                             <article class="col-sm-12 col-md-6 col-xs-12">
                                 <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/wide/bgnocu-6.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/wide/bgnocu-16.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-6.jpg"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-16.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -141,9 +141,9 @@
                                     <figcaption>
                                         <!-- Single Album Image -->
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/wide/bgnocu-7.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/wide/bgnocu-1.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-7.jpg"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-1.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -158,9 +158,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-8.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-21.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-8.jpg"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-21.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -173,9 +173,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-9.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/square/bgnocu-29.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-9.jpg"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_interior/bgnocu-29.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
