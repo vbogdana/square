@@ -262,10 +262,10 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRjdddZosEU"  allowfullscreen></iframe>
             </div><!-- end col-sm-4 -->
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VxG5C4q_rEs"  allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MptSRokgwhg"  allowfullscreen></iframe>
             </div><!-- end col-sm-4 -->
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OkbuRa1o1wA"  allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ve1z3DgApB8"  allowfullscreen></iframe>
             </div><!-- end col-sm-4 -->
         </div>
     </div>
