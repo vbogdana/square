@@ -9456,13 +9456,15 @@ html body {
   transition-timing-function: ease-in-out;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  transition: 0.4s;
+  transition: 0.8s;
+  transform: scale(0.2);
+  -webkit-transform: scale(0.2);  
 }
-.shopHomePage ul li figure .content .shopHover,
-.shop-products ul li figure .content .shopHover,
-.footer ul li figure .content .shopHover {
+.shopHomePage ul li figure .content .eventHover,
+.shop-products ul li figure .content .eventHover,
+.footer ul li figure .content .eventHover {
   position: relative;
-  top: 45%;
+  top: 35%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%);
@@ -9479,6 +9481,8 @@ html body {
 .footer ul li:hover figure .content {
   opacity: 1;
   visibility: visible;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
 }
 .shopHomePage .icon-button,
 .shop-products .icon-button,
@@ -9551,23 +9555,22 @@ html body {
 .footer .shopIcon span {
   background-color: #bb9b69;
 }
-.shopHomePage .price,
-.shop-products .price,
-.footer .price {
+.shopHomePage .event,
+.shop-products .event,
+.footer .event {
   font-size: 2.5rem;
   display: inline-block;
   font-weight: 700;
   color: #333;
-  font-family: 'Libre Baskerville', serif;
-  padding-bottom: 3.5rem;
+  font-family: 'Michroma', serif;
+  padding-bottom: 1.5rem;
 }
-.shopHomePage .price:before,
-.shop-products .price:before,
-.footer .price:before {
-  content: '';
+
+.shopHomePage .fixLine,
+.shop-products .fixLine{
   width: 1.9rem;
   height: 0.1rem;
-  position: absolute;
+  position: relative;
   background-color: #000;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -9575,36 +9578,55 @@ html body {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   left: 50%;
-  top: 4rem;
+  margin-bottom: 2rem;
 }
-.shopHomePage .proTitle a,
-.shop-products .proTitle a,
-.footer .proTitle a {
+/*
+.shopHomePage .evTitle a,
+.shop-products .evTitle a,
+.footer .evTitle a {
   display: block;
   font-size: 1.8rem;
   text-transform: uppercase;
   color: #5f5e5e;
+  font-family: 'El Messiri',sans-serif;
   font-weight: 600;
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
-.shopHomePage .proTitle a:hover,
-.shop-products .proTitle a:hover,
-.footer .proTitle a:hover {
-  color: #bb9b69;
+*/
+
+.shopHomePage .evTitle,
+.shop-products .evTitle{
+    font-family: 'El Messiri',sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #5f5e5e;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
+
 .shopHomePage .shopIcon,
 .shop-products .shopIcon,
 .footer .shopIcon {
   margin-top: 1rem;
 }
-.shopHomePage .product,
-.shop-products .product,
-.footer .product {
-  color: #adacac;
-  font-family: 'Karla', sans-serif;
-  font-size: 1.1rem;
+.shopHomePage .evSubtitle,
+.shop-products .evSubtitle,
+.footer .evSubtitle {
+  /*color: #adacac;*/
+  /*color: rgb(115, 77, 38);*/
+  color: rgb (51,51,51);
+  font-family: 'El Messiri', sans-serif;
+  font-size: 2rem;
   font-weight: 600;
+}
+.shopHomePage .dateOfParty,
+.shop-products .dateOfParty{
+    font-family: 'Michroma',sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+    bottom: 0;
 }
 /***********************************************************************************************/
 /* END HOME-SHOP SECTION */
@@ -9642,7 +9664,7 @@ html body {
   font-size: 1.6rem;
   font-weight: 700;
 }
-.productDetails .price {
+.productDetails .event {
   padding: 4.5rem 0;
   font-size: 3.1rem;
   color: #fa5264;
@@ -9798,7 +9820,7 @@ html body {
 .buttonTT:hover {
   background-color: #bb9b69;
 }
-.product-quantity {
+.evSubtitle-quantity {
   padding-bottom: 6.5rem;
 }
 .clothing .products {
@@ -10345,6 +10367,11 @@ body {
 /***********************************************************************************************/
 .countdownSection {
   position: relative;
+  
+}
+.countdownSection .container{
+    padding-top: 10px;
+    background: rgba(0,0,0,0.37);
 }
 .displayCounter {
   display: inline-block;
@@ -13027,7 +13054,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .fancybox-nav span {
-  background: url(../img/content/sprite.png) no-repeat #FFF;
+  background: url(../images/sprite.png) no-repeat #FFF;
   cursor: pointer;
   height: 55px;
   margin-top: -27px;
@@ -14200,7 +14227,7 @@ body ul {
   text-transform: uppercase;
 }
 .sectionTitle h2 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Michroma', sans-serif;
   font-weight: 400;
   font-size: 3rem;
   letter-spacing: 2px;
@@ -14227,6 +14254,8 @@ body ul {
   font-size: 1.8rem;
   color: #757575;
   text-transform: initial;
+  padding: 5.5rem 0;
+  margin-bottom: 0!important;
 }
 .sectionTitle p a {
   font-family: 'Karla', sans-serif;
@@ -15239,7 +15268,7 @@ p a {
   position: relative;
   top: 1.5rem;
   color: #fff;
-  content: url(../img/content/aL.png);
+  content: url(../images/aL.png);
 }
 .owl-controls .owl-prev:hover {
   width: 7rem;
@@ -15276,7 +15305,7 @@ p a {
   top: 1.5rem;
   color: #fff;
   left: 2.5rem;
-  content: url(../img/content/aR.png);
+  content: url(../imagesg/aR.png);
 }
 .owl-controls .owl-next:hover {
   width: 7rem;

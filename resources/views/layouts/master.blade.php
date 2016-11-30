@@ -37,76 +37,12 @@
                 <img src="<?php echo url("") ?>/images/loader.gif" alt="" class="loader-img">
             </div>
 	</div>
+        
+        @yield('breadcrumb')
 
               
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
         @section('sidebar')
-        <!-- =============== START BREADCRUMB ================ -->
-        <!--
-        <section class="no-mb">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="breadcrumb-fullscreen-parent phone-menu-bg">
-                        <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('assets/img/header/header.png');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-                            <div id="home" style="position: absolute;left: 0;top: 0;">
-                                <div class="intro-header">
-                                    <div class="js-height-full star" style="height: 955px;">
-                                        <div class="star-pattern-1 js-height-full" style="height: 994px;"></div>
-                                        <div class="col-sm-12"> 
-                                            <div class="starTitle">
-                                                <h4>Club</h4>
-                                                <div class="grid__item">
-                                                    <h1>
-                                                        <a class="link link-yaku" href="#">
-                                                            <span>S</span><span>Q</span><span>U</span><span>A</span><span>R</span><span>E</span>					
-                                                        </a>
-                                                    </h1>
-                                                </div>
-                                                <h4>Belgrade,STUDENTSKI TRG 15</h4>
-                                            </div>
-                                            <canvas class="cover" width="1920" height="955"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
-        
-        <section class="no-mb">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="breadcrumb-fullscreen-parent phone-menu-bg">
-                        <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-                            <div class="starTitle starVideo">
-                                <h4><img src="<?php echo url("") ?>/images/kockalogo.png" alt="" class="s logo" style="height: 270px; width: 270px;"></h4>
-                                <div class="grid__item">
-                                    <h1>
-                                        <a class="link link-yaku" href="#">
-                                            <span><img src="<?php echo url("") ?>/images/slogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
-                                            <span><img src="<?php echo url("") ?>/images/qlogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
-                                            <span><img src="<?php echo url("") ?>/images/ulogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
-                                            <span><img src="<?php echo url("") ?>/images/alogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
-                                            <span><img src="<?php echo url("") ?>/images/rlogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
-                                            <span><img src="<?php echo url("") ?>/images/elogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
-                                        </a>
-                                    </h1>
-                                </div>
-                                <h4>Belgrade,STUDENTSKI TRG 15</h4>
-                            </div>
-                            <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}">
-
-                            </div>
-                        </div>
-                    </div><!--end bread  -->
-                </div>
-            </div>
-        </section>
-	<!-- =============== END BREADCRUMB ================ -->
-	
 	<!-- =============== START TOP HEADER ================ -->
         <div class="topHeader" >
             <div class="header">
