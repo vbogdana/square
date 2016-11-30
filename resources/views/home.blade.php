@@ -5,6 +5,74 @@
 
 @stop
 
+@section('breadcrumb')
+<!-- =============== START BREADCRUMB ================ -->
+<!--
+<section class="no-mb">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="breadcrumb-fullscreen-parent phone-menu-bg">
+                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('assets/img/header/header.png');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+                    <div id="home" style="position: absolute;left: 0;top: 0;">
+                        <div class="intro-header">
+                            <div class="js-height-full star" style="height: 955px;">
+                                <div class="star-pattern-1 js-height-full" style="height: 994px;"></div>
+                                <div class="col-sm-12"> 
+                                    <div class="starTitle">
+                                        <h4>Club</h4>
+                                        <div class="grid__item">
+                                            <h1>
+                                                <a class="link link-yaku" href="#">
+                                                    <span>S</span><span>Q</span><span>U</span><span>A</span><span>R</span><span>E</span>					
+                                                </a>
+                                            </h1>
+                                        </div>
+                                        <h4>Belgrade,STUDENTSKI TRG 15</h4>
+                                    </div>
+                                    <canvas class="cover" width="1920" height="955"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section class="no-mb">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="breadcrumb-fullscreen-parent phone-menu-bg">
+                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+                    <div class="starTitle starVideo">
+                        <h4><img src="<?php echo url("") ?>/images/kockalogo.png" alt="" class="s logo" style="height: 270px; width: 270px;"></h4>
+                        <div class="grid__item">
+                            <h1>
+                                <a class="link link-yaku" href="#">
+                                    <span><img src="<?php echo url("") ?>/images/slogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                    <span><img src="<?php echo url("") ?>/images/qlogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                    <span><img src="<?php echo url("") ?>/images/ulogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                    <span><img src="<?php echo url("") ?>/images/alogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                    <span><img src="<?php echo url("") ?>/images/rlogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                    <span><img src="<?php echo url("") ?>/images/elogo.png" alt="" class="s logo" style="height: 70px; width: 70px;"></span>
+                                </a>
+                            </h1>
+                        </div>
+                        <h4>Belgrade,STUDENTSKI TRG 15</h4>
+                    </div>
+                    <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}">
+
+                    </div>
+                </div>
+            </div><!--end bread  -->
+        </div>
+    </div>
+</section>
+<!-- =============== END BREADCRUMB ================ -->
+@stop
+
 @section('content')
 <!-- =============== START BIOGRAPHY SECTION ================ -->
 <section style="background-image:url(assets/img/subHeader/header.png);" class="biography padding background-properties hide-section" id="content">
@@ -49,7 +117,7 @@
             <div class="shopContent">
                 <div class="sectionTitle paddingBottom">
                     <span class="heading-t3"></span>
-                    <h2><a href="shop.html">EVENTS</a></h2>
+                    <h2><a href="">EVENTS</a></h2>
                     <span class="heading-b3"></span>
                 </div><!-- end sectionTtile -->	
                 <div class="row">
@@ -58,17 +126,17 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/thursday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/thursday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
-                                        <div class="shopHover">
-                                            <div class="price">
+                                        <div class="eventHover">
+                                            <div class="event">
                                                 The NINETIES
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle"> THURSDAY  </div>
-                                            <div class="product">DJ ALEX TIC</div>
-                                            <div class="dateOfParty"" > 10/12/2016 </div>
+                                            <div  class="evTitle"> THURSDAY  </div>
+                                            <div class="evSubtitle">DJ ALEX TIC</div>
+                                            <div class="dateOfParty"> 10/12/2016 </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -76,17 +144,17 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/friday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/friday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
-                                        <div class="shopHover">
-                                            <div class="price">
+                                        <div class="eventHover">
+                                            <div class="event">
                                                 Make some Love
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle"> FRIDAY </div>
-                                            <div class="product">ME - HIGH - LOW</div>
-                                            <div class="dateOfParty"" > 11/12/2016 </div>
+                                            <div  class="evTitle"> FRIDAY </div>
+                                            <div class="evSubtitle">ME - HIGH - LOW</div>
+                                            <div class="dateOfParty"> 11/12/2016 </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -94,17 +162,17 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/saturday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/saturday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
-                                        <div class="shopHover">
-                                            <div class="price">
+                                        <div class="eventHover">
+                                            <div class="event">
                                                 Blood & Mode 
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle"> SATURDAY </div>
-                                            <div class="product">COLLE & MARC FUNK </div>
-                                            <div class="dateOfParty"" > 12/12/2016 </div>
+                                            <div  class="evTitle"> SATURDAY </div>
+                                            <div class="evSubtitle">COLLE & MARC FUNK </div>
+                                            <div class="dateOfParty"> 12/12/2016 </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -112,17 +180,17 @@
                             <li class="col-sm-3">
                                 <figure>
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/sunday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/sunday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
-                                        <div class="shopHover">
-                                            <div class="price">
+                                        <div class="eventHover">
+                                            <div class="event">
                                                 Total RNB
                                             </div>
                                             <div class="fixLine"></div>
-                                            <div  class="proTitle"> SUNDAY  </div>
-                                            <div class="product">DJ Prema</div>
-                                            <div class="dateOfParty"" > 13/12/2016 </div>
+                                            <div  class="evTitle"> SUNDAY  </div>
+                                            <div class="evSubtitle">DJ Prema</div>
+                                            <div class="dateOfParty"> 13/12/2016 </div>
                                              </div>
                                     </div>
                                 </figure>
@@ -138,7 +206,7 @@
 	
 
 <!-- =============== START EVENTS SECTION-2 ================ -->
-<section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/NEXTEVENT.jpg);">
+<section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/events/next_event.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-sm-12"> 
@@ -146,7 +214,7 @@
                     <h4>Next Event</h4>
                   <!--  <a href="singleEvent.html"><img src="assets/img/events/box.png" alt="Event"></a> -->
                 </div>
-                <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/10/23">
+                <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/12/1">
                     <div class="displayCounter">
                         <div class="column">
                             <div class="sm_countdown_inner">
@@ -205,9 +273,15 @@
 <!-- =============== END VIDEO SECTION ================ -->
 
 <!-- =============== START GALLERY SECTION ================ -->
-<section style="padding-bottom:0; padding-top:0;" class="hide-section">
-    <div class="gallerySection">
-        <div class="container-fluid" style="padding:0;">
+<section class="paddingBottom gallerySection" id="content">
+    <div class="container" style="padding:0;">
+        <div class="row">
+            <div class="sectionTitle">
+                <span class="heading-t3"></span>
+                <h2><a href="">PHOTO GALLERY</a></h2>
+                <span class="heading-b3"></span>
+                <p>Check out our latest photos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
+            </div><!-- end sectionTtile -->
             <div class="col-sm-12">
                 <!-- Content Container -->
                 <div class="content-container clearfix">
@@ -215,104 +289,146 @@
                     <div class="single-photo-album-container">
                         <div class="row">
                             <!-- Single Album Article -->
-                            <article class="col-sm-12 col-md-6 col-xs-12">
-                                <!-- Single Album Contant Container -->
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <!-- Single Album Image -->
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/wideGal.png" alt="">
-                                            <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                    <!-- Single Album View Button -->
-
-                                </figure>
-                            </article>
-                            <!-- Single Album Article -->
-                            <article class="col-sm-3 col-xs-6">
+                            <article class="col-sm-4">
                                 <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
-                            <article class="col-sm-3 col-xs-6">
+                            <article class="col-sm-4">
                                 <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
-                            <article class="col-sm-3 col-xs-6">
+                            <article class="col-sm-4">
                                 <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
-                            <article class="col-sm-3 col-xs-6">
+                            <article class="col-sm-4">
                                 <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
-                            <article class="col-sm-12 col-md-6 col-xs-12">
+                            <article class="col-sm-4">
                                 <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/wideGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"></a>
                                             </div>
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </article>								
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <!-- Single Album Contant Container -->
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+                                            <div class="overlay">
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <!-- Single Album Contant Container -->
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+                                            <div class="overlay">
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <!-- Single Album Contant Container -->
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+                                            <div class="overlay">
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <!-- Single Album Contant Container -->
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+                                            <div class="overlay">
+                                                <a href="{{ route("album", ["album" => "friday"]) }}" class="info"></a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </article>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- end container -->
-    </div>
+        </div>
+    </div><!-- end container -->
 </section>
 <!-- =============== END GALLERY SECTION ================ -->
 
