@@ -251,10 +251,10 @@
                         <div class="col-sm-4">
                             <nav class="social-icons">
                                 <ul class="clearfix">
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-apple"></i><span></span></a></li>
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-lastfm"></i><span></span></a></li>
+                                    <li><div class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></div></li>
+                                    <li><div href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></div></li>
+                                    <li><div href="#" class="icon-button shopIcon"><i class="fa fa-apple"></i><span></span></div></li>
+                                    <li><div href="#" class="icon-button shopIcon"><i class="fa fa-lastfm"></i><span></span></div></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-soundcloud"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-vimeo"></i><span></span></a></li>  
