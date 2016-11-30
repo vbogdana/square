@@ -1,0 +1,10 @@
+U ovom folderu se nalaze slike iz galerije slika.
+Za svaki album potrebno je napraviti novi folder i nazvati ga "album_ddmmyyyy", gde ddmmyyyy predstavlja datum albuma.
+Npr za album od 13.12.2016. treba napraviti folder "album_13122016" i u njega staviti sve slike.
+Svaki album u svom folderu ima jednu cover sliku koja ce stajati na home page-u i treba je nazvati "cover.jpg".
+Ta cover slika mora biti cropovana na format 390x390. 
+A "cover-wide.jpg" je ista ta slika koja zadrzava svoj format i stajace kao pocetna slika na stranici albuma.
+
+Slike koje se nalaze u albumu moraju imati svoje ikonice formata 960x540 ili 480x540, koje ce biti prikazane na stranici albuma.
+Ikone formata 960x540 se smestaju u folder "wide" tog albuma, a ikone formata 480x540 u folder "square" tog albuma. 
+Treba ih nazvati isto kao slike koje te ikone predstavljaju.
