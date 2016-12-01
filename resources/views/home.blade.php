@@ -41,7 +41,7 @@
 </section>
 -->
 
-<section class="no-mb">
+<section id="home" class="no-mb">
     <div class="row">
         <div class="col-sm-12">
             <div class="breadcrumb-fullscreen-parent phone-menu-bg">
@@ -75,7 +75,7 @@
 
 @section('content')
 <!-- =============== START BIOGRAPHY SECTION ================ -->
-<section style="background-image:url(assets/img/subHeader/header.png);" class="biography padding background-properties hide-section" id="content">
+<section id="aboutUs" style="background-image:url(assets/img/subHeader/header.png);" class="biography padding background-properties hide-section" id="content">
     <div class="container">
         <div class="sectionTitle paddingBottom">
             <span class="heading-t3"></span>
@@ -111,7 +111,7 @@
 <!-- =============== END BIOGRAPHY SECTION ================ -->
 	
 <!-- =============== START EVENTS SECTION ================ -->
-<section class="shopHomePage shopHomePadding hide-section">
+<section id="events" class="shopHomePage shopHomePadding hide-section">
     <div class="shopSection">
         <div class="container-fluid">
             <div class="shopContent">
@@ -249,7 +249,7 @@
 <!-- =============== END EVENTS SECTION-2 ================ -->
 
 <!-- =============== START VIDEO SECTION ================ -->
-<section class="videoHome hide-section padding">
+<section id="videos" class="videoHome hide-section padding">
     <div class="container">
         <div class="row">
             <div class="sectionTitle">
@@ -273,7 +273,7 @@
 <!-- =============== END VIDEO SECTION ================ -->
 
 <!-- =============== START GALLERY SECTION ================ -->
-<section class="paddingBottom gallerySection" id="content">
+<section id="photos" class="paddingBottom gallerySection" id="content">
     <div class="container" style="padding:0;">
         <div class="row">
             <div class="sectionTitle">
@@ -297,8 +297,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_11122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 25/11/2016 </a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -312,8 +313,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "10122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "10122016"]) }}" class="info">26/11/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -327,8 +329,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_09122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"> 27/11/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -342,8 +345,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_08122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "08122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "08122016"]) }}" class="info">28/11/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -357,8 +361,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info">29/11/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -372,8 +377,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_04122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "04122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "04122016"]) }}" class="info">30/11/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -387,8 +393,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_03122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "03122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "03122016"]) }}" class="info">01/12/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -402,8 +409,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_02122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "02122016"]) }}" class="info"></a>
+                                                <a href="{{ route("album", ["album" => "02122016"]) }}" class="info">02/12/2016</a>
                                             </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -417,8 +425,9 @@
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01122016/cover.jpg" alt="">
                                             <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"></a>
-                                            </div>
+                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info">03/12/2016 </a> 
+                                            </div> 
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -434,7 +443,7 @@
 
 
 <!-- =============== START ALBUM COVER SECTION ================ -->
-<section class="padding albumsHome hide-section">
+<section id="ourDJ" class="padding albumsHome hide-section">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -500,7 +509,7 @@
 <!-- =============== END ALBUM COVER SECTION ================ -->
 
 <!-- =============== START HOME-BLOG SECTION ================ -->	
-<section class="padding hide-section background-properties blogHomeSection" style="background-image: url(assets/img/blog/homeBlog.png);">	
+<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image: url(assets/img/blog/homeBlog.png);">	
     <div class="container">
         <div class="row">
             <div class="sectionTitle paddingBottom">
@@ -577,7 +586,7 @@
 <!-- =============== END HOME-NLOG SECTION ================ -->	
 
 <!-- =============== START CONTACT ================ -->
-<section class="contactSingle padding background-properties" id="content" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">
+<section id="contact" class="contactSingle padding background-properties" id="content" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -617,7 +626,7 @@
 <!-- =============== END CONTACT ================ -->
 
 <!-- =============== START MAP ================ -->
-<section class="googleMap">
+<section id="location" class="googleMap">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
