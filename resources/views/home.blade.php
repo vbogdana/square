@@ -363,7 +363,7 @@
                                             <div class="overlay">
                                                 <a href="{{ route("album", ["album" => "interior"]) }}" class="info">29/11/2016</a>
                                             </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
