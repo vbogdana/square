@@ -11082,6 +11082,9 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+.gallerySection .hovereffect .overlay1{
+    text-align:center ;
+}
 .gallerySection .hovereffect img {
   display: block;
   position: relative;
@@ -11089,6 +11092,11 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   transition: all .4s linear;
 }
 .gallerySection .hovereffect a.info {
+  font-size:2.6rem;
+  font-family: 'Michroma',sans-serif;
+  position:absolute;
+  top:150px;
+  left:0;
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
@@ -11098,9 +11106,10 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   background-color: transparent;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
 .gallerySection .hovereffect:hover img {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);

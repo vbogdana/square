@@ -69,142 +69,66 @@
                     <ul>
                         <!-- Menu Fixed Item -->
                         <li>
-                            <a href="index.html">
+                            <a href="#home">
                                 home
                             </a>
-                            <ul class="sub-menu">
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="index.html">
-                                        home star
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="index-royal-slider.html">
-                                        home royal slider
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="index-video.html">
-                                        home video 
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <li>
-                            <a href="albumsGrid.html">
-                                discography
+                            <a href="#aboutUs">
+                                about us
                             </a>
-                            <ul class="sub-menu">
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="albumsFullBackground.html">
-                                        albums full background
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="albumsGrid.html">
-                                        albums grid
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="albumsSingle1.html">
-                                        album description
-                                    </a>
-                                </li>
-                            </ul>
+                            
+                  
                         </li>
                         <!-- Menu Fixed Item -->
                         <li>
-                            <a href="events.html">
+                            <a href="#events">
                                 events
                             </a>
                         </li>
                         <!-- Menu Fixed Item -->
                         <li>
-                            <a href="#">
-                                blog
+                            <a href="#videos">
+                                video gallery
                             </a>
-                            <ul class="sub-menu">
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="blogGrid.html">
-                                        blog grid
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="blogSidebarRight.html">
-                                        blog sidebar
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="blogSingle.html">
-                                        blog single
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <!-- Menu Fixed Item -->
+                        <li>
+                            <a href="#photos">
+                                photo gallery
+                            </a>
+                            
+                        </li>
                         <li>
                             <a href="#">
-                                gallery
+                              blog
                             </a>
-                            <ul class="sub-menu">
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="galleryGrid.html">
-                                        albums grid
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="galleryScroll.html">
-                                        albums scroll
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="gallerySingle.html">
-                                        gallery single
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <!-- Menu Fixed Item -->
                         <li>
-                            <a href="#">
-                                Other Pages
+                            <a href="#ourDJ">
+                                our dj's
                             </a>
-                            <ul class="sub-menu">
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="biography.html">
-                                        Biography
-                                    </a>
-                                </li>
-                                <!-- Menu Fixed Sub Menu Item -->
-                                <li>
-                                    <a href="video.html">
-                                        Video
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <!-- Menu Fixed Item -->
                         <li>
-                            <a href="contact.html">
-                                contact
+                            <a href="#news">
+                                news from club 
                             </a>
                         </li>
                         <!-- Menu Fixed Item -->
                         <li>
-                            <a href="shop.html">
-                                shop
+                            <a href="#contact">
+                               contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#location">
+                                location
                             </a>
                         </li>
                     </ul>
