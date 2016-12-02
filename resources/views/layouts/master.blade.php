@@ -162,6 +162,92 @@
   
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
+        <!-- =============== START EVENTS SECTION ================ -->
+<section class="shopHomePage  hide-section">
+    <div class="shopSection">
+        <div class="container-fluid">
+            <div class="shopContent">
+               
+                <div class="row">
+                    <nav class="shop-products">
+                        <ul class="clearfix">
+                            <li class="col-sm-3">
+                                <figure style="padding-top: 20px;text-align: center;">
+                                    <img src="<?php echo url("") ?>/images/logoblack.png" alt="" style="height: 150px; width: 150px">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                </figure>
+                            </li>
+                            <li class="col-sm-3">
+                                <figure style="padding-top: 20px;">
+                                     <div class="namefooter">
+                                         Partners:
+                                     </div>
+                                </figure>
+                            </li>
+                            <li class="col-sm-3">
+                                <figure style="padding-top: 20px;">
+                                     <div class="namefooter">
+                                   Contact us:
+                                     </div>
+                                    
+                                       <address>
+                                    <p> 
+                                        <div class="icon-location"></div>&nbsp;STUDENTSKI TRG 15<br>
+                                        11000 Belgrade SERBIA <br><br>
+                                        <img src="<?php echo url('/') ?>/images/social/viber.png" style="height: 20px; width: 20px" alt="Viber" />&nbsp;/ <img src="<?php echo url('/') ?>/images/social/whatcapp.png" style="height: 20px; width: 20px" alt="Viber" />
+                                        &nbsp+381 69 20 10 110 <br>
+                                        <div class="icon-mail"></div>&nbsp;<br>
+                                        <a class="light" href="mailto:OFFICE@SQUARECLUBBELGRADE.COM">OFFICE@SQUARECLUBBELGRADE.COM</a> 
+                                    </p>
+                                     </address>
+                                </figure>
+                            </li>
+                            <li class="col-sm-3">
+                                <figure style="padding-top: 20px;">
+                                     <div class="namefooter">
+                                         
+                                    Social:
+                                      </div>
+                                       <nav class="social-iconss">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="<?php echo url('/') ?>/images/social/facebook.png" style="height: 50px; width: 50px" alt="Facebook" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="<?php echo url('/') ?>/images/social/instagram.png" style="height: 50px; width: 50px" alt="Instagram" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="<?php echo url('/') ?>/images/social/youtube.png" style="height: 50px; width: 50px" alt="youtube" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="<?php echo url('/') ?>/images/social/whatcapp.png" style="height: 50px; width: 50px" alt="Whatsapp" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="<?php echo url('/') ?>/images/social/viber.png" style="height: 50px; width: 50px" alt="Viber" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                   
+                                </figure>
+                            </li>
+                        </ul>
+                    </nav><!-- end shop-products -->
+                </div><!-- end row -->
+            </div><!-- end shopContent -->
+        </div>
+    </div>
+</section>
+<!-- =============== END EVENTS SECTION ================ -->
         <!-- =============== START FOOTER ================ -->
         <section style="background-color:#eeeeee;" class="hide-section">
             <div class="footer footerPadding">
@@ -169,19 +255,18 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="copyFooter">
-                                <a href="#">&copy; code 581 2016</a>
+                                 Design by
+                                <a href="code581.rs">&copy; 2016  code 581 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <nav class="social-icons">
-                                <ul class="clearfix">
-                                    <li><div class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></div></li>
-                                    <li><div href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></div></li>
-                                    <li><div href="#" class="icon-button shopIcon"><i class="fa fa-apple"></i><span></span></div></li>
-                                    <li><div href="#" class="icon-button shopIcon"><i class="fa fa-lastfm"></i><span></span></div></li>
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-soundcloud"></i><span></span></a></li>
+                                <ul class="clearfix">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
+                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a></li>
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-vimeo"></i><span></span></a></li>  
+                                  
+ 
                                 </ul>
                             </nav>
                         </div>
