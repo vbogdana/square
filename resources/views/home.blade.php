@@ -84,21 +84,12 @@
         </div><!-- end sectionTtile -->
         <div class="row">
             <div class="col-sm-6">
-                <p>Emi Haze graduated from the Institute
-                    of Design in Verona with
-                    a degree in Graphic Design
-                    and Advertising Design.I live in the north-east of Italy and my huge passion is digital art.
-                    Art and painting connected to technology have always been my strongest passions. People think I am calm, quiet, sometimes introvert, really creative, inspired and perfectionist.
-                    In my opinion everything in every moment has an artistic side, the aesthetics of things, people around me...
-                    for me everything has its own importance, images, textures, sounds, fragrances, my creativity is costantly stimulated.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
             </div>
             <div class="col-sm-6">
-                <p>I currently work as freelance and in the last years I focused on personal projects and creations in order to build,
-                    my own wide portfolio that could distinguish me both in style, technique and creativity.
-                    In my first works i focused on a graphic style based on construction and deconstruction of the human body
-                    using various tools and graphic effects that render it almost a sketch.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
 
                 <div class="signature">
@@ -363,7 +354,7 @@
                                             <div class="overlay">
                                                 <a href="{{ route("album", ["album" => "interior"]) }}" class="info">29/11/2016</a>
                                             </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
+                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -514,7 +505,7 @@
         <div class="row">
             <div class="sectionTitle paddingBottom">
                 <span class="heading-t3"></span>
-                <h2><a href="blogGrid.html">News from Club</a></h2>
+                <h2><a href="blogGrid.html">News from the Club</a></h2>
                 <span class="heading-b3"></span>
             </div><!-- end sectionTtile -->
             <div class="col-sm-4">
