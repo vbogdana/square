@@ -393,10 +393,13 @@ jQuery(document).ready(function(){
   });
 
   jQuery('.menu-fixed-container > nav > ul > li > a').on('click',function(){
-
+      /*
         jQuery(this).parent().siblings().toggleClass('no-hovered');
         jQuery(this).parent().toggleClass('click');
-        jQuery(this).parent().siblings().removeClass('click'); 
+        jQuery(this).parent().siblings().removeClass('click');
+      */
+        jQuery('.open-menu').toggleClass('active');
+        jQuery('.menu-fixed-container').toggleClass('open');
     });
 
   jQuery('.menu-fixed-container > nav > ul > li > .sub-menu').parent().addClass('hover-sub-menu');

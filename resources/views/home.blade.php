@@ -62,9 +62,7 @@
                         </div>
                         <h4>Belgrade,STUDENTSKI TRG 15</h4>
                     </div>
-                    <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}">
-
-                    </div>
+                    <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
                 </div>
             </div><!--end bread  -->
         </div>
@@ -73,9 +71,60 @@
 <!-- =============== END BREADCRUMB ================ -->
 @stop
 
+<!-- zbog linkova u meniju ovde se mora redefinisati meni -->
+@section('sidebar')
+<!-- =============== START TOP HEADER ================ -->
+<div class="topHeader">
+    <!-- Open Menu Button -->
+    <div class="header">
+        <div class="rightTopHeader">
+            <a class="open-menu">
+                <span class="span-1"></span>
+                <span class="span-2"></span>
+                <span class="span-3"></span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Menu Fixed Container -->
+    <div class="menu-fixed-container">
+        <nav>
+            <div class="x-filter">
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#aboutUs">about us</a></li>
+                <li><a href="#events">events</a></li>
+                <li><a href="#videos">video gallery</a></li>
+                <li><a href="#photos">photo gallery</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#ourDJ">our djs</a></li>
+                <li><a href="#news">news from the club</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#location">location</a></li>
+            </ul>
+            <div class="x-filter">
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- =============== LOGO ================ -->
+    <div class="logo-container-top">
+        <a href="<?php echo url("/") ?>">
+            <img src="<?php echo url("") ?>/images/logowhite.png" alt="Square Logo">
+        </a>
+    </div>
+</div>
+<!-- =============== END TOP HEADER ================ -->
+@stop
+
 @section('content')
 <!-- =============== START BIOGRAPHY SECTION ================ -->
-<section id="aboutUs" style="background-image:url(assets/img/subHeader/header.png);" class="biography padding background-properties hide-section" id="content">
+<section id="aboutUs" style="background-image:url(<?php echo url("") ?>/images/imeslike.png);" class="biography padding background-properties hide-section" id="content">
     <div class="container">
         <div class="sectionTitle paddingBottom">
             <span class="heading-t3"></span>
@@ -85,13 +134,9 @@
         <div class="row">
             <div class="col-sm-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
             </div>
             <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <div class="signature">
                     <a href="#">Club Square Belgrade</a>
                 </div>
@@ -100,9 +145,9 @@
     </div><!-- end container -->
 </section>
 <!-- =============== END BIOGRAPHY SECTION ================ -->
-	
+
 <!-- =============== START EVENTS SECTION ================ -->
-<section id="events" class="shopHomePage shopHomePadding hide-section">
+<section id="events" class="shopHomePage padding hide-section">
     <div class="shopSection">
         <div class="container-fluid">
             <div class="shopContent">
@@ -182,7 +227,7 @@
                                             <div  class="evTitle"> SUNDAY  </div>
                                             <div class="evSubtitle">DJ Prema</div>
                                             <div class="dateOfParty"> 13/12/2016 </div>
-                                             </div>
+                                        </div>
                                     </div>
                                 </figure>
                             </li>
@@ -194,7 +239,7 @@
     </div>
 </section>
 <!-- =============== END EVENTS SECTION ================ -->
-	
+
 
 <!-- =============== START EVENTS SECTION-2 ================ -->
 <section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/events/next_event.jpg);">
@@ -203,9 +248,10 @@
             <div class="col-sm-12"> 
                 <div class="countdownTitle">
                     <h4>Next Event</h4>
+                    <div class="fixLine"></div>
                   <!--  <a href="singleEvent.html"><img src="assets/img/events/box.png" alt="Event"></a> -->
                 </div>
-                <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/12/1">
+                <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/12/8">
                     <div class="displayCounter">
                         <div class="column">
                             <div class="sm_countdown_inner">
@@ -264,7 +310,7 @@
 <!-- =============== END VIDEO SECTION ================ -->
 
 <!-- =============== START GALLERY SECTION ================ -->
-<section id="photos" class="paddingBottom gallerySection" id="content">
+<section id="photos" class="photoHome paddingBottom gallerySection" id="content">
     <div class="container" style="padding:0;">
         <div class="row">
             <div class="sectionTitle">
@@ -287,12 +333,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_11122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 25/11/2016 </a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -303,12 +356,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "10122016"]) }}" class="info">26/11/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -319,12 +379,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_09122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"> 27/11/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -335,12 +402,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_08122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "08122016"]) }}" class="info">28/11/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -351,12 +425,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info">29/11/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                interior
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -367,12 +448,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_04122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "04122016"]) }}" class="info">30/11/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -383,12 +471,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_03122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "03122016"]) }}" class="info">01/12/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -399,12 +494,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_02122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "02122016"]) }}" class="info">02/12/2016</a>
-                                            </div>
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </figure>
                             </article>
                             <!-- Single Album Article -->
@@ -415,12 +517,19 @@
                                     <figcaption>
                                         <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01122016/cover.jpg" alt="">
-                                            <div class="overlay">
-                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info">03/12/2016 </a> 
-                                            </div> 
-                                            <div class="overlay1"> <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> <br>  <br> view album </a> </div>
                                         </div>
                                     </figcaption>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                25/11/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>                                    
                                 </figure>
                             </article>
                         </div>
@@ -434,13 +543,13 @@
 
 
 <!-- =============== START ALBUM COVER SECTION ================ -->
-<section id="ourDJ" class="padding albumsHome hide-section">
+<section id="ourDJ" class="padding albumsHome hide-section background-properties">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <div class="sectionTitle paddingBottom">
                     <span class="heading-t3"></span>
-                    <h2><a href="albumsFullBackground.html">OUR DJ`s</a></h2>
+                    <h2><a href="#">OUR DJs</a></h2>
                     <span class="heading-b3"></span>
                 </div><!-- end sectionTtile -->
             </div><!-- end col-sm-12 -->
@@ -450,7 +559,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon">
                         <span class="thumbs-album">
-                            <a href="albumsSingle1.html"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div><!-- END ALBUM ICON -->
@@ -463,12 +572,12 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon1">
                         <span class="thumbs-album">
-                            <a href="albumsSingle3.html"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
                     <div class="name">
-                        <h3>DJME-HIGH-LOW</h3>									<p>House</p>								
+                        <h3>DJ ME-HIGH-LOW</h3>									<p>House</p>								
                     </div>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
@@ -479,13 +588,13 @@
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
                     <div class="name">
-                        <h3> DJ Colle & Marc funk</h3>								<p>House</p>								
+                        <h3> DJ Colle & Mark Funk</h3>								<p>House</p>								
                     </div>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon3">
                         <span class="thumbs-album">
-                            <a href="albumsSingle2.html"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href=""><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -500,12 +609,12 @@
 <!-- =============== END ALBUM COVER SECTION ================ -->
 
 <!-- =============== START HOME-BLOG SECTION ================ -->	
-<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image: url(assets/img/blog/homeBlog.png);">	
+<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">	
     <div class="container">
         <div class="row">
             <div class="sectionTitle paddingBottom">
                 <span class="heading-t3"></span>
-                <h2><a href="blogGrid.html">News from the Club</a></h2>
+                <h2><a href="">News from the Club</a></h2>
                 <span class="heading-b3"></span>
             </div><!-- end sectionTtile -->
             <div class="col-sm-4">
@@ -513,7 +622,7 @@
                     <div class="imgBox"><img src="<?php echo url("") ?>/images/events/next_event.jpg" alt="box-img"></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
-                            <h1><a href="blogSingle.html">Last Friday in Square</a></h1>
+                            <h1><a href="#">Last Friday in Square</a></h1>
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
@@ -521,7 +630,7 @@
                             </ul>
                         </div><!-- end admin-list -->
                         <div class="blogParagraph">
-                            <p>Proslog petka,klub skver je bio najposeceniji klub u Beogradu,a neki podaci govore da je bio i najposeceniji na celom Balkanu.</p>
+                            <p>Proslog petka,klub skver je bio najposeceniji klub u Beogradu, a neki podaci govore da je bio i najposeceniji na celom Balkanu.</p>
                         </div><!--end blogParagraph  -->
                         <div class="rmButton">
                             <a href="#">Read More</a>
@@ -534,7 +643,7 @@
                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/MptSRokgwhg" width="600" height="410"  ></iframe></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
-                            <h1><a href="blogSingle.html">Tamara Djuric in Square</a></h1>
+                            <h1><a href="#">Tamara Djuric in Square</a></h1>
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
@@ -542,7 +651,7 @@
                             </ul>
                         </div><!-- end admin-list -->
                         <div class="blogParagraph">
-                            <p>Poznata srpska pevacica i starleta gostovala je proteklog petka u Klubu Square,a ekskluzivno za citaoce naseg bloga je izjavila...</p>
+                            <p>Poznata srpska pevacica i starleta gostovala je proteklog petka u Klubu Square, a ekskluzivno za citaoce naseg bloga je izjavila...</p>
                         </div><!--end blogParagraph  -->
                         <div class="rmButton">
                             <a href="#">Read More</a>
@@ -555,7 +664,7 @@
                     <div class="soundcloudBox"><iframe height="203" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120185136&amp;color=bb9b69&amp;show_artwork=false&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
-                            <h1><a href="blogSingle.html">Our DJ Prema publish new track</a></h1>
+                            <h1><a href="#">Our DJ Prema published a new track</a></h1>
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
@@ -563,7 +672,7 @@
                             </ul>
                         </div><!-- end admin-list -->
                         <div class="blogParagraph">
-                            <p>Nas DJ Prema izbacio je novu traku,mozete je poslusati na sledecem linku.</p>
+                            <p>Nas DJ Prema izbacio je novi mix, mozete ga poslusati na sledecem linku.</p>
                         </div><!--end blogParagraph  -->
                         <div class="rmButton">
                             <a href="#">Read More</a>
@@ -577,21 +686,20 @@
 <!-- =============== END HOME-NLOG SECTION ================ -->	
 
 <!-- =============== START CONTACT ================ -->
-<section id="contact" class="contactSingle padding background-properties" id="content" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">
+<section id="contact" class="contactSingle padding background-properties" id="content" >
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
                 <div class="contactTop">
                     <h2>Contact Information</h2>
-                    <h4>STUDENTSKI TRG 15,Belgrade, BG 11000.</h4>
-                    <p>Za sva pitanja i predloge saradnje  <br>
-                        obratite nam se na ovaj broj ili preko forme
+                    <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
+                    <p>For any questions and proposals  
+                       You can contact us directly directly through this form, or by phone/email.
                     </p>
                     <div class="contactInfo">
                         <ul>
-                            <li>Email: <a href="#">office@squareclubbelgrade.com</a></li>
+                            <li>Email: <a href="mailto:office@squareclubbelgrade.com">office@squareclubbelgrade.com</a></li>
                             <li>Phone: <a href="#">+381 69 20 10 110</a></li>
-                           
                         </ul>
                     </div>
                 </div>
@@ -601,9 +709,9 @@
                     <h2>Get in Touch</h2>
                     <form action="#" method="post" class="comment-form">
                         <input id="author" name="author" type="text" value="" aria-required="true" required="" placeholder="First Name *">
-                        <input id="lastName" name="email" type="text" value="" aria-required="true" required="" placeholder="Last Name">
-                        <input id="url" name="url" type="text" value="" placeholder="Subject* ">
-                        <input id="address" name="url" type="text" value="" placeholder="Email Address* ">
+                        <input id="lastName" name="email" type="text" value="" aria-required="true" required="" placeholder="Last Name *">
+                        <input id="url" name="url" type="text" value="" placeholder="Subject ">
+                        <input id="address" name="url" type="text" value="" aria-required="true" required="" placeholder="Email Address* ">
                         <textarea name="comment" placeholder="Message..." rows="6" required=""></textarea>
                         <p class="form-submit">
                             <input name="submit" type="submit" id="submit" value="Send Email">
