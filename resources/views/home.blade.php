@@ -123,29 +123,6 @@
 @stop
 
 @section('content')
-<!-- =============== START BIOGRAPHY SECTION ================ -->
-<section id="aboutUs" style="background-image:url(<?php echo url("") ?>/images/imeslike.png);" class="biography padding background-properties hide-section" id="content">
-    <div class="container">
-        <div class="sectionTitle paddingBottom">
-            <span class="heading-t3"></span>
-            <h2><a href="albums.html">About Us</a></h2>
-            <span class="heading-b3"></span>
-        </div><!-- end sectionTtile -->
-        <div class="row">
-            <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="signature">
-                    <a href="#">Club Square Belgrade</a>
-                </div>
-            </div>
-        </div>
-    </div><!-- end container -->
-</section>
-<!-- =============== END BIOGRAPHY SECTION ================ -->
-
 <!-- =============== START EVENTS SECTION ================ -->
 <section id="events" class="shopHomePage padding hide-section">
     <div class="shopSection">
@@ -240,8 +217,32 @@
 </section>
 <!-- =============== END EVENTS SECTION ================ -->
 
+<!-- =============== START BIOGRAPHY SECTION ================ -->
+<section id="aboutUs" style="background-image:url(<?php echo url("") ?>/images/logoblack1.png);" class="biography padding background-properties hide-section" id="content">
+    <div class="container">
+        <div class="sectionTitle paddingBottom">
+            <span class="heading-t3"></span>
+            <h2><a href="albums.html">About Us</a></h2>
+            <span class="heading-b3"></span>
+        </div><!-- end sectionTtile -->
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="signature">
+                    <a href="#">Club Square Belgrade</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end container -->
+</section>
+<!-- =============== END BIOGRAPHY SECTION ================ -->
+
 
 <!-- =============== START EVENTS SECTION-2 ================ -->
+<!--
 <section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/events/next_event.jpg);">
     <div class="container">
         <div class="row">
@@ -249,7 +250,6 @@
                 <div class="countdownTitle">
                     <h4>Next Event</h4>
                     <div class="fixLine"></div>
-                  <!--  <a href="singleEvent.html"><img src="assets/img/events/box.png" alt="Event"></a> -->
                 </div>
                 <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/12/8">
                     <div class="displayCounter">
@@ -278,11 +278,12 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- end sm-countdown -->
+                </div>
             </div>
         </div>
     </div>
 </section>
+-->
 <!-- =============== END EVENTS SECTION-2 ================ -->
 
 <!-- =============== START VIDEO SECTION ================ -->
@@ -310,7 +311,7 @@
 <!-- =============== END VIDEO SECTION ================ -->
 
 <!-- =============== START GALLERY SECTION ================ -->
-<section id="photos" class="photoHome paddingBottom gallerySection" id="content">
+<section id="photos" class="photoHome padding gallerySection" id="content">
     <div class="container" style="padding:0;">
         <div class="row">
             <div class="sectionTitle">

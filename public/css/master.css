@@ -9448,7 +9448,7 @@ html body {
     height: 100%;
     z-index: 1;
     left: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     visibility: hidden;
     opacity: 0;
     text-align: center;
@@ -9572,7 +9572,7 @@ html body {
     font-size: 2.5rem;
     display: inline-block;
     font-weight: 700;
-    color: #333;
+    color: #eee;
     font-family: 'Michroma', serif;
     padding-bottom: 1.5rem;
 }
@@ -9580,10 +9580,10 @@ html body {
 .shopHomePage .fixLine,
 .shop-products .fixLine,
 .photoHome .fixLine {
-    width: 1.9rem;
+    width: 3rem;
     height: 0.1rem;
     position: relative;
-    background-color: #000;
+    background-color: #f5e5e5;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -o-transform: translateX(-50%);
@@ -9614,10 +9614,13 @@ html body {
     font-family: 'Jura',sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
-    color: #5f5e5e;
+    color: #f5e5e5;
     font-weight: 600;
     margin-bottom: 0.5rem;
     text-decoration: none;
+}
+.photoHome .evTitle a:hover {
+    color: #888;
 }
 
 .shopHomePage .shopIcon,
@@ -9629,14 +9632,17 @@ html body {
 .shop-products .evSubtitle,
 .footer .evSubtitle,
 .photoHome .evSubtitle,
-.photoHome .evSubtitle a{
+.photoHome .evSubtitle a {
     /*color: #adacac;*/
     /*color: rgb(115, 77, 38);*/
-    color: rgb(51,51,51);
+    color: rgb(204,204,204);
     font-family: 'Jura', sans-serif;
     font-size: 2rem;
     font-weight: 600;   
     text-decoration: none;
+}
+.photoHome .evSubtitle a:hover {
+    color: #888;
 }
 .shopHomePage .dateOfParty,
 .shop-products .dateOfParty{
@@ -9646,6 +9652,7 @@ html body {
     margin-top: 3rem;
     //padding-bottom: 0.5rem;
     bottom: 0;
+    color: #eee;
 }
 /***********************************************************************************************/
 /* END HOME-SHOP SECTION */
@@ -10133,12 +10140,12 @@ body {
     line-height: 28px;
     letter-spacing: 1.2px;
     font-family: 'Michroma', sans-serif;
-    color: #5D5D5D;
+    color: #333;
     padding-bottom: 0;
 }
 .list-albums .list-feature .name p {
     margin: 0;
-    color: #bb9b69;
+    color: #6d6d6d;
     font-family: 'Michroma', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
@@ -10390,7 +10397,7 @@ body {
   
 }
 .countdownSection .fixLine{
-    width: 1.9rem;
+    width: 3rem;
     height: 0.1rem;
     position: relative;
     background-color: #fff;
@@ -10582,7 +10589,7 @@ body {
 .videoHome .sectionTitle p, .photoHome .sectionTitle p {
     font-family: 'Jura', sans-serif;
     font-size: 1.8rem;
-    color: #757575;
+    color: #444;
     font-weight: 400;
     padding: 5.5rem 0;
     margin-bottom: 0!important;
@@ -10590,9 +10597,13 @@ body {
 .videoHome .sectionTitle p a, .photoHome .sectionTitle p a {
     font-family: 'Jura', sans-serif;
     font-size: 1.8rem;
-    color: #bb9b69;
-    font-weight: 400;
+    color: #888888;
+    font-weight: 700;
     text-decoration: none;
+}
+
+.videoHome .sectionTitle p a:hover, .photoHome .sectionTitle p a:hover {
+   color: #000; 
 }
 /***********************************************************************************************/
 /* END VIDEO-HOME SECTION */
@@ -10698,7 +10709,7 @@ body {
     padding-bottom: 6rem;
     text-transform: uppercase;
     font-family: 'Michroma', sans-serif;
-    color: #525252;
+    color: #eee;
 }
 .contactSingle .singleBlogForm form {
     padding-top: 0;
@@ -10720,13 +10731,13 @@ body {
     font-family: 'Jura', sans-serif;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #000;
+    background-color: #333;
     border-color: #000;
     padding: 1rem 2rem;
     font-weight: 600;
 }
 .contactSingle .singleBlogForm form .form-submit input:hover {
-    background-color: #bb9b69;
+    background-color: #000;
 }
 .contactTop h2 {
     font-size: 2rem;
@@ -10736,7 +10747,7 @@ body {
     padding-bottom: 6rem;
     text-transform: uppercase;
     font-family: 'Michroma', sans-serif;
-    color: #525252;
+    color: #eee;
 }
 .contactTop h4 {
     font-size: 1.6rem;
@@ -11349,7 +11360,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     .sectionTitle .heading-b3 {
         top: 1.2rem!important;
     }
-    .videoHome .sectionTitle p {
+    .videoHome .sectionTitle p, .photoHome .sectionTitle p {
         font-size: 1.5rem;
     }
     .countdownTitle {
@@ -11420,7 +11431,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .aquraFilter .blogBoxContent h1 a,
 .blogSidebarRight .blogBoxContent h1 a {
     text-decoration: none;
-    color: #525252;
+    color: #333;
     font-family: 'Michroma', sans-serif;
     font-weight: 700;
     -webkit-transition-delay: 0;
@@ -11435,7 +11446,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .blogHomeSection .blogBoxContent h1 a:hover,
 .aquraFilter .blogBoxContent h1 a:hover,
 .blogSidebarRight .blogBoxContent h1 a:hover {
-    color: #bb9b69;
+    color: #000;
 }
 .blogHomeSection .blogBoxContent .admin-list,
 .aquraFilter .blogBoxContent .admin-list,
@@ -11455,13 +11466,13 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     line-height: 2.8rem;
     font-weight: 400;
     text-transform: uppercase;
-    color: #727272;
+    color: #333;
     text-decoration: none;
 }
 .blogHomeSection .blogBoxContent .admin-list ul li:last-child a,
 .aquraFilter .blogBoxContent .admin-list ul li:last-child a,
 .blogSidebarRight .blogBoxContent .admin-list ul li:last-child a {
-    color: #bb9b69;
+    color: #000;
 }
 .blogHomeSection .blogBoxContent .blogParagraph p,
 .aquraFilter .blogBoxContent .blogParagraph p,
@@ -11470,13 +11481,13 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     font-size: 1.4rem;
     line-height: 2.4rem;
     font-weight: 400;
-    color: #4e4e4e;
+    color: #555;
 }
 .blogHomeSection .blogBoxContent .rmButton,
 .aquraFilter .blogBoxContent .rmButton,
 .blogSidebarRight .blogBoxContent .rmButton {
     display: inline-block;
-    background: #000;
+    background: #333;
     margin-top: 2rem;
     -webkit-transition-delay: 0;
     transition-delay: 0;
@@ -11501,7 +11512,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .blogHomeSection .blogBoxContent .rmButton:hover,
 .aquraFilter .blogBoxContent .rmButton:hover,
 .blogSidebarRight .blogBoxContent .rmButton:hover {
-    background-color: #bb9b69;
+    background-color: #000;
 }
 /***********************************************************************************************/
 /* END BLOG HOME SECTION */
@@ -12622,7 +12633,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-    background: rgba(255, 255, 255, 0.98);
+    //background: rgba(255, 255, 255, 0.98);
+    background: rgba(10, 10, 10, 0.97);
 }
 .menu-fixed-container nav {
     display: table-cell;
@@ -12660,7 +12672,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     display: block;
-    background: #000;
+    //background: #000;
+    background: #eee;
     margin-top: 2rem;
 }
 .menu-fixed-container nav .x-filter span:last-child {
@@ -12707,7 +12720,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 1.2rem;
-    color: #000;
+    //color: #000;
+    color: #eee;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
@@ -12745,7 +12759,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     transform: scale(0);
 }
 .menu-fixed-container nav ul li a:hover {
-    color: #bb9b69 !important;
+    //color: #bb9b69 !important;
+    color: #888 !important;
 }
 .menu-fixed-container nav ul li.no-hovered > a {
     color: rgba(0, 0, 0, 0.1);
@@ -14271,33 +14286,34 @@ body ul {
     color: #000;
 }
 .sectionTitle h2:hover {
-    color: #bb9b69;
+    color: #000;
 }
 .sectionTitle p {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
-    color: #757575;
+    color: #444;
     text-transform: initial;
     padding: 5.5rem 0;
     margin-bottom: 0!important;
 }
 .sectionTitle p a {
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
     font-size: 1.8rem;
-    color: #bb9b69;
+    color: #888888;
     text-transform: initial;
 }
 .sectionTitle p a:hover {
     text-decoration: none;
+    color: #000;
 }
 .sectionTitle span.heading-b3 {
     display: block;
     height: 1px;
     width: 70px;
     margin: 0 auto;
-    background-color: #000;
+    background-color: #888888;
     position: relative;
     top: 1.6rem;
 }
@@ -16362,4 +16378,45 @@ body.opacityPlaylist .main-music-player .mesh-title {
     font-size: 20px;
     padding-bottom: 15px;
 
+}
+
+
+
+/*                          COLOR SCHEMES
+=======================================================================================*/
+
+.biography.background-properties {
+    background-size: contain;
+}
+#videos {
+  background-color: rgba(10, 10, 10, 0.97);   
+}
+#events, #photos, #contact {
+    background-color: #0a0a0a;
+}
+#ourDJ {
+    background-color: rgba(245, 245, 245, 0.5); 
+}
+
+#events .sectionTitle h2, #events .sectionTitle h2 a,
+#photos .sectionTitle h2, #photos .sectionTitle h2 a,
+#videos .sectionTitle h2, #videos .sectionTitle h2 a/*,
+#news .sectionTitle h2, #news .sectionTitle h2 a */{
+    color: #eee;
+}
+#events .sectionTitle h2 a:hover,
+#photos .sectionTitle h2 a:hover,
+#videos .sectionTitle h2 a:hover/*,
+#news .sectionTitle h2 a:hover */{
+    color: #888;
+}
+
+#photos .sectionTitle p, #videos .sectionTitle p {
+    color: #6d6d6d;
+}
+#photos .sectionTitle p a, #videos .sectionTitle p a {
+    color: #ccc;
+}
+#photos .sectionTitle p a:hover, #videos .sectionTitle p a:hover {
+    color: #888;
 }

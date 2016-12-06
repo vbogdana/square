@@ -105,6 +105,7 @@
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
         <!-- =============== START EVENTS SECTION ================ -->
+        <!--
         <section class="shopHomePage  hide-section">
             <div class="shopSection">
                 <div class="container-fluid">
@@ -183,12 +184,13 @@
                                         </figure>
                                     </li>
                                 </ul>
-                            </nav><!-- end shop-products -->
-                        </div><!-- end row -->
-                    </div><!-- end shopContent -->
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        -->
         <!-- =============== END EVENTS SECTION ================ -->
         <!-- =============== START FOOTER ================ -->
         <section style="background-color:#eeeeee;" class="hide-section">
@@ -203,12 +205,10 @@
                         </div>
                         <div class="col-sm-4">
                             <nav class="social-icons">
-                                <ul class="clearfix">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                <ul class="clearfix">
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a></li>
-
-
                                 </ul>
                             </nav>
                         </div>
