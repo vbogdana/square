@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/album/{album_name}', function ($album_name) {
     return view('/album/'.$album_name);
 })->name("album");
+
+Route::post('/contact', 'ContactController@contact');

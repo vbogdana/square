@@ -708,16 +708,19 @@
             <div class="col-sm-7 col-sm-offset-1">
                 <div class="singleBlogForm">
                     <h2>Get in Touch</h2>
-                    <form action="#" method="post" class="comment-form">
-                        <input id="author" name="author" type="text" value="" aria-required="true" required="" placeholder="First Name *">
-                        <input id="lastName" name="email" type="text" value="" aria-required="true" required="" placeholder="Last Name *">
-                        <input id="url" name="url" type="text" value="" placeholder="Subject ">
-                        <input id="address" name="url" type="text" value="" aria-required="true" required="" placeholder="Email Address* ">
-                        <textarea name="comment" placeholder="Message..." rows="6" required=""></textarea>
+                    {{ Form::open(array('action' => 'ContactController@contact')) }}
+                    <!--<form action="" method="post" class="">-->
+                    <div class="comment-form">
+                        <input id="firstName" name="firstName" type="text" value="" aria-required="true" required="" placeholder="First Name *" autocomplete="off">
+                        <input id="lastName" name="lastName" type="text" value="" aria-required="true" required="" placeholder="Last Name *" autocomplete="off">
+                        <input id="subject" name="subject" type="text" value="" placeholder="Subject " autocomplete="off">
+                        <input id="email" name="email" type="text" value="" aria-required="true" required="" placeholder="Email Address * " autocomplete="off">
+                        <textarea id="content" name="content" placeholder="Message..." rows="6" required=""></textarea>
                         <p class="form-submit">
                             <input name="submit" type="submit" id="submit" value="Send Email">
                         </p>
-                    </form>
+                    </div>
+                    {{ Form::close() }}
                 </div><!-- end contactForm -->
             </div><!-- end col-sm-7 col-sm-offset-1 -->
         </div>

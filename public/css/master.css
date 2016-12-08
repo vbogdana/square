@@ -7212,13 +7212,13 @@ textarea,
     margin-bottom: 2rem;
     display: block;
     width: 100%;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     padding: 1rem 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #8e8e8e;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Open Sans';
+    font-family: 'Jura';
     font-weight: 600;
     background-color: #ffffff;
     background-image: none;
@@ -9491,8 +9491,8 @@ html body {
 .photoHome .single-photo-album-container article:hover figure .content {
     opacity: 1;
     visibility: visible;
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
 }
 .shopHomePage .icon-button,
 .shop-products .icon-button,
@@ -10711,23 +10711,23 @@ body {
     font-family: 'Michroma', sans-serif;
     color: #eee;
 }
-.contactSingle .singleBlogForm form {
+.contactSingle .singleBlogForm .comment-form {
     padding-top: 0;
 }
-.contactSingle .singleBlogForm form input {
+.contactSingle .singleBlogForm .comment-form input {
     display: inline-block;
     background-color: transparent;
 }
-.contactSingle .singleBlogForm form input:first-child {
+.contactSingle .singleBlogForm .comment-form input:first-child {
     margin-right: 11.5rem;
 }
-.contactSingle .singleBlogForm form input:nth-child(3) {
+.contactSingle .singleBlogForm .comment-form input:nth-child(3) {
     margin-right: 11.5rem;
 }
-.contactSingle .singleBlogForm form textarea {
+.contactSingle .singleBlogForm .comment-form textarea {
     background-color: transparent;
 }
-.contactSingle .singleBlogForm form .form-submit input {
+.contactSingle .singleBlogForm .comment-form .form-submit input {
     font-family: 'Jura', sans-serif;
     font-size: 1.1rem;
     color: #fff;
@@ -10736,7 +10736,7 @@ body {
     padding: 1rem 2rem;
     font-weight: 600;
 }
-.contactSingle .singleBlogForm form .form-submit input:hover {
+.contactSingle .singleBlogForm .comment-form .form-submit input:hover {
     background-color: #000;
 }
 .contactTop h2 {
@@ -11972,10 +11972,10 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     text-transform: initial;
     padding-bottom: 4rem;
 }
-.singleBlogForm form {
+.singleBlogForm .comment-form {
     padding-top: 1rem;
 }
-.singleBlogForm form input {
+.singleBlogForm .comment-form input {
     padding-left: 0;
     color: #666;
     letter-spacing: 0!important;
@@ -11984,7 +11984,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     text-transform: initial!important;
     margin-bottom: 3rem;
 }
-.singleBlogForm form textarea {
+.singleBlogForm .comment-form textarea {
     padding-left: 0;
     color: #666;
     letter-spacing: 0!important;
@@ -11993,10 +11993,10 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     text-transform: initial!important;
     margin-bottom: 4rem;
 }
-.singleBlogForm form input[type="text"] {
+.singleBlogForm .comment-form input[type="text"] {
     width: 40%;
 }
-.singleBlogForm form input::-webkit-input-placeholder {
+.singleBlogForm .comment-form input::-webkit-input-placeholder {
     /* WebKit browsers */
     font-weight: 600;
     font-family: 'Jura', sans-serif;
@@ -12004,7 +12004,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     font-size: 1.4rem;
     text-transform: initial;
 }
-.singleBlogForm form input:-moz-placeholder {
+.singleBlogForm .comment-form input:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     font-weight: 600;
     font-family: 'Jura', sans-serif;
@@ -12012,7 +12012,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     font-size: 1.4rem;
     text-transform: initial;
 }
-.singleBlogForm form input::-moz-placeholder {
+.singleBlogForm .comment-form input::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     font-weight: 600;
     font-family: 'Jura', sans-serif;
@@ -12020,7 +12020,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     font-size: 1.4rem;
     text-transform: initial;
 }
-.singleBlogForm form input:-ms-input-placeholder {
+.singleBlogForm .comment-form input:-ms-input-placeholder {
     /* Internet Explorer 10+ */
     font-weight: 600;
     font-family: 'Jura', sans-serif;
