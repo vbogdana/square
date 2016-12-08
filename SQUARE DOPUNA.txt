@@ -1,0 +1,35 @@
+--online reservation, fiksirano na vrhu otvara se novi prozor pop up i pozadina se zatamljuje i otvara se sledeca rezervacija
+
+-ime i prezime se upisuje
+-broj ljudi iz padajuceg menija 2-5,5-8,8-12,12+
+-broj telefona (naglasiti da je obavezno jer stize potvrda rezervacije na taj broj) 
+-takodje biraju sto za kojim zele da sede (u onom dokumentu pisu uslovi za sve)
+	-barski
+	-visoko(ako nema naziv za visoko neka bude table)
+	-separe(vip table)
+-bira se jos i zurka tj dan mozes da stavis sunday-total RNB
+
+
+--events---nece da bude slika kao sto je sad 4 slike nego crna kocka sa tekstom(koji ce oni poslati) i da linkuje na galeriju tog dana.
+
+
+--istaci enterijer
+	Galerija enterijer neka bude istaknuta sa borderima ili tako nesto da se primeti da je enterijer skloniti hovere i na galeriji 	odmah napisati koji je datum,na hoveru moze da pise view gallery i da se tako ulazi na galeriju 
+
+--klub skver 1 i broj telefona--- zele da im svaka slika bude upisana sa brojem telefona,misle da to ima veze sa optimizacijom,sto bi kesic
+rekao Budaleee,objasnio sam im za alt tag ali oni hoce broj telefona kao naziv slike- primer slika10666400400.jpg, rekao sam da moze,
+ali moraju da posalju 8 galerija sa po 9 slika gde su sve tako imenovane
+
+--opis galerije
+	zele da galerija za svaki dan (tj za cetvrtak,petak,subotu,nedelju) ima par recenica opisa svaki put isti opis koji kao opisuje desavanja za taj dan.
+
+--get in touch izmeniti da ima fb insta yt sa like share---uvesti sa fb i insta i yu linkove,ali ne preko ikonica koje linkuju nego taj njihov API,to je lako uraditi ima ja vec mislim gotovo sve samo se kopira.
+
+
+==========================================================================================================================================
+
+BLOG:
+
+ONI PISU VESTI MI KACIMO-hoce da se uvezu komentari sa fb-nije to problem,ali to malo kasnije
+
+
