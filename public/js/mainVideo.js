@@ -380,43 +380,67 @@ jQuery(document).ready(function(){
 
     jQuery(this).toggleClass('active');
 
-    jQuery('.menu-fixed-container').toggleClass('open');
+    jQuery('#menu').toggleClass('open');
 
   });
 
-  jQuery('.x-filter').on('click',function(){
+  jQuery('#menu .x-filter').on('click',function(){
 
     jQuery('.open-menu').toggleClass('active');
 
-    jQuery('.menu-fixed-container').toggleClass('open');
+    jQuery('#menu').toggleClass('open');
 
   });
 
-  jQuery('.menu-fixed-container > nav > ul > li > a').on('click',function(){
+  jQuery('#menu > nav > ul > li > a').on('click',function(){
       /*
         jQuery(this).parent().siblings().toggleClass('no-hovered');
         jQuery(this).parent().toggleClass('click');
         jQuery(this).parent().siblings().removeClass('click');
       */
         jQuery('.open-menu').toggleClass('active');
-        jQuery('.menu-fixed-container').toggleClass('open');
+        jQuery('#menu').toggleClass('open');
     });
 
-  jQuery('.menu-fixed-container > nav > ul > li > .sub-menu').parent().addClass('hover-sub-menu');
+  jQuery('#menu > nav > ul > li > .sub-menu').parent().addClass('hover-sub-menu');
 
-  jQuery('.menu-fixed-container > nav > ul > li  > .sub-menu').on('click',function(){
+  jQuery('#menu > nav > ul > li  > .sub-menu').on('click',function(){
 
       jQuery(this).parent().toggleClass('hovered-sub-menu ');
 
   });
 
-  jQuery('.menu-fixed-container nav ul li .sub-menu').parent().find('> a').on('click', function(e){
+  jQuery('#menu nav ul li .sub-menu').parent().find('> a').on('click', function(e){
 
     e.preventDefault();
 
   });
 /***********************************************************************************************/
 /* END MENU */
+/***********************************************************************************************/
+
+/***********************************************************************************************/
+  /* RESERVATION */
+  /***********************************************************************************************/
+  jQuery('.open-reservation').on('click', function(ev) {
+    ev.preventDefault();
+    
+    //jQuery(this).toggleClass('active');
+
+    jQuery('#reservation').toggleClass('open');
+
+  });
+
+  jQuery('#reservation .x-filter').on('click',function(){
+
+    //jQuery('.open-menu').toggleClass('active');
+
+    jQuery('#reservation').toggleClass('open');
+
+  });
+
+/***********************************************************************************************/
+/* END RESERVATION */
 /***********************************************************************************************/
 
   /***********************************************************************************************/

@@ -73,21 +73,8 @@
 
 <!-- zbog linkova u meniju ovde se mora redefinisati meni -->
 @section('sidebar')
-<!-- =============== START TOP HEADER ================ -->
-<div class="topHeader">
-    <!-- Open Menu Button -->
-    <div class="header">
-        <div class="rightTopHeader">
-            <a class="open-menu">
-                <span class="span-1"></span>
-                <span class="span-2"></span>
-                <span class="span-3"></span>
-            </a>
-        </div>
-    </div>
-    
     <!-- Menu Fixed Container -->
-    <div class="menu-fixed-container">
+    <div id="menu" class="menu-fixed-container">
         <nav>
             <div class="x-filter">
                 <span></span>
@@ -110,16 +97,7 @@
                 <span></span>
             </div>
         </nav>
-    </div>
-    
-    <!-- =============== LOGO ================ -->
-    <div class="logo-container-top">
-        <a href="<?php echo url("/") ?>">
-            <img src="<?php echo url("") ?>/images/logowhite.png" alt="Square Logo">
-        </a>
-    </div>
-</div>
-<!-- =============== END TOP HEADER ================ -->
+    </div>    
 @stop
 
 @section('content')
@@ -149,7 +127,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> THURSDAY  </div>
                                             <div class="evSubtitle">DJ ALEX TIC</div>
-                                            <div class="dateOfParty"> 10/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                10/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -167,7 +148,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> FRIDAY </div>
                                             <div class="evSubtitle">ME - HIGH - LOW</div>
-                                            <div class="dateOfParty"> 11/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                11/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -185,7 +169,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> SATURDAY </div>
                                             <div class="evSubtitle">COLLE & MARC FUNK </div>
-                                            <div class="dateOfParty"> 12/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                12/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -203,7 +190,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> SUNDAY  </div>
                                             <div class="evSubtitle">DJ Prema</div>
-                                            <div class="dateOfParty"> 13/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                13/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -685,48 +675,6 @@
     </div><!-- end row -->	
 </section>
 <!-- =============== END HOME-NLOG SECTION ================ -->	
-
-<!-- =============== START CONTACT ================ -->
-<section id="contact" class="contactSingle padding background-properties" id="content" >
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="contactTop">
-                    <h2>Contact Information</h2>
-                    <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
-                    <p>For any questions and proposals  
-                       You can contact us directly directly through this form, or by phone/email.
-                    </p>
-                    <div class="contactInfo">
-                        <ul>
-                            <li>Email: <a href="mailto:office@squareclubbelgrade.com">office@squareclubbelgrade.com</a></li>
-                            <li>Phone: <a href="#">+381 69 20 10 110</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- end col-sm-4 -->
-            <div class="col-sm-7 col-sm-offset-1">
-                <div class="singleBlogForm">
-                    <h2>Get in Touch</h2>
-                    {{ Form::open(array('action' => 'ContactController@contact')) }}
-                    <!--<form action="" method="post" class="">-->
-                    <div class="comment-form">
-                        <input id="firstName" name="firstName" type="text" value="" aria-required="true" required="" placeholder="First Name *" autocomplete="off">
-                        <input id="lastName" name="lastName" type="text" value="" aria-required="true" required="" placeholder="Last Name *" autocomplete="off">
-                        <input id="subject" name="subject" type="text" value="" placeholder="Subject " autocomplete="off">
-                        <input id="email" name="email" type="text" value="" aria-required="true" required="" placeholder="Email Address * " autocomplete="off">
-                        <textarea id="content" name="content" placeholder="Message..." rows="6" required=""></textarea>
-                        <p class="form-submit">
-                            <input name="submit" type="submit" id="submit" value="Send Email">
-                        </p>
-                    </div>
-                    {{ Form::close() }}
-                </div><!-- end contactForm -->
-            </div><!-- end col-sm-7 col-sm-offset-1 -->
-        </div>
-    </div><!-- end container -->
-</section>
-<!-- =============== END CONTACT ================ -->
 
 <!-- =============== START MAP ================ -->
 <section id="location" class="googleMap">

@@ -6,13 +6,15 @@ use Mail;
 
 class ContactController extends Controller
 {
-    function contact(Request $request) {
-        $subject = $request->input('subject');
+    function reserve(Request $request) {
         
         $data = [
            'firstName' => $request->input('firstName'),
            'lastName' => $request->input('lastName'),
-           'email' => $request->input('email'),
+           'phone' => $request->input('phone'),
+           'people' => $request->input('people'),
+           'seating' => $request->input('seating'),
+           'day' => $request->input('day'),
            'content' => $request->input('content')
         ];
         
@@ -20,8 +22,10 @@ class ContactController extends Controller
         Mail::send('emails.reservation', $data, function ($message)
         {
             $message->to('bveselinovic555@gmail.com');
-            $message->subject('Website Reservation');
+            $message->subject('Website Reservation Club Square');
         });
+        
+        echo "Uspesna rezervacija";
 
     }
 }
