@@ -107,28 +107,8 @@
                     <section id="contact" class="contactSingle background-properties" id="content" >
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="contactTop">
-                                        <h3>Club Square</h3>
-                                        <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
-                                        <p>
-                                            Reservations are required!
-                                            Reservations are valid until 00:30h.
-                                            Please leave us Your contact phone, so that we can send You a confirmation message.
-                                        </p>
-                                        
-                                        <h4> Working hours </h4>
-                                        <div class="contactInfo">
-                                            <ul>
-                                                <li>Thursday 23:30 - 05h </li>
-                                                <li>Friday 23:30 - 05h </li>
-                                                <li>Saturday 23:30 - 05h </li>
-                                                <li>Sunday 23:30 - 05h </li>                                               
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div><!-- end col-sm-4 -->
-                                <div class="col-sm-7 col-sm-offset-1">
+                                
+                                <div class="col-sm-7">
                                     <div class="singleBlogForm">
                                         <h2>Reservation</h2>
                                         {{ Form::open(array('action' => 'ContactController@reserve')) }}
@@ -163,6 +143,28 @@
                                         {{ Form::close() }}
                                     </div><!-- end contactForm -->
                                 </div><!-- end col-sm-7 col-sm-offset-1 -->
+                                
+                                <div class="col-sm-4 col-sm-offset-1">
+                                    <div class="contactTop">
+                                        <h3>Club Square</h3>
+                                        <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
+                                        <p>
+                                            Reservations are required!
+                                            Reservations are valid until 00:30h.
+                                            Please leave us Your contact phone, so that we can send You a confirmation message.
+                                        </p>
+                                        
+                                        <h4> Working hours </h4>
+                                        <div class="contactInfo">
+                                            <ul>
+                                                <li>Thursday 23:30 - 05h </li>
+                                                <li>Friday 23:30 - 05h </li>
+                                                <li>Saturday 23:30 - 05h </li>
+                                                <li>Sunday 23:30 - 05h </li>                                               
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- end col-sm-4 -->
                             </div>
                         </div><!-- end container -->
                     </section>
