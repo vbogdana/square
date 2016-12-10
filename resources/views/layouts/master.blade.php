@@ -42,12 +42,11 @@
         @yield('breadcrumb')
 
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
-        @section('sidebar')
         <!-- =============== START TOP HEADER ================ -->
-        <div class="topHeader" >
+        <div class="topHeader">
             <!-- Open Menu Button -->
             <div class="header">
-                <div class="rightTopHeader">                    
+                <div class="rightTopHeader">
                     <a class="open-menu">
                         <span class="span-1"></span>
                         <span class="span-2"></span>
@@ -56,8 +55,22 @@
                 </div>
             </div>
 
+            <!-- =============== LOGO ================ -->
+            <div class="logo-container-top">
+                <a href="<?php echo url("/") ?>">
+                    <img src="<?php echo url("") ?>/images/logowhite.png" alt="Square Logo">
+                </a>
+            </div>
+
+            <div class="logo-container-top middle">
+                <a class="open-reservation" href="#">
+                    ONLINE RESERVATION
+                </a>
+            </div>
+
+            @section('sidebar')
             <!-- Menu Fixed Container -->
-            <div class="menu-fixed-container">
+            <div id="menu" class="menu-fixed-container">
                 <nav>
                     <div class="x-filter">
                         <span></span>
@@ -81,16 +94,90 @@
                     </div>
                 </nav>
             </div>
+            @show
             
-            <!-- =============== STAR LOGO ================ -->
-            <div class="logo-container-top">
-                <a href="<?php echo url("/") ?>">
-                    <img src="<?php echo url("") ?>/images/logowhite.png" alt="Square Logo">
-                </a>
-            </div>
+            <!-- Online reservation -->
+            <div id="reservation" class="menu-fixed-container">
+                <nav>
+                    <div class="x-filter">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- =============== START CONTACT ================ -->
+                    <section id="contact" class="contactSingle background-properties" id="content" >
+                        <div class="container">
+                            <div class="row">
+                                
+                                <div class="col-sm-7">
+                                    <div class="singleBlogForm">
+                                        <h2>Reservation</h2>
+                                        {{ Form::open(array('action' => 'ContactController@reserve')) }}
+                                        <!--<form action="" method="post" class="">-->
+                                        <div class="comment-form">
+                                            <input id="firstName" name="firstName" type="text" value="" aria-required="true" required="" placeholder="First Name *" autocomplete="off">
+                                            <input id="lastName" name="lastName" type="text" value="" aria-required="true" required="" placeholder="Last Name *" autocomplete="off">
+                                            <input id="phone" name="phone" type="text" value="" aria-required="true" required="" placeholder="Phone Number *" autocomplete="off">
+                                            <select id="people" name="people" aria-required="true" required="">
+                                                <option value="2-5">2-5</option>
+                                                <option value="5-8">5-8</option>
+                                                <option value="8-12">8-12</option>
+                                                <option value="12+">12+</option>
+                                            </select>
+                                            <select id="seating" name="seating" aria-required="true" required="">
+                                                <option value="Separe">Booth (min consumption 250€)</option>
+                                                <option value="Visoko sedenje">High seating (min consumption 100€)</option>
+                                                <option value="Barski sto">Bar table (min consumption 30€)</option>
+                                                <option value="Pult">Bar (without conditions)</option>
+                                            </select> 
+                                            <select id="day" name="day" aria-required="true" required="">
+                                                <option value="Cetvrtak 9.12.2016.">Thursday | 9.12.2016. | The Nineties</option>
+                                                <option value="Petak 10.12.2016.">Friday | 10.12.2016. | Make Some Love</option>
+                                                <option value="Subota 11.12.2016.">Saturday | 11.12.2016. | Blood & Mode</option>
+                                                <option value="Nedelja 12.12.2016." selected="true">Sunday | 12.12.2016. | Total RnB</option>
+                                            </select>                                             
+                                            <textarea id="content" name="content" placeholder="Message..." rows="4"></textarea>
+                                            <p class="form-submit">
+                                                <input name="submit" type="submit" id="submit" value="Make reservation">
+                                            </p>
+                                        </div>
+                                        {{ Form::close() }}
+                                    </div><!-- end contactForm -->
+                                </div><!-- end col-sm-7 col-sm-offset-1 -->
+                                
+                                <div class="col-sm-4 col-sm-offset-1">
+                                    <div class="contactTop">
+                                        <h3>Club Square</h3>
+                                        <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
+                                        <p>
+                                            Reservations are required!
+                                            Reservations are valid until 00:30h.
+                                            Please leave us Your contact phone, so that we can send You a confirmation message.
+                                        </p>
+                                        
+                                        <h4> Working hours </h4>
+                                        <div class="contactInfo">
+                                            <ul>
+                                                <li>Thursday 23:30 - 05h </li>
+                                                <li>Friday 23:30 - 05h </li>
+                                                <li>Saturday 23:30 - 05h </li>
+                                                <li>Sunday 23:30 - 05h </li>                                               
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- end col-sm-4 -->
+                            </div>
+                        </div><!-- end container -->
+                    </section>
+                    <!-- =============== END CONTACT ================ -->
+                    <div class="x-filter">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>       
+            </div>   
+            
         </div>
-        <!-- =============== END TOP HEADER ================ -->
-        @show
+        <!-- =============== END TOP HEADER ================ -->       
 
         <!-- 
             za svaku stranicu treba definisati content sekciju (sadrzaj)
@@ -105,6 +192,7 @@
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
         <!-- =============== START EVENTS SECTION ================ -->
+        <!--
         <section class="shopHomePage  hide-section">
             <div class="shopSection">
                 <div class="container-fluid">
@@ -183,12 +271,13 @@
                                         </figure>
                                     </li>
                                 </ul>
-                            </nav><!-- end shop-products -->
-                        </div><!-- end row -->
-                    </div><!-- end shopContent -->
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        -->
         <!-- =============== END EVENTS SECTION ================ -->
         <!-- =============== START FOOTER ================ -->
         <section style="background-color:#eeeeee;" class="hide-section">
@@ -203,12 +292,10 @@
                         </div>
                         <div class="col-sm-4">
                             <nav class="social-icons">
-                                <ul class="clearfix">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                <ul class="clearfix">
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
                                     <li><a href="#" class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a></li>
-
-
                                 </ul>
                             </nav>
                         </div>

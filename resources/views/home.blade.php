@@ -73,21 +73,8 @@
 
 <!-- zbog linkova u meniju ovde se mora redefinisati meni -->
 @section('sidebar')
-<!-- =============== START TOP HEADER ================ -->
-<div class="topHeader">
-    <!-- Open Menu Button -->
-    <div class="header">
-        <div class="rightTopHeader">
-            <a class="open-menu">
-                <span class="span-1"></span>
-                <span class="span-2"></span>
-                <span class="span-3"></span>
-            </a>
-        </div>
-    </div>
-    
     <!-- Menu Fixed Container -->
-    <div class="menu-fixed-container">
+    <div id="menu" class="menu-fixed-container">
         <nav>
             <div class="x-filter">
                 <span></span>
@@ -110,42 +97,10 @@
                 <span></span>
             </div>
         </nav>
-    </div>
-    
-    <!-- =============== LOGO ================ -->
-    <div class="logo-container-top">
-        <a href="<?php echo url("/") ?>">
-            <img src="<?php echo url("") ?>/images/logowhite.png" alt="Square Logo">
-        </a>
-    </div>
-</div>
-<!-- =============== END TOP HEADER ================ -->
+    </div>    
 @stop
 
 @section('content')
-<!-- =============== START BIOGRAPHY SECTION ================ -->
-<section id="aboutUs" style="background-image:url(<?php echo url("") ?>/images/imeslike.png);" class="biography padding background-properties hide-section" id="content">
-    <div class="container">
-        <div class="sectionTitle paddingBottom">
-            <span class="heading-t3"></span>
-            <h2><a href="albums.html">About Us</a></h2>
-            <span class="heading-b3"></span>
-        </div><!-- end sectionTtile -->
-        <div class="row">
-            <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="signature">
-                    <a href="#">Club Square Belgrade</a>
-                </div>
-            </div>
-        </div>
-    </div><!-- end container -->
-</section>
-<!-- =============== END BIOGRAPHY SECTION ================ -->
-
 <!-- =============== START EVENTS SECTION ================ -->
 <section id="events" class="shopHomePage padding hide-section">
     <div class="shopSection">
@@ -172,7 +127,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> THURSDAY  </div>
                                             <div class="evSubtitle">DJ ALEX TIC</div>
-                                            <div class="dateOfParty"> 10/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                10/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -190,7 +148,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> FRIDAY </div>
                                             <div class="evSubtitle">ME - HIGH - LOW</div>
-                                            <div class="dateOfParty"> 11/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                11/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -208,7 +169,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> SATURDAY </div>
                                             <div class="evSubtitle">COLLE & MARC FUNK </div>
-                                            <div class="dateOfParty"> 12/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                12/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -226,7 +190,10 @@
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> SUNDAY  </div>
                                             <div class="evSubtitle">DJ Prema</div>
-                                            <div class="dateOfParty"> 13/12/2016 </div>
+                                            <div class="dateOfParty"> 
+                                                <div  class="evTitle"> next </div>
+                                                13/12/2016 
+                                            </div>
                                         </div>
                                     </div>
                                 </figure>
@@ -240,8 +207,32 @@
 </section>
 <!-- =============== END EVENTS SECTION ================ -->
 
+<!-- =============== START BIOGRAPHY SECTION ================ -->
+<section id="aboutUs" style="background-image:url(<?php echo url("") ?>/images/logoblack1.png);" class="biography padding background-properties hide-section" id="content">
+    <div class="container">
+        <div class="sectionTitle paddingBottom">
+            <span class="heading-t3"></span>
+            <h2><a href="albums.html">About Us</a></h2>
+            <span class="heading-b3"></span>
+        </div><!-- end sectionTtile -->
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="signature">
+                    <a href="#">Club Square Belgrade</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end container -->
+</section>
+<!-- =============== END BIOGRAPHY SECTION ================ -->
+
 
 <!-- =============== START EVENTS SECTION-2 ================ -->
+<!--
 <section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/events/next_event.jpg);">
     <div class="container">
         <div class="row">
@@ -249,7 +240,6 @@
                 <div class="countdownTitle">
                     <h4>Next Event</h4>
                     <div class="fixLine"></div>
-                  <!--  <a href="singleEvent.html"><img src="assets/img/events/box.png" alt="Event"></a> -->
                 </div>
                 <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/12/8">
                     <div class="displayCounter">
@@ -278,11 +268,12 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- end sm-countdown -->
+                </div>
             </div>
         </div>
     </div>
 </section>
+-->
 <!-- =============== END EVENTS SECTION-2 ================ -->
 
 <!-- =============== START VIDEO SECTION ================ -->
@@ -310,7 +301,7 @@
 <!-- =============== END VIDEO SECTION ================ -->
 
 <!-- =============== START GALLERY SECTION ================ -->
-<section id="photos" class="photoHome paddingBottom gallerySection" id="content">
+<section id="photos" class="photoHome padding gallerySection" id="content">
     <div class="container" style="padding:0;">
         <div class="row">
             <div class="sectionTitle">
@@ -684,45 +675,6 @@
     </div><!-- end row -->	
 </section>
 <!-- =============== END HOME-NLOG SECTION ================ -->	
-
-<!-- =============== START CONTACT ================ -->
-<section id="contact" class="contactSingle padding background-properties" id="content" >
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="contactTop">
-                    <h2>Contact Information</h2>
-                    <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
-                    <p>For any questions and proposals  
-                       You can contact us directly directly through this form, or by phone/email.
-                    </p>
-                    <div class="contactInfo">
-                        <ul>
-                            <li>Email: <a href="mailto:office@squareclubbelgrade.com">office@squareclubbelgrade.com</a></li>
-                            <li>Phone: <a href="#">+381 69 20 10 110</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- end col-sm-4 -->
-            <div class="col-sm-7 col-sm-offset-1">
-                <div class="singleBlogForm">
-                    <h2>Get in Touch</h2>
-                    <form action="#" method="post" class="comment-form">
-                        <input id="author" name="author" type="text" value="" aria-required="true" required="" placeholder="First Name *">
-                        <input id="lastName" name="email" type="text" value="" aria-required="true" required="" placeholder="Last Name *">
-                        <input id="url" name="url" type="text" value="" placeholder="Subject ">
-                        <input id="address" name="url" type="text" value="" aria-required="true" required="" placeholder="Email Address* ">
-                        <textarea name="comment" placeholder="Message..." rows="6" required=""></textarea>
-                        <p class="form-submit">
-                            <input name="submit" type="submit" id="submit" value="Send Email">
-                        </p>
-                    </form>
-                </div><!-- end contactForm -->
-            </div><!-- end col-sm-7 col-sm-offset-1 -->
-        </div>
-    </div><!-- end container -->
-</section>
-<!-- =============== END CONTACT ================ -->
 
 <!-- =============== START MAP ================ -->
 <section id="location" class="googleMap">

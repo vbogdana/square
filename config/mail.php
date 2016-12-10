@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'mailgun'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'hello@example.com',
-        'name' => 'Example',
+        'address' => env('MAIL_FROM'),
+        'name' => env('MAIL_NAME'),
     ],
 
     /*
@@ -111,5 +111,7 @@ return [
     */
 
     'sendmail' => '/usr/sbin/sendmail -bs',
+    
+    'pretend' => false,
 
 ];
