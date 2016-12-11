@@ -78,11 +78,10 @@
                     </div>
                     <ul>
                         <li><a href="{{ route("/") }}#home">home</a></li>
-                        <li><a href="{{ route("/") }}#aboutUs">about us</a></li>
                         <li><a href="{{ route("/") }}#events">events</a></li>
+                        <li><a href="{{ route("/") }}#aboutUs">about us</a></li>                       
                         <li><a href="{{ route("/") }}#videos">video gallery</a></li>
                         <li><a href="{{ route("/") }}#photos">photo gallery</a></li>
-                        <li><a href="{{ route("/") }}#">blog</a></li>
                         <li><a href="{{ route("/") }}#ourDJ">our djs</a></li>
                         <li><a href="{{ route("/") }}#news">news from the club</a></li>
                         <li><a href="{{ route("/") }}#contact">contact</a></li>

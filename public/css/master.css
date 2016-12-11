@@ -9463,10 +9463,18 @@ html body {
     transition-timing-function: ease-in-out;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
-    transition: 0.8s;
+    transition: 0.4s;
     transform: scale(0.2);
     -webkit-transform: scale(0.2);  
 }
+/*
+.photoHome .single-photo-album-container figure .content {
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    opacity: 1;
+    visibility: visible;
+}
+*/
 .shopHomePage ul li figure .content .eventHover,
 .shop-products ul li figure .content .eventHover,
 .footer ul li figure .content .eventHover,
@@ -9478,13 +9486,6 @@ html body {
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    /*
-    -webkit-transform: translateY(-50px);
-    -moz-transform: translateY(-50px);
-    -o-transform: translateY(-50px);
-    -ms-transform: translateY(-50px);
-    transform: translateY(-50px);
-    */
 }
 .shopHomePage ul li:hover figure .content,
 .shop-products ul li:hover figure .content,
@@ -9569,13 +9570,45 @@ html body {
 .shopHomePage .event,
 .shop-products .event,
 .footer .event,
-.photoHome .event {
+.photoHome .event,
+.photoHome .album-title {
     font-size: 2.5rem;
     display: inline-block;
     font-weight: 700;
     color: #eee;
     font-family: 'Michroma', serif;
     padding-bottom: 1.5rem;
+}
+.photoHome .album-title {
+    padding: 1.5rem;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    //background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-delay: 0;
+    transition-delay: 0;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.photoHome .single-photo-album-container article:hover figure .album-title {
+    opacity: 0;
+    visibility: hidden;
+    /*
+    transform: scale(0.2) translate(-50%, -50%);
+    -webkit-transform: scale(0.2) translate(-50%, -50%);
+    */
 }
 
 .shopHomePage .fixLine,

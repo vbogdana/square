@@ -82,11 +82,10 @@
             </div>
             <ul>
                 <li><a href="#home">home</a></li>
-                <li><a href="#aboutUs">about us</a></li>
                 <li><a href="#events">events</a></li>
+                <li><a href="#aboutUs">about us</a></li>
                 <li><a href="#videos">video gallery</a></li>
                 <li><a href="#photos">photo gallery</a></li>
-                <li><a href="#">blog</a></li>
                 <li><a href="#ourDJ">our djs</a></li>
                 <li><a href="#news">news from the club</a></li>
                 <li><a href="#contact">contact</a></li>
@@ -308,7 +307,8 @@
                 <span class="heading-t3"></span>
                 <h2><a href="">PHOTO GALLERY</a></h2>
                 <span class="heading-b3"></span>
-                <p>Check out our latest photos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
+                <p>Check out our latest photos and follow us on <a href="https://www.facebook.com/belgradeclub/">Facebook</a> 
+                    or <a href="http://instagram.com/club_square_belgrade">Instagram</a> to view more.</p>
             </div><!-- end sectionTtile -->
             <div class="col-sm-12">
                 <!-- Content Container -->
@@ -323,9 +323,12 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_11122016/cover.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_11122016/cover.jpg" alt="">        
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -349,6 +352,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -372,6 +378,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_09122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -395,6 +404,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_08122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -418,6 +430,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        interior
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -441,6 +456,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_04122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -464,6 +482,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_03122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -487,6 +508,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_02122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
@@ -510,6 +534,9 @@
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
+                                    <div class="album-title">
+                                        25/11/2016
+                                    </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
