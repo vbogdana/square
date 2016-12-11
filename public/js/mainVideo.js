@@ -200,7 +200,7 @@ jQuery(document).ready(function(){
   "use strict";
 
   // FitVides Option
-  jQuery("html").fitVids({ customSelector: "iframe"});
+  jQuery("html").fitVids({ customSelector: "#mbYTP_bgndVideo"});
 
   // LightBox Options
   jQuery(".attachment").find('a > img:not(.attachment-thumbnail)').parent().attr('rel','gallery').fancybox({

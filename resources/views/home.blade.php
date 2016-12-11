@@ -7,40 +7,6 @@
 
 @section('breadcrumb')
 <!-- =============== START BREADCRUMB ================ -->
-<!--
-<section class="no-mb">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="breadcrumb-fullscreen-parent phone-menu-bg">
-                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('assets/img/header/header.png');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-                    <div id="home" style="position: absolute;left: 0;top: 0;">
-                        <div class="intro-header">
-                            <div class="js-height-full star" style="height: 955px;">
-                                <div class="star-pattern-1 js-height-full" style="height: 994px;"></div>
-                                <div class="col-sm-12"> 
-                                    <div class="starTitle">
-                                        <h4>Club</h4>
-                                        <div class="grid__item">
-                                            <h1>
-                                                <a class="link link-yaku" href="#">
-                                                    <span>S</span><span>Q</span><span>U</span><span>A</span><span>R</span><span>E</span>					
-                                                </a>
-                                            </h1>
-                                        </div>
-                                        <h4>Belgrade,STUDENTSKI TRG 15</h4>
-                                    </div>
-                                    <canvas class="cover" width="1920" height="955"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
-
 <section id="home" class="no-mb">
     <div class="row">
         <div class="col-sm-12">
@@ -64,7 +30,7 @@
                     </div>
                     <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
                 </div>
-            </div><!--end bread  -->
+            </div>
         </div>
     </div>
 </section>
@@ -211,17 +177,25 @@
     <div class="container">
         <div class="sectionTitle paddingBottom">
             <span class="heading-t3"></span>
-            <h2><a href="albums.html">About Us</a></h2>
+            <h2><a href="#">About Us</a></h2>
             <span class="heading-b3"></span>
         </div><!-- end sectionTtile -->
         <div class="row">
             <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                    Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Opened in October 2016 in the heart of Belgrade, this night club is certainly an unavoidable place to go for all the fans of RnB & House sound or Live music ... 
+                    Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects.
+                    </p>
             </div>
             <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+                    There play music the most famous local DJs. Attractive go-go dancers will try to bring the atmosphere to fever pitch. Night club Square is one of the most interesting places for foreigners who want to experience Belgrade nightlife.
+                    In this place you can also meet many celebrities from the world fashion, music, business, lot of beautiful girls ...  They are driving all the guys crazy!
+                    Night club is the perfect to celebrate a STAG PARTY in Belgrade!
+                    Experience Hangover in Belgrade now !!!
+                </p>
                 <div class="signature">
-                    <a href="#">Club Square Belgrade</a>
+                    <a href="<?php echo url("/") ?>">Club Square Belgrade</a>
                 </div>
             </div>
         </div>
@@ -281,7 +255,7 @@
         <div class="row">
             <div class="sectionTitle">
                 <span class="heading-t3"></span>
-                <h2><a href="video.html">VIDEO GALLERY</a></h2>
+                <h2><a href="#">VIDEO GALLERY</a></h2>
                 <span class="heading-b3"></span>
                 <p>Check out our latest videos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
             </div><!-- end sectionTtile -->
@@ -307,8 +281,8 @@
                 <span class="heading-t3"></span>
                 <h2><a href="">PHOTO GALLERY</a></h2>
                 <span class="heading-b3"></span>
-                <p>Check out our latest photos and follow us on <a href="https://www.facebook.com/belgradeclub/">Facebook</a> 
-                    or <a href="http://instagram.com/club_square_belgrade">Instagram</a> to view more.</p>
+                <p>Check out our latest photos and follow us on <a href="https://www.facebook.com/SquareClubBelgrade">Facebook</a> 
+                    or <a href="https://www.instagram.com/square_club_belgrade/">Instagram</a> to view more.</p>
             </div><!-- end sectionTtile -->
             <div class="col-sm-12">
                 <!-- Content Container -->
@@ -601,7 +575,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon2">
                         <span class="thumbs-album">
-                            <a href="albumsSingle4.html"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -612,7 +586,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon3">
                         <span class="thumbs-album">
-                            <a href=""><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>

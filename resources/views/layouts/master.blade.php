@@ -30,7 +30,17 @@
         @yield('scripts')
     </head>
 
-    <body>
+    <body id="top">
+        <!-- Social plugin scripts -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <!-- -->
         
         <!-- gif za loading stranice -->
         <div class="page-loader">
@@ -103,7 +113,7 @@
                         <span></span>
                     </div>
                     <!-- =============== START CONTACT ================ -->
-                    <section id="contact" class="contactSingle background-properties" id="content" >
+                    <section id="contact" class="onlineReservation contactSingle background-properties" id="content" >
                         <div class="container">
                             <div class="row">
                                 
@@ -117,10 +127,10 @@
                                             <input id="lastName" name="lastName" type="text" value="" aria-required="true" required="" placeholder="Last Name *" autocomplete="off">
                                             <input id="phone" name="phone" type="text" value="" aria-required="true" required="" placeholder="Phone Number *" autocomplete="off">
                                             <select id="people" name="people" aria-required="true" required="">
-                                                <option value="2-5">2-5</option>
-                                                <option value="5-8">5-8</option>
-                                                <option value="8-12">8-12</option>
-                                                <option value="12+">12+</option>
+                                                <option value="2-5">2-5 people</option>
+                                                <option value="5-8">5-8 people</option>
+                                                <option value="8-12">8-12 people</option>
+                                                <option value="12+">12+ people</option>
                                             </select>
                                             <select id="seating" name="seating" aria-required="true" required="">
                                                 <option value="Separe">Booth (min consumption 250€)</option>
@@ -129,10 +139,10 @@
                                                 <option value="Pult">Bar (without conditions)</option>
                                             </select> 
                                             <select id="day" name="day" aria-required="true" required="">
-                                                <option value="Cetvrtak 9.12.2016.">Thursday | 9.12.2016. | The Nineties</option>
-                                                <option value="Petak 10.12.2016.">Friday | 10.12.2016. | Make Some Love</option>
-                                                <option value="Subota 11.12.2016.">Saturday | 11.12.2016. | Blood & Mode</option>
-                                                <option value="Nedelja 12.12.2016." selected="true">Sunday | 12.12.2016. | Total RnB</option>
+                                                <option value="Cetvrtak 9.12.2016.">Thursday | 15.12.2016. | The Nineties</option>
+                                                <option value="Petak 10.12.2016.">Friday | 16.12.2016. | Make Some Love</option>
+                                                <option value="Subota 11.12.2016.">Saturday | 17.12.2016. | Blood & Mode</option>
+                                                <option value="Nedelja 12.12.2016." selected="true">Sunday | 18.12.2016. | Total RnB</option>
                                             </select>                                             
                                             <textarea id="content" name="content" placeholder="Message..." rows="4"></textarea>
                                             <p class="form-submit">
@@ -146,7 +156,10 @@
                                 <div class="col-sm-4 col-sm-offset-1">
                                     <div class="contactTop">
                                         <h3>Club Square</h3>
-                                        <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
+                                        <h4>
+                                            +381 69 20 10 110<br />
+                                            SMS, WhatsApp and Viber
+                                        </h4>
                                         <p>
                                             Reservations are required!
                                             Reservations are valid until 00:30h.
@@ -163,9 +176,9 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div><!-- end col-sm-4 -->
+                                </div>
                             </div>
-                        </div><!-- end container -->
+                        </div>
                     </section>
                     <!-- =============== END CONTACT ================ -->
                     <div class="x-filter">
@@ -190,94 +203,55 @@
 
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
-        <!-- =============== START EVENTS SECTION ================ -->
-        <!--
-        <section class="shopHomePage  hide-section">
-            <div class="shopSection">
-                <div class="container-fluid">
-                    <div class="shopContent">
-
-                        <div class="row">
-                            <nav class="shop-products">
-                                <ul class="clearfix">
-                                    <li class="col-sm-3">
-                                        <figure style="padding-top: 20px;text-align: center;">
-                                            <img src="<?php echo url("") ?>/images/logoblack.png" alt="" style="height: 150px; width: 150px">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                        </figure>
-                                    </li>
-                                    <li class="col-sm-3">
-                                        <figure style="padding-top: 20px;">
-                                            <div class="namefooter">
-                                                Partners:
-                                            </div>
-                                        </figure>
-                                    </li>
-                                    <li class="col-sm-3">
-                                        <figure style="padding-top: 20px;">
-                                            <div class="namefooter">
-                                                Contact us:
-                                            </div>
-
-                                            <address>
-                                                <p> 
-                                                <div class="icon-location"></div>&nbsp;STUDENTSKI TRG 15<br>
-                                                11000 Belgrade SERBIA <br><br>
-                                                <img src="<?php echo url('/') ?>/images/social/viber.png" style="height: 20px; width: 20px" alt="Viber" />&nbsp;/ <img src="<?php echo url('/') ?>/images/social/whatcapp.png" style="height: 20px; width: 20px" alt="Viber" />
-                                                &nbsp+381 69 20 10 110 <br>
-                                                <div class="icon-mail"></div>&nbsp;<br>
-                                                <a class="light" href="mailto:OFFICE@SQUARECLUBBELGRADE.COM">OFFICE@SQUARECLUBBELGRADE.COM</a> 
-                                                </p>
-                                            </address>
-                                        </figure>
-                                    </li>
-                                    <li class="col-sm-3">
-                                        <figure style="padding-top: 20px;">
-                                            <div class="namefooter">
-
-                                                Social:
-                                            </div>
-                                            <nav class="social-icons">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="<?php echo url('/') ?>/images/social/facebook.png" style="height: 50px; width: 50px" alt="Facebook" />
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="<?php echo url('/') ?>/images/social/instagram.png" style="height: 50px; width: 50px" alt="Instagram" />
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="<?php echo url('/') ?>/images/social/youtube.png" style="height: 50px; width: 50px" alt="youtube" />
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="<?php echo url('/') ?>/images/social/whatcapp.png" style="height: 50px; width: 50px" alt="Whatsapp" />
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="<?php echo url('/') ?>/images/social/viber.png" style="height: 50px; width: 50px" alt="Viber" />
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-
-                                        </figure>
-                                    </li>
+        <!-- =============== START CONTACT ================ -->
+        <section class="footerWide contactSingle padding background-properties" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="contactTop">
+                            <h2>Contact Information</h2>
+                            <h3>CLUB SQUARE</h3>
+                            <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
+                            <!--<p></p>-->                           
+                            <div class="contactInfo">
+                                <h4> Working hours </h4>
+                                <ul>
+                                    <li>Thursday 23:30 - 05h </li>
+                                    <li>Friday 23:30 - 05h </li>
+                                    <li>Saturday 23:30 - 05h </li>
+                                    <li>Sunday 23:30 - 05h </li>                                               
                                 </ul>
-                            </nav>
+                            </div>                            
+                            <div class="contactInfo">
+                                <h4> Contact information </h4>
+                                <ul>
+                                    <li>Email: <a href="mailto:office@squareclubbelgrade.com">office@squareclubbelgrade.com</a></li>
+                                    <li>Phone: +381 69 20 10 110</li>
+                                    <li>SMS, WhatsApp and Viber</li>
+                                </ul>
+                            </div>                           
                         </div>
                     </div>
+                    <div class="col-sm-7 col-sm-offset-1">                        
+                        <div class="singleBlogForm">
+                            <h2>We are on Facebook, follow us!</h2>
+                            <div class="fb-page" data-href="https://www.facebook.com/SquareClubBelgrade" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/SquareClubBelgrade" class="fb-xfbml-parse-ignore">
+                                    <a href="https://www.facebook.com/SquareClubBelgrade">Square Club Belgrade</a>
+                                </blockquote>
+                            </div>
+                            <h2 id="instagram" >We are on Instagram, follow us!</h2>
+                            <!-- SnapWidget -->
+                            <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                            <iframe src="https://snapwidget.com/embed/300859" class="snapwidget-widget" allowTransparency="true" 
+                                    frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; ">
+                            </iframe>
+                        </div>                       
+                    </div>                    
                 </div>
-            </div>
+            </div>           
         </section>
-        -->
-        <!-- =============== END EVENTS SECTION ================ -->
+        <!-- =============== END CONTACT ================ -->
         <!-- =============== START FOOTER ================ -->
         <section style="background-color:#eeeeee;" class="hide-section">
             <div class="footer footerPadding">
@@ -301,7 +275,7 @@
                         <div class="col-sm-4">
                             <div class="goTop back-to-top" id="back-to-top">
                                 <i class="fa fa-angle-up"></i>
-                                <a href="#">Go Top</a>
+                                <a href="#top">Go Top</a>
                             </div>
                         </div>
                     </div>
