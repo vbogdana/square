@@ -327,16 +327,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        01/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                01/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -353,16 +353,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        02/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                02/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "02122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -379,16 +379,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        03/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                03/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "03122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -405,16 +405,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        04/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                04/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "04122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -457,16 +457,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        08/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                08/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "08122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -483,16 +483,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        09/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                09/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -509,16 +509,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        10/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                10/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "10122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -535,16 +535,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        25/11/2016
+                                        11/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                25/11/2016
+                                                11/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "ddmmyyyy"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>                                    

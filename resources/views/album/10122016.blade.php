@@ -12,7 +12,7 @@
         <div class="col-sm-12">
             <div class="before-FullscreenSlider"></div>
             <div class="breadcrumb-fullscreen-parent phone-menu-bg">
-                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('../images/NEXTEVENT.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('../images/albums/album_10122016/cover-wide.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
                     <div class="breadTxt breadSingle">
                         <h2>Gallery <span>Example</span></h2>
                         <p>6 March, 2015</p>
@@ -48,9 +48,9 @@
                                     <figcaption>
                                         <!-- Single Album Image -->
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/wideGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/wide/SQUARE Club Belgrade 09 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 07 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -65,9 +65,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/square/SQUARE Club Belgrade 03 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 03 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -80,9 +80,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/square/SQUARE Club Belgrade 05 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 05 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -95,9 +95,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/square/SQUARE Club Belgrade 06 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 06 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -110,9 +110,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/square/SQUARE Club Belgrade 08 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 08 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -125,9 +125,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/wideGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/wide/SQUARE Club Belgrade 09 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 09 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -141,9 +141,9 @@
                                     <figcaption>
                                         <!-- Single Album Image -->
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/wideGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/wide/SQUARE Club Belgrade 10 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 10 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -158,9 +158,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/square/SQUARE Club Belgrade 11 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 11 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
@@ -173,9 +173,9 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="assets/img/gallery/squareGal.png" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_10122016/square/SQUARE Club Belgrade 12 - www.squareclubbelgrade.com +381692010110.jpg" alt="">
                                             <div class="overlay">
-                                                <a class="info lightbox" href="assets/img/gallery/wideGal.png"></a>
+                                                <a class="info lightbox" href="<?php echo url("") ?>/images/albums/album_10122016/SQUARE Club Belgrade 12 - www.squareclubbelgrade.com +381692010110.jpg"></a>
                                             </div>
                                         </div>
                                     </figcaption>
