@@ -185,7 +185,7 @@
                 <p>
                     Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Opened in October 2016 in the heart of Belgrade, this night club is certainly an unavoidable place to go for all the fans of RnB & House sound or Live music ... 
                     Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects.
-                    </p>
+                </p>
             </div>
             <div class="col-sm-6">
                 <p>
