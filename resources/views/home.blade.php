@@ -551,7 +551,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1.PNG" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div><!-- END ALBUM ICON -->
@@ -564,7 +564,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon1">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2.PNG" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -575,7 +575,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon2">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3.PNG" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -586,7 +586,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon3">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.PNG" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -618,11 +618,11 @@
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
-                                <li><a href="#">08 dec 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">16 dec 2016</a>&nbsp;&nbsp;</li>
                             </ul>
                         </div><!-- end admin-list -->
                         <div class="blogParagraph">
-                            <p>Proslog petka,klub skver je bio najposeceniji klub u Beogradu, a neki podaci govore da je bio i najposeceniji na celom Balkanu.</p>
+                            <p>Soon...</p>
                         </div><!--end blogParagraph  -->
                         <div class="rmButton">
                             <a href="#">Read More</a>
@@ -639,11 +639,11 @@
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
-                                <li><a href="#">28 apr 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">28 NOV 2016</a>&nbsp;&nbsp;</li>
                             </ul>
                         </div><!-- end admin-list -->
                         <div class="blogParagraph">
-                            <p>Poznata srpska pevacica i starleta gostovala je proteklog petka u Klubu Square, a ekskluzivno za citaoce naseg bloga je izjavila...</p>
+                            <p>Soon...</p>
                         </div><!--end blogParagraph  -->
                         <div class="rmButton">
                             <a href="#">Read More</a>
@@ -656,15 +656,15 @@
                     <div class="soundcloudBox"><iframe height="203" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120185136&amp;color=bb9b69&amp;show_artwork=false&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
-                            <h1><a href="#">Our DJ Prema published a new track</a></h1>
+                            <h1><a href="#">DJ Prema published a new track</a></h1>
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
-                                <li><a href="#">08 dec 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">03 NOV 2016</a>&nbsp;&nbsp;</li>
                             </ul>
                         </div><!-- end admin-list -->
                         <div class="blogParagraph">
-                            <p>Nas DJ Prema izbacio je novi mix, mozete ga poslusati na sledecem linku.</p>
+                            <p>Soon...</p>
                         </div><!--end blogParagraph  -->
                         <div class="rmButton">
                             <a href="#">Read More</a>
