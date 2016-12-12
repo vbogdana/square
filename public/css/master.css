@@ -34,6 +34,9 @@
     font-family: codeLight;
     src: url(../fonts/codeLight.otf);
 }
+.footerWide.padding {
+   padding: 8rem 0 !important; 
+}
 .padding {
     padding: 18rem 0;
 }
@@ -10898,6 +10901,12 @@ body {
     font-family: 'Michroma', sans-serif;
     color: #eee;
 }
+.footerWide.contactSingle .singleBlogForm a:hover {
+    text-decoration: none;
+}
+.footerWide.contactSingle .singleBlogForm a:hover h2 {
+    color: #888;
+}
 .footerWide.contactSingle .singleBlogForm h2 {
     padding-bottom: 3rem;
 }
@@ -11507,6 +11516,9 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     .before-FullscreenSlider {
         height: 0 !important;
     }
+    .footerWide.padding {
+        padding: 5rem 0 !important; 
+     }
     .padding {
         padding: 12rem 0!important;
     }
@@ -16656,7 +16668,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 #ourDJ {
     background-color: rgba(245, 245, 245, 0.5); 
 }
-#contact {
+#onlineReservation {
     background: transparent;
 }
 
@@ -16685,6 +16697,10 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 #instagram {
     margin-top: 4rem;
+}
+
+#interior {
+    border: 7px solid #eee;
 }
 
 /*glow for webkit*/

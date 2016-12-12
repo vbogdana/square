@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 })->name("/");
 
-Route::get('/album/{album_name}', function ($album_name) {
+Route::get('/album/Club-Square-Belgrade-{album_name}', function ($album_name) {
     return view('/album/'.$album_name);
 })->name("album");
 

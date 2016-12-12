@@ -54,8 +54,8 @@
                 <li><a href="#photos">photo gallery</a></li>
                 <li><a href="#ourDJ">our djs</a></li>
                 <li><a href="#news">news from the club</a></li>
-                <li><a href="#contact">contact</a></li>
                 <li><a href="#location">location</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
             <div class="x-filter">
                 <span></span>
@@ -80,7 +80,7 @@
                     <nav class="shop-products">
                         <ul class="clearfix">
                             <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "11122016"]) }}" class="info">
+                                <figure><a href="{{ route("album", ["album" => "08122016"]) }}" class="info">
                                     <figcaption>
                                         <img src="<?php echo url("") ?>/images/events/thursday.jpg" alt="">
                                     </figcaption>
@@ -102,18 +102,18 @@
                                 </figure>
                             </li>
                             <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "11122016"]) }}" class="info">
+                                <figure><a href="{{ route("album", ["album" => "09122016"]) }}" class="info">
                                     <figcaption>
                                         <img src="<?php echo url("") ?>/images/events/friday.jpg" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                Make some Love
+                                                Live Music Hits
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> FRIDAY </div>
-                                            <div class="evSubtitle">ME - HIGH - LOW</div>
+                                            <div class="evSubtitle">Scandal Band</div>
                                             <div class="dateOfParty"> 
                                                 <div  class="evTitle"> next </div>
                                                 16/12/2016 
@@ -124,7 +124,7 @@
                                 </figure>
                             </li>
                             <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "11122016"]) }}" class="info">
+                                <figure><a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
                                     <figcaption>
                                         <img src="<?php echo url("") ?>/images/events/saturday.jpg" alt="">
                                     </figcaption>
@@ -153,7 +153,7 @@
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                Total RNB
+                                                Total RNB Night
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evTitle"> SUNDAY  </div>
@@ -167,9 +167,9 @@
                                 </a></figure>
                             </li>
                         </ul>
-                    </nav><!-- end shop-products -->
-                </div><!-- end row -->
-            </div><!-- end shopContent -->
+                    </nav>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -182,7 +182,7 @@
             <span class="heading-t3"></span>
             <h2><a href="#">About Us</a></h2>
             <span class="heading-b3"></span>
-        </div><!-- end sectionTtile -->
+        </div>
         <div class="row">
             <div class="col-sm-6">
                 <p>
@@ -202,7 +202,7 @@
                 </div>
             </div>
         </div>
-    </div><!-- end container -->
+    </div>
 </section>
 <!-- =============== END BIOGRAPHY SECTION ================ -->
 
@@ -261,16 +261,16 @@
                 <h2><a href="#">VIDEO GALLERY</a></h2>
                 <span class="heading-b3"></span>
                 <p>Check out our latest videos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
-            </div><!-- end sectionTtile -->
+            </div>
             <div class="col-sm-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRjdddZosEU"  allowfullscreen></iframe>
-            </div><!-- end col-sm-4 -->
+            </div>
             <div class="col-sm-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/MptSRokgwhg"  allowfullscreen></iframe>
-            </div><!-- end col-sm-4 -->
+            </div>
             <div class="col-sm-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ve1z3DgApB8"  allowfullscreen></iframe>
-            </div><!-- end col-sm-4 -->
+            </div>
         </div>
     </div>
 </section>
@@ -286,16 +286,13 @@
                 <span class="heading-b3"></span>
                 <p>Check out our latest photos and follow us on <a href="https://www.facebook.com/SquareClubBelgrade">Facebook</a> 
                     or <a href="https://www.instagram.com/square_club_belgrade/">Instagram</a> to view more.</p>
-            </div><!-- end sectionTtile -->
+            </div>
             <div class="col-sm-12">
-                <!-- Content Container -->
                 <div class="content-container clearfix">
-                    <!-- Single Album Container -->
                     <div class="single-photo-album-container">
                         <div class="row">
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -304,16 +301,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        01/12/2016
+                                        11/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                01/12/2016
+                                                11/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -321,7 +318,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -330,16 +326,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        02/12/2016
+                                        10/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                02/12/2016
+                                                10/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "02122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "10122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -347,7 +343,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -356,16 +351,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        03/12/2016
+                                        09/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                03/12/2016
+                                                09/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "03122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -373,7 +368,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -382,16 +376,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        04/12/2016
+                                        08/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                04/12/2016
+                                                08/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "04122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "08122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -399,11 +393,10 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
-                                        <div class="hovereffect">
+                                        <div class="hovereffect" id="interior">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
@@ -425,7 +418,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -434,16 +426,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        08/12/2016
+                                        04/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                08/12/2016
+                                                04/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "08122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "04122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -451,7 +443,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -460,16 +451,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        09/12/2016
+                                        03/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                09/12/2016
+                                                03/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "03122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -477,7 +468,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -486,16 +476,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        10/12/2016
+                                        02/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                10/12/2016
+                                                02/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "10122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "02122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -503,7 +493,6 @@
                             </article>
                             <!-- Single Album Article -->
                             <article class="col-sm-4">
-                                <!-- Single Album Contant Container -->
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
@@ -512,16 +501,16 @@
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
-                                        11/12/2016
+                                        01/12/2016
                                     </div>
                                     <div class="content">
                                         <div class="eventHover">
                                             <div class="event">
-                                                11/12/2016
+                                                01/12/2016
                                             </div>
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> view album </a>
+                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>                                    
@@ -532,10 +521,9 @@
                 </div>
             </div>
         </div>
-    </div><!-- end container -->
+    </div>
 </section>
 <!-- =============== END GALLERY SECTION ================ -->
-
 
 <!-- =============== START ALBUM COVER SECTION ================ -->
 <section id="ourDJ" class="padding albumsHome hide-section background-properties">
@@ -546,60 +534,62 @@
                     <span class="heading-t3"></span>
                     <h2><a href="#">OUR DJs</a></h2>
                     <span class="heading-b3"></span>
-                </div><!-- end sectionTtile -->
-            </div><!-- end col-sm-12 -->
+                </div>
+            </div>
         </div>
         <div class="list-albums">
             <ul class="list-feature col-md-12 col-xs-12 col-sm-12">
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
-                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj1cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
-                    </div><!-- END ALBUM ICON -->
+                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj1cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
+                    </div>
                     <div class="name">
                         <h3>DJ Alex Tic</h3>						
                         <p>NINETIES</p>								
-                    </div><!-- end name -->
+                    </div>
                 </li>
-
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon1">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
-                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj2cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
+                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj2cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
                     <div class="name">
-                        <h3>DJ ME-HIGH-LOW</h3>									<p>House</p>								
+                        <h3>Scandal Band</h3>
+                        <p>Pop Rock</p>								
                     </div>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon2">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
-                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj3cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
+                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj3cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
                     <div class="name">
-                        <h3> DJ Colle & Mark Funk</h3>								<p>House</p>								
+                        <h3> DJ Colle & Mark Funk</h3>
+                        <p>Mix R'n'B & House</p>								
                     </div>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon3">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
                         </span>
-                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/dj4cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
+                        <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj4cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
                     <div class="name">
-                        <h3>DJ Prema</h3>								<p>RNB</p>								
+                        <h3>DJ Prema</h3>
+                        <p>R'n'B</p>								
                     </div>
                 </li>	
             </ul>
-        </div><!-- end list-albums -->
-    </div><!-- end container -->
+        </div>
+    </div>
 </section>
 <!-- =============== END ALBUM COVER SECTION ================ -->
 
@@ -611,7 +601,7 @@
                 <span class="heading-t3"></span>
                 <h2><a href="">News from the Club</a></h2>
                 <span class="heading-b3"></span>
-            </div><!-- end sectionTtile -->
+            </div>
             <div class="col-sm-4">
                 <div class="blogBox">	
                     <div class="imgBox"><img src="<?php echo url("") ?>/images/events/next_event.jpg" alt="box-img"></div>
@@ -621,18 +611,18 @@
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
-                                <li><a href="#">08 dec 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">12 Dec 2016</a>&nbsp;&nbsp;</li>
                             </ul>
-                        </div><!-- end admin-list -->
+                        </div>
                         <div class="blogParagraph">
-                            <p>Proslog petka,klub skver je bio najposeceniji klub u Beogradu, a neki podaci govore da je bio i najposeceniji na celom Balkanu.</p>
-                        </div><!--end blogParagraph  -->
+                            <p> Soon... </p>
+                        </div>
                         <div class="rmButton">
                             <a href="#">Read More</a>
                         </div>			
-                    </div><!-- end blogBoxContent -->
-                </div><!-- end blogBox -->
-            </div><!-- end col-sm-4 -->	
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-4">
                 <div class="blogBox">	
                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/MptSRokgwhg" width="600" height="410"  ></iframe></div>
@@ -642,18 +632,18 @@
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
-                                <li><a href="#">28 apr 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">28 Nov 2016</a>&nbsp;&nbsp;</li>
                             </ul>
-                        </div><!-- end admin-list -->
+                        </div>
                         <div class="blogParagraph">
-                            <p>Poznata srpska pevacica i starleta gostovala je proteklog petka u Klubu Square, a ekskluzivno za citaoce naseg bloga je izjavila...</p>
-                        </div><!--end blogParagraph  -->
+                            <p> Soon... </p>
+                        </div>
                         <div class="rmButton">
                             <a href="#">Read More</a>
                         </div>			
-                    </div><!-- end blogBoxContent -->
-                </div><!-- end blogBox -->
-            </div><!-- end col-sm-4 -->	
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-4">
                 <div class="blogBox">	
                     <div class="soundcloudBox"><iframe height="203" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120185136&amp;color=bb9b69&amp;show_artwork=false&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe></div>
@@ -663,20 +653,20 @@
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
-                                <li><a href="#">08 dec 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">03 Nov 2016</a>&nbsp;&nbsp;</li>
                             </ul>
-                        </div><!-- end admin-list -->
+                        </div>
                         <div class="blogParagraph">
-                            <p>Nas DJ Prema izbacio je novi mix, mozete ga poslusati na sledecem linku.</p>
-                        </div><!--end blogParagraph  -->
+                            <p> Soon... </p>
+                        </div>
                         <div class="rmButton">
                             <a href="#">Read More</a>
                         </div>			
-                    </div><!-- end blogBoxContent -->
-                </div><!-- end blogBox -->
-            </div><!-- end col-sm-4 -->	
-        </div><!-- end container -->	
-    </div><!-- end row -->	
+                    </div>
+                </div>
+            </div>
+        </div>	
+    </div>	
 </section>
 <!-- =============== END HOME-NLOG SECTION ================ -->	
 

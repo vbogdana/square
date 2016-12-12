@@ -25,7 +25,11 @@ class ContactController extends Controller
             $message->subject('Website Reservation Club Square');
         });
         
-        echo "Uspesna rezervacija";
+        if( count(Mail::failures()) > 0 ) {
+            return view('success', ['success' => "We are very sorry, but Your reservation wasn't successful!"]);
+        } else {
+            return view('success', ['success' => 'Your reservation was successful!']); 
+        }
 
     }
 }
