@@ -28,7 +28,7 @@
                         </div>
                         <h4>Belgrade,STUDENTSKI TRG 15</h4>
                     </div>
-                    <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/VRjdddZosEU',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
+                    <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/yU7u0x6LA3Q',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
                 </div>
             </div>
         </div>

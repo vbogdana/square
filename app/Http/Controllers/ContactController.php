@@ -17,41 +17,21 @@ class ContactController extends Controller
            'day' => $request->input('day'),
            'content' => $request->input('content')
         ];
-        
-        /*
-        Mail::send('emails.reservation', $data, function ($message)
-        {
-            $message->to('beba_sadalla@yahoo.co.uk');
-            $message->subject('Website Reservation Club Square');
-        });
-         */
-        Mail::send('emails.reservation', $data, function ($message)
-        {
-            $message->to('topbelgrade@gmail.com');
-            $message->subject('Website Reservation Club Square');
-        });
 
         /*
-        $emails = ['bogdana.veselinovic@yahoo.com', 'bogdana.veselinovic@yahoo.com'];
+        $emails = ['topbelgrade@gmail.com', 'beba_sadalla@yahoo.co.uk'];
         Mail::send('emails.reservation', $data, function ($message) use ($emails)
         {
             $message->to($emails);
             $message->subject('Website Reservation Club Square');
         });
         */
-        /*
+        
         Mail::send('emails.reservation', $data, function ($message)
         {
-            $message->to('bveselinovic555@gmail.com');
-            $message->subject('Website Reservation Club Square');
+            $message->to('topbelgrade@gmail.com')->subject('Website Reservation Club Square');
+            $message->to('beba_sadalla@yahoo.co.uk')->subject('Website Reservation Club Square');
         });
-         
-        Mail::send('emails.reservation', $data, function ($message)
-        {
-            $message->to('bogdana.veselinovic@yahoo.com')->subject('Website Reservation Club Square');
-            $message->to('bveselinovic555@gmail.com')->subject('Website Reservation Club Square');
-        });
-         */
         
         if( count(Mail::failures()) > 0 ) {
             return view('result', ['result' => "fail"]);
