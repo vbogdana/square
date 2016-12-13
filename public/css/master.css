@@ -10703,23 +10703,24 @@ body {
 .videoHome, .photoHome {
     text-align: center;
 }
-.videoHome .sectionTitle p, .photoHome .sectionTitle p {
+.sectionTitle p {
     font-family: 'Jura', sans-serif;
     font-size: 1.8rem;
     color: #444;
-    font-weight: 400;
+    font-weight: 600;
     padding: 5.5rem 2rem;
     margin-bottom: 0!important;
 }
-.videoHome .sectionTitle p a, .photoHome .sectionTitle p a {
+.sectionTitle p a {
     font-family: 'Jura', sans-serif;
     font-size: 1.8rem;
     color: #888888;
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.videoHome .sectionTitle p a:hover, .photoHome .sectionTitle p a:hover {
+.sectionTitle p a:hover {
     color: #000; 
 }
 /***********************************************************************************************/
@@ -10992,6 +10993,12 @@ body {
 .footerWide .contactTop .contactInfo h4 {
     padding-bottom: 1.5rem;
 }
+.onlineReservation .contactTop a {
+    text-decoration: none;
+}
+.onlineReservation .contactTop a:hover h4 {
+    color: #888;
+}
 
 .contactTop .contactInfo ul {
     list-style: none;
@@ -11018,7 +11025,7 @@ body {
     font-size: 1.5rem;
     position: absolute;
     left: 0;
-    padding-left: 5rem;
+    padding-left: 6rem;
 }
 /***********************************************************************************************/
 /* END CONTACT */
@@ -11419,8 +11426,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 /***********************************************************************************************/
 .biography p {
     color: #000;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.7rem;
     line-height: 2.8rem;
     font-family: 'Jura', sans-serif;
     line-height: 2;
@@ -11537,7 +11544,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     .albumsHome .name {
         margin-top: -2rem;
     }
-    .videoHome .sectionTitle p, .photoHome .sectionTitle p {
+    .sectionTitle p {
         padding-bottom: 4.5rem!important;
     }
     .ticket {
@@ -11592,7 +11599,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     .sectionTitle .heading-b3 {
         top: 1.2rem!important;
     }
-    .videoHome .sectionTitle p, .photoHome .sectionTitle p {
+    .sectionTitle p {
         font-size: 1.5rem;
     }
     .countdownTitle {
@@ -14561,7 +14568,7 @@ body ul {
 }
 .sectionTitle p {
     font-family: 'Jura', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.8rem;
     color: #444;
     text-transform: initial;
@@ -14574,6 +14581,7 @@ body ul {
     font-size: 1.8rem;
     color: #888888;
     text-transform: initial;
+    cursor: pointer;
 }
 .sectionTitle p a:hover {
     text-decoration: none;
@@ -16700,7 +16708,11 @@ body.opacityPlaylist .main-music-player .mesh-title {
 }
 
 #interior {
-    border: 7px solid #eee;
+    //border: 7px solid #eee;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
 }
 
 /*glow for webkit*/

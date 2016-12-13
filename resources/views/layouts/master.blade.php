@@ -138,10 +138,10 @@
                                                 <option value="Pult">Bar (without conditions)</option>
                                             </select> 
                                             <select id="day" name="day" aria-required="true" required="">
-                                                <option value="Cetvrtak 9.12.2016.">Thursday | 15.12.2016. | The Nineties</option>
-                                                <option value="Petak 10.12.2016.">Friday | 16.12.2016. | Make Some Love</option>
-                                                <option value="Subota 11.12.2016.">Saturday | 17.12.2016. | Blood & Mode</option>
-                                                <option value="Nedelja 12.12.2016." selected="true">Sunday | 18.12.2016. | Total RnB</option>
+                                                <option value="Cetvrtak 15.12.2016.">Thursday | 15.12.2016. | The Nineties</option>
+                                                <option value="Petak 16.12.2016.">Friday | 16.12.2016. | Make Some Love</option>
+                                                <option value="Subota 17.12.2016.">Saturday | 17.12.2016. | Blood & Mode</option>
+                                                <option value="Nedelja 18.12.2016." selected="true">Sunday | 18.12.2016. | Total RnB</option>
                                             </select>                                             
                                             <textarea id="content" name="content" placeholder="Message..." rows="4"></textarea>
                                             <p class="form-submit">
@@ -155,10 +155,13 @@
                                 <div class="col-sm-4 col-sm-offset-1">
                                     <div class="contactTop">
                                         <h3>Club Square</h3>
-                                        <h4>
-                                            +381 69 20 10 110<br />
-                                            SMS, WhatsApp and Viber
-                                        </h4>
+                                        <a href="tel:+381692010110">
+                                            <h4>
+                                                +381 69 20 10 110
+                                                <br />
+                                                SMS, WhatsApp and Viber
+                                            </h4>
+                                        </a>
                                         <p>
                                             Reservations are required!
                                             Reservations are valid until 00:30h.
@@ -224,7 +227,7 @@
                                 <h4> Contact information </h4>
                                 <ul>
                                     <li>Email: <a href="mailto:office@squareclubbelgrade.com">office@squareclubbelgrade.com</a></li>
-                                    <li>Phone: +381 69 20 10 110</li>
+                                    <li>Phone: <a href="tel:+381692010110">+381 69 20 10 110</a></li>
                                     <li>SMS, WhatsApp and Viber</li>
                                 </ul>
                             </div>                           
@@ -262,7 +265,7 @@
                         <div class="col-sm-4">
                             <div class="copyFooter">
                                 Design by
-                                <a href="code581.rs">&copy; 2016  code 581 </a>
+                                <a href="www.code581.rs">&copy; 2016  code 581 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">

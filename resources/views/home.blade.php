@@ -252,29 +252,83 @@
 -->
 <!-- =============== END EVENTS SECTION-2 ================ -->
 
-<!-- =============== START VIDEO SECTION ================ -->
-<section id="videos" class="videoHome hide-section padding">
+<!-- =============== START HOME-BLOG SECTION ================ -->	
+<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">	
     <div class="container">
         <div class="row">
             <div class="sectionTitle">
                 <span class="heading-t3"></span>
-                <h2><a href="#">VIDEO GALLERY</a></h2>
+                <h2><a href="">News from the Club</a></h2>
                 <span class="heading-b3"></span>
-                <p>Check out our latest videos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
+                <p>Here You will soon be able to read the latest news from our <a>blog.</a> </p>
             </div>
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VRjdddZosEU"  allowfullscreen></iframe>
+                <div class="blogBox">	
+                    <div class="imgBox"><img src="<?php echo url("") ?>/images/events/next_event.jpg" alt="box-img"></div>
+                    <div class="blogBoxContent">
+                        <div class="blogHeader">
+                            <h1><a href="#">Last Friday in Square</a></h1>
+                        </div>
+                        <div class="admin-list clearfix">
+                            <ul>
+                                <li><a href="#">12 Dec 2016</a>&nbsp;&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div class="blogParagraph">
+                            <p> Soon... </p>
+                        </div>
+                        <div class="rmButton">
+                            <a href="#">Read More</a>
+                        </div>			
+                    </div>
+                </div>
             </div>
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MptSRokgwhg"  allowfullscreen></iframe>
+                <div class="blogBox">	
+                    <div class="videoBox"><iframe src="https://www.youtube.com/embed/MptSRokgwhg" width="600" height="410"  ></iframe></div>
+                    <div class="blogBoxContent">
+                        <div class="blogHeader">
+                            <h1><a href="#">Tamara Djuric in Square</a></h1>
+                        </div>
+                        <div class="admin-list clearfix">
+                            <ul>
+                                <li><a href="#">28 Nov 2016</a>&nbsp;&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div class="blogParagraph">
+                            <p> Soon... </p>
+                        </div>
+                        <div class="rmButton">
+                            <a href="#">Read More</a>
+                        </div>			
+                    </div>
+                </div>
             </div>
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ve1z3DgApB8"  allowfullscreen></iframe>
+                <div class="blogBox">	
+                    <div class="soundcloudBox"><iframe height="203" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120185136&amp;color=bb9b69&amp;show_artwork=false&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe></div>
+                    <div class="blogBoxContent">
+                        <div class="blogHeader">
+                            <h1><a href="#">Our DJ Prema published a new track</a></h1>
+                        </div>
+                        <div class="admin-list clearfix">
+                            <ul>
+                                <li><a href="#">03 Nov 2016</a>&nbsp;&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div class="blogParagraph">
+                            <p> Soon... </p>
+                        </div>
+                        <div class="rmButton">
+                            <a href="#">Read More</a>
+                        </div>			
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+        </div>	
+    </div>	
 </section>
-<!-- =============== END VIDEO SECTION ================ -->
+<!-- =============== END HOME-NLOG SECTION ================ -->
 
 <!-- =============== START GALLERY SECTION ================ -->
 <section id="photos" class="photoHome padding gallerySection" id="content">
@@ -396,14 +450,11 @@
                                 <figure>
                                     <!-- Single Album Image -->
                                     <figcaption>
-                                        <div class="hovereffect" id="interior">
+                                        <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
-                                    <div class="album-title">
-                                        interior
-                                    </div>
-                                    <div class="content">
+                                    <div class="content" id="interior">
                                         <div class="eventHover">
                                             <div class="event">
                                                 interior
@@ -525,6 +576,30 @@
 </section>
 <!-- =============== END GALLERY SECTION ================ -->
 
+<!-- =============== START VIDEO SECTION ================ -->
+<section id="videos" class="videoHome hide-section padding">
+    <div class="container">
+        <div class="row">
+            <div class="sectionTitle">
+                <span class="heading-t3"></span>
+                <h2><a href="#">VIDEO GALLERY</a></h2>
+                <span class="heading-b3"></span>
+                <p>Check out our latest videos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
+            </div>
+            <div class="col-sm-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VRjdddZosEU"  allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MptSRokgwhg"  allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ve1z3DgApB8"  allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =============== END VIDEO SECTION ================ -->
+
 <!-- =============== START ALBUM COVER SECTION ================ -->
 <section id="ourDJ" class="padding albumsHome hide-section background-properties">
     <div class="container">
@@ -592,83 +667,6 @@
     </div>
 </section>
 <!-- =============== END ALBUM COVER SECTION ================ -->
-
-<!-- =============== START HOME-BLOG SECTION ================ -->	
-<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">	
-    <div class="container">
-        <div class="row">
-            <div class="sectionTitle paddingBottom">
-                <span class="heading-t3"></span>
-                <h2><a href="">News from the Club</a></h2>
-                <span class="heading-b3"></span>
-            </div>
-            <div class="col-sm-4">
-                <div class="blogBox">	
-                    <div class="imgBox"><img src="<?php echo url("") ?>/images/events/next_event.jpg" alt="box-img"></div>
-                    <div class="blogBoxContent">
-                        <div class="blogHeader">
-                            <h1><a href="#">Last Friday in Square</a></h1>
-                        </div>
-                        <div class="admin-list clearfix">
-                            <ul>
-                                <li><a href="#">12 Dec 2016</a>&nbsp;&nbsp;</li>
-                            </ul>
-                        </div>
-                        <div class="blogParagraph">
-                            <p> Soon... </p>
-                        </div>
-                        <div class="rmButton">
-                            <a href="#">Read More</a>
-                        </div>			
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="blogBox">	
-                    <div class="videoBox"><iframe src="https://www.youtube.com/embed/MptSRokgwhg" width="600" height="410"  ></iframe></div>
-                    <div class="blogBoxContent">
-                        <div class="blogHeader">
-                            <h1><a href="#">Tamara Djuric in Square</a></h1>
-                        </div>
-                        <div class="admin-list clearfix">
-                            <ul>
-                                <li><a href="#">28 Nov 2016</a>&nbsp;&nbsp;</li>
-                            </ul>
-                        </div>
-                        <div class="blogParagraph">
-                            <p> Soon... </p>
-                        </div>
-                        <div class="rmButton">
-                            <a href="#">Read More</a>
-                        </div>			
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="blogBox">	
-                    <div class="soundcloudBox"><iframe height="203" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120185136&amp;color=bb9b69&amp;show_artwork=false&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe></div>
-                    <div class="blogBoxContent">
-                        <div class="blogHeader">
-                            <h1><a href="#">Our DJ Prema published a new track</a></h1>
-                        </div>
-                        <div class="admin-list clearfix">
-                            <ul>
-                                <li><a href="#">03 Nov 2016</a>&nbsp;&nbsp;</li>
-                            </ul>
-                        </div>
-                        <div class="blogParagraph">
-                            <p> Soon... </p>
-                        </div>
-                        <div class="rmButton">
-                            <a href="#">Read More</a>
-                        </div>			
-                    </div>
-                </div>
-            </div>
-        </div>	
-    </div>	
-</section>
-<!-- =============== END HOME-NLOG SECTION ================ -->	
 
 <!-- =============== START MAP ================ -->
 <section id="location" class="googleMap">
