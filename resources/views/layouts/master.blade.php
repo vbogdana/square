@@ -89,11 +89,11 @@
                     <ul>
                         <li><a href="{{ route("/") }}#home">home</a></li>
                         <li><a href="{{ route("/") }}#events">events</a></li>
-                        <li><a href="{{ route("/") }}#aboutUs">about us</a></li>                       
-                        <li><a href="{{ route("/") }}#videos">video gallery</a></li>
-                        <li><a href="{{ route("/") }}#photos">photo gallery</a></li>
-                        <li><a href="{{ route("/") }}#ourDJ">our djs</a></li>
+                        <li><a href="{{ route("/") }}#aboutUs">about us</a></li>
                         <li><a href="{{ route("/") }}#news">news from the club</a></li>
+                        <li><a href="{{ route("/") }}#photos">photo gallery</a></li>                       
+                        <li><a href="{{ route("/") }}#videos">video gallery</a></li>
+                        <li><a href="{{ route("/") }}#ourDJ">our djs</a></li>
                         <li><a href="{{ route("/") }}#location">location</a></li>
                         <li><a href="#contact">contact</a></li>
                     </ul>
@@ -265,7 +265,7 @@
                         <div class="col-sm-4">
                             <div class="copyFooter">
                                 Design by
-                                <a href="www.code581.rs">&copy; 2016  code 581 </a>
+                                <a href="http://www.code581.rs">&copy; 2016  code 581 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">

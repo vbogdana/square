@@ -26,3 +26,8 @@ Route::get('/online-reservation/{result}', function ($result) {
  */
 
 Route::post('/reserve', 'ContactController@reserve');
+/*
+Route::get('/blog', function () {
+    return view('all-blogs');
+})->name("/blog");
+ */

@@ -50,10 +50,10 @@
                 <li><a href="#home">home</a></li>
                 <li><a href="#events">events</a></li>
                 <li><a href="#aboutUs">about us</a></li>
-                <li><a href="#videos">video gallery</a></li>
-                <li><a href="#photos">photo gallery</a></li>
-                <li><a href="#ourDJ">our djs</a></li>
                 <li><a href="#news">news from the club</a></li>
+                <li><a href="#photos">photo gallery</a></li>
+                <li><a href="#videos">video gallery</a></li>
+                <li><a href="#ourDJ">our djs</a></li>
                 <li><a href="#location">location</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
