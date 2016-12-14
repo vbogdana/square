@@ -104,7 +104,7 @@
                             <li class="col-sm-3">
                                 <figure><a href="{{ route("album", ["album" => "09122016"]) }}" class="info">
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/friday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/friday.png" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="eventHover">
@@ -126,7 +126,7 @@
                             <li class="col-sm-3">
                                 <figure><a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/saturday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/saturday.png" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="eventHover">
@@ -148,7 +148,7 @@
                             <li class="col-sm-3">
                                 <figure><a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/sunday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/sunday.png" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="eventHover">
@@ -285,10 +285,10 @@
             </div>
             <div class="col-sm-4">
                 <div class="blogBox">	
-                    <div class="videoBox"><iframe src="https://www.youtube.com/embed/MptSRokgwhg" width="600" height="410"  ></iframe></div>
+                    <div class="videoBox"><iframe src="https://www.youtube.com/embed/H7YawBjDNzo" width="600" height="410"  ></iframe></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
-                            <h1><a href="#">Tamara Djuric in Square</a></h1>
+                            <h1><a href="#">The Square club is open!</a></h1>
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
@@ -306,10 +306,10 @@
             </div>
             <div class="col-sm-4">
                 <div class="blogBox">	
-                    <div class="soundcloudBox"><iframe height="203" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120185136&amp;color=bb9b69&amp;show_artwork=false&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe></div>
+                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/yU7u0x6LA3Q" width="600" height="410"  ></iframe></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
-                            <h1><a href="#">Our DJ Prema published a new track</a></h1>
+                            <h1><a href="#">Total RNB night in Square club</a></h1>
                         </div>
                         <div class="admin-list clearfix">
                             <ul>
