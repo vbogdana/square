@@ -10338,7 +10338,7 @@ body {
     width: 193px;
     height: 194px;
     float: left;
-    background: url(../img/content/disk.png) no-repeat center center;
+    //background: url(../img/content/disk.png) no-repeat center center;
     z-index: 9;
 }
 .list-albums .list-feature li .albumIcon1 .disk {
@@ -10350,7 +10350,7 @@ body {
     width: 193px;
     height: 194px;
     float: left;
-    background: url(../img/content/disk2.png) no-repeat center center;
+    //background: url(../img/content/disk2.png) no-repeat center center;
     z-index: 9;
 }
 .list-albums .list-feature li .albumIcon2 .disk {
@@ -10362,7 +10362,7 @@ body {
     width: 193px;
     height: 194px;
     float: left;
-    background: url(../img/content/disk1.png) no-repeat center center;
+    //background: url(../img/content/disk1.png) no-repeat center center;
     z-index: 9;
 }
 .list-albums .list-feature li .albumIcon3 .disk {
@@ -10374,7 +10374,7 @@ body {
     width: 193px;
     height: 194px;
     float: left;
-    background: url(../img/content/disk3.png) no-repeat center center;
+    //background: url(../img/content/disk3.png) no-repeat center center;
     z-index: 9;
 }
 @media only screen and (max-width: 1025px) {
@@ -11600,7 +11600,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
         top: 1.2rem!important;
     }
     .sectionTitle p {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
     .countdownTitle {
         padding-bottom: 5rem!important;
@@ -12897,6 +12897,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     opacity: 0;
     left: 0;
     visibility: hidden;
+    /*
     -webkit-transition-delay: 0;
     transition-delay: 0;
     -webkit-transition-property: all;
@@ -12908,6 +12909,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
+    */
     //background: rgba(255, 255, 255, 0.98);
     background: rgba(10, 10, 10, 0.97);
 }
@@ -12924,6 +12926,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     height: 5rem;
     background-position: center center;
     cursor: pointer;
+    /*
     -webkit-transition-delay: 0;
     transition-delay: 0;
     -webkit-transition-property: all;
@@ -12935,6 +12938,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    */
     -webkit-transform: translateX(70px);
     -moz-transform: translateX(70px);
     -o-transform: translateX(70px);
@@ -12984,6 +12988,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     padding: 1rem;
     position: relative;
     display: block;
+    /*
     -webkit-transition-delay: 0;
     transition-delay: 0;
     -webkit-transition-property: all;
@@ -12992,6 +12997,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
+    */
 }
 .menu-fixed-container nav ul li a {
     font-family: 'Michroma', sans-serif;
@@ -13007,6 +13013,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     z-index: 1;
     position: relative;
     outline: none;
+    /*
     -webkit-transition-delay: 0;
     transition-delay: 0;
     -webkit-transition-property: all;
@@ -13015,6 +13022,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
+    */
 }
 .menu-fixed-container nav ul li a:before {
     content: '';
@@ -13173,7 +13181,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     background-color: #bb9b69;
     padding: 1.5rem 3.4rem;
 }
-@media (min-height: 320px) and (max-height: 600px) {
+@media (min-height: 250px) and (max-height: 500px) {
     .menu-fixed-container nav .x-filter {
         width: 3rem !important;
         height: 3rem !important;
@@ -16701,6 +16709,12 @@ body.opacityPlaylist .main-music-player .mesh-title {
 }
 #photos .sectionTitle p a:hover, #videos .sectionTitle p a:hover {
     color: #888;
+}
+#photos .sectionTitle {
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
 #instagram {
