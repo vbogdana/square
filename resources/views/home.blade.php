@@ -306,7 +306,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="blogBox">	
-                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/yU7u0x6LA3Q" width="600" height="410"  ></iframe></div>
+                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/VRjdddZosEU" width="600" height="410"  ></iframe></div>
                     <div class="blogBoxContent">
                         <div class="blogHeader">
                             <h1><a href="#">Total RNB night in Square club</a></h1>
@@ -590,7 +590,7 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VRjdddZosEU"  allowfullscreen></iframe>
             </div>
             <div class="col-sm-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MptSRokgwhg"  allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/H7YawBjDNzo"  allowfullscreen></iframe>
             </div>
             <div class="col-sm-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ve1z3DgApB8"  allowfullscreen></iframe>
