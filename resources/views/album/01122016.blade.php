@@ -16,7 +16,7 @@
                     <div class="breadTxt breadSingle">
                         <h2>1st December, 2016</h2>
                         <p>
-                            This is Thursday in Square club!                            
+                           This is Thursday in Square club!                            
                         </p>
                         <a href="#content" data-easing="easeInOutQuint" data-scroll="" data-speed="900" data-url="false">
                             View More <i class="fa fa-angle-down"></i>

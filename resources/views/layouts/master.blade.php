@@ -138,10 +138,10 @@
                                                 <option value="Pult">Bar (without conditions)</option>
                                             </select> 
                                             <select id="day" name="day" aria-required="true" required="">
-                                                <option value="Cetvrtak 15.12.2016.">Thursday | 15.12.2016. | The Nineties</option>
-                                                <option value="Petak 16.12.2016.">Friday | 16.12.2016. | Make Some Love</option>
-                                                <option value="Subota 17.12.2016.">Saturday | 17.12.2016. | Blood & Mode</option>
-                                                <option value="Nedelja 18.12.2016." selected="true">Sunday | 18.12.2016. | Total RnB</option>
+                                                <option value="Cetvrtak 22.12.2016.">Thursday | 22.12.2016. | The Nineties</option>
+                                                <option value="Petak 23.12.2016.">Friday | 23.12.2016. | Make Some Love</option>
+                                                <option value="Subota 24.12.2016.">Saturday | 24.12.2016. | Blood & Mode</option>
+                                                <option value="Nedelja 25.12.2016." selected="true">Sunday | 25.12.2016. | Total RnB</option>
                                             </select>                                             
                                             <textarea id="content" name="content" placeholder="Message..." rows="4"></textarea>
                                             <p class="form-submit">

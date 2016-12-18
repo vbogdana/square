@@ -82,7 +82,7 @@
                             <li class="col-sm-3">
                                 <figure><a href="{{ route("album", ["album" => "08122016"]) }}" class="info">
                                     <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/thursday.jpg" alt="">
+                                        <img src="<?php echo url("") ?>/images/events/thursday.png" alt="">
                                     </figcaption>
                                     <div class="content">
                                         <div class="eventHover">
@@ -94,7 +94,7 @@
                                             <div class="evSubtitle">DJ ALEX TIC</div>
                                             <div class="dateOfParty"> 
                                                 <div  class="evTitle"> next </div>
-                                                15/12/2016 
+                                                22/12/2016 
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@
                                             <div class="evSubtitle">Scandal Band</div>
                                             <div class="dateOfParty"> 
                                                 <div  class="evTitle"> next </div>
-                                                16/12/2016 
+                                                23/12/2016 
                                             </div>
                                         </div>
                                     </div>
@@ -138,7 +138,7 @@
                                             <div class="evSubtitle">COLLE & MARC FUNK </div>
                                             <div class="dateOfParty"> 
                                                 <div  class="evTitle"> next </div>
-                                                17/12/2016 
+                                                24/12/2016 
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +160,7 @@
                                             <div class="evSubtitle">DJ Prema</div>
                                             <div class="dateOfParty"> 
                                                 <div  class="evTitle"> next </div>
-                                                18/12/2016 
+                                                01/01/2017 
                                             </div>
                                         </div>
                                     </div>
@@ -548,7 +548,7 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01122016/cover.jpg" alt="">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01122016/cover.jpg" alt="">        
                                         </div>
                                     </figcaption>
                                     <div class="album-title">
@@ -564,7 +564,7 @@
                                                 <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                 </figure>
                             </article>
                         </div>
