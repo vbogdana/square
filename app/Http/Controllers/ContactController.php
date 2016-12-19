@@ -17,15 +17,27 @@ class ContactController extends Controller
            'day' => $request->input('day'),
            'content' => $request->input('content')
         ];
-        
-        
+
         Mail::send('emails.reservation', $data, function ($message)
         {
-            $message->to('bveselinovic555@gmail.com');
-            $message->subject('Website Reservation Club Square');
+            $message->to('topbelgrade@gmail.com')->subject('Website Reservation Club Square');
+            $message->to('beba_sadalla@yahoo.co.uk')->subject('Website Reservation Club Square');
         });
         
-        echo "Uspesna rezervacija";
+        /*
+        Mail::send('emails.reservation', $data, function ($message)
+        {
+            $message->to('bogdana.veselinovic@yahoo.com')->subject('Website Reservation Club Square');
+            $message->to('bogdana.veselinovic@yahoo.com')->subject('Website Reservation Club Square');
+        });
+        */
+        if( count(Mail::failures()) > 0 ) {
+            return view('result', ['result' => "fail"]);
+            //return redirect()->route('online-reservation', ['result' => "fail"]);
+        } else {
+            return view('result', ['result' => "success"]); 
+            //return redirect()->route('online-reservation', ['result' => "success"]);
+        }
 
     }
 }

@@ -15,8 +15,19 @@ Route::get('/', function () {
     return view('home');
 })->name("/");
 
-Route::get('/album/{album_name}', function ($album_name) {
+Route::get('/album/Club-Square-Belgrade-{album_name}', function ($album_name) {
     return view('/album/'.$album_name);
 })->name("album");
 
+/*
+Route::get('/online-reservation/{result}', function ($result) {
+    return view('result', ['result' => $result]);
+})->name("online-reservation");
+ */
+
 Route::post('/reserve', 'ContactController@reserve');
+/*
+Route::get('/blog', function () {
+    return view('all-blogs');
+})->name("/blog");
+ */

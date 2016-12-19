@@ -88,14 +88,15 @@
                     </div>
                     <ul>
                         <li><a href="{{ route("/") }}#home">home</a></li>
+                        <li><a href="{{ route("/") }}#new-year">new year's</a></li>
                         <li><a href="{{ route("/") }}#events">events</a></li>
-                        <li><a href="{{ route("/") }}#aboutUs">about us</a></li>                       
-                        <li><a href="{{ route("/") }}#videos">video gallery</a></li>
-                        <li><a href="{{ route("/") }}#photos">photo gallery</a></li>
-                        <li><a href="{{ route("/") }}#ourDJ">our djs</a></li>
+                        <li><a href="{{ route("/") }}#aboutUs">about us</a></li>
                         <li><a href="{{ route("/") }}#news">news from the club</a></li>
-                        <li><a href="{{ route("/") }}#contact">contact</a></li>
+                        <li><a href="{{ route("/") }}#photos">photo gallery</a></li>                       
+                        <li><a href="{{ route("/") }}#videos">video gallery</a></li>
+                        <li><a href="{{ route("/") }}#ourDJ">our djs</a></li>
                         <li><a href="{{ route("/") }}#location">location</a></li>
+                        <li><a href="#contact">contact</a></li>
                     </ul>
                     <div class="x-filter">
                         <span></span>
@@ -112,8 +113,8 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <!-- =============== START CONTACT ================ -->
-                    <section id="contact" class="onlineReservation contactSingle background-properties" id="content" >
+                    <!-- =============== START RESERVATION ================ -->
+                    <section id="onlineReservation" class="onlineReservation contactSingle background-properties" >
                         <div class="container">
                             <div class="row">
                                 
@@ -121,7 +122,6 @@
                                     <div class="singleBlogForm">
                                         <h2>Reservation</h2>
                                         {{ Form::open(array('action' => 'ContactController@reserve')) }}
-                                        <!--<form action="" method="post" class="">-->
                                         <div class="comment-form">
                                             <input id="firstName" name="firstName" type="text" value="" aria-required="true" required="" placeholder="First Name *" autocomplete="off">
                                             <input id="lastName" name="lastName" type="text" value="" aria-required="true" required="" placeholder="Last Name *" autocomplete="off">
@@ -139,10 +139,10 @@
                                                 <option value="Pult">Bar (without conditions)</option>
                                             </select> 
                                             <select id="day" name="day" aria-required="true" required="">
-                                                <option value="Cetvrtak 9.12.2016.">Thursday | 15.12.2016. | The Nineties</option>
-                                                <option value="Petak 10.12.2016.">Friday | 16.12.2016. | Make Some Love</option>
-                                                <option value="Subota 11.12.2016.">Saturday | 17.12.2016. | Blood & Mode</option>
-                                                <option value="Nedelja 12.12.2016." selected="true">Sunday | 18.12.2016. | Total RnB</option>
+                                                <option value="Cetvrtak 22.12.2016.">Thursday | 22.12.2016. | The Nineties</option>
+                                                <option value="Petak 23.12.2016.">Friday | 23.12.2016. | Make Some Love</option>
+                                                <option value="Subota 24.12.2016.">Saturday | 24.12.2016. | Blood & Mode</option>
+                                                <option value="Nedelja 25.12.2016." selected="true">Sunday | 25.12.2016. | Total RnB</option>
                                             </select>                                             
                                             <textarea id="content" name="content" placeholder="Message..." rows="4"></textarea>
                                             <p class="form-submit">
@@ -150,16 +150,19 @@
                                             </p>
                                         </div>
                                         {{ Form::close() }}
-                                    </div><!-- end contactForm -->
-                                </div><!-- end col-sm-7 col-sm-offset-1 -->
+                                    </div>
+                                </div>
                                 
                                 <div class="col-sm-4 col-sm-offset-1">
                                     <div class="contactTop">
                                         <h3>Club Square</h3>
-                                        <h4>
-                                            +381 69 20 10 110<br />
-                                            SMS, WhatsApp and Viber
-                                        </h4>
+                                        <a href="tel:+381692010110">
+                                            <h4>
+                                                +381 69 20 10 110
+                                                <br />
+                                                SMS, WhatsApp and Viber
+                                            </h4>
+                                        </a>
                                         <p>
                                             Reservations are required!
                                             Reservations are valid until 00:30h.
@@ -180,7 +183,7 @@
                             </div>
                         </div>
                     </section>
-                    <!-- =============== END CONTACT ================ -->
+                    <!-- =============== END RESERVATION ================ -->
                     <div class="x-filter">
                         <span></span>
                         <span></span>
@@ -204,15 +207,14 @@
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
         <!-- =============== START CONTACT ================ -->
-        <section class="footerWide contactSingle padding background-properties" id="footer">
+        <section class="footerWide contactSingle padding background-properties" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="contactTop">
                             <h2>Contact Information</h2>
                             <h3>CLUB SQUARE</h3>
-                            <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>
-                            <!--<p></p>-->                           
+                            <h4>STUDENTSKI TRG 15, 11000 Belgrade, Serbia</h4>                          
                             <div class="contactInfo">
                                 <h4> Working hours </h4>
                                 <ul>
@@ -226,7 +228,7 @@
                                 <h4> Contact information </h4>
                                 <ul>
                                     <li>Email: <a href="mailto:office@squareclubbelgrade.com">office@squareclubbelgrade.com</a></li>
-                                    <li>Phone: +381 69 20 10 110</li>
+                                    <li>Phone: <a href="tel:+381692010110">+381 69 20 10 110</a></li>
                                     <li>SMS, WhatsApp and Viber</li>
                                 </ul>
                             </div>                           
@@ -234,17 +236,21 @@
                     </div>
                     <div class="col-sm-7 col-sm-offset-1">                        
                         <div class="singleBlogForm">
-                            <h2>We are on Facebook, follow us!</h2>
+                            <a href='https://www.facebook.com/SquareClubBelgrade'>
+                                <h2>We are on Facebook, follow us!</h2>
+                            </a>
                             <div class="fb-page" data-href="https://www.facebook.com/SquareClubBelgrade" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
                                 <blockquote cite="https://www.facebook.com/SquareClubBelgrade" class="fb-xfbml-parse-ignore">
                                     <a href="https://www.facebook.com/SquareClubBelgrade">Square Club Belgrade</a>
                                 </blockquote>
                             </div>
-                            <h2 id="instagram" >We are on Instagram, follow us!</h2>
+                            <a href="https://www.instagram.com/square_club_belgrade/">
+                                <h2 id="instagram" >We are on Instagram, follow us!</h2>
+                            </a>
                             <!-- SnapWidget -->
                             <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                            <iframe src="https://snapwidget.com/embed/300859" class="snapwidget-widget" allowTransparency="true" 
-                                    frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; ">
+                            <iframe src="https://snapwidget.com/embed/301262" class="snapwidget-widget" allowTransparency="true" frameborder="0" 
+                                    scrolling="no" style="border:none; overflow:hidden; width:100%; ">
                             </iframe>
                         </div>                       
                     </div>                    
@@ -260,7 +266,7 @@
                         <div class="col-sm-4">
                             <div class="copyFooter">
                                 Design by
-                                <a href="code581.rs">&copy; 2016  code 581 </a>
+                                <a href="http://www.code581.rs">&copy; 2016  code 581 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">

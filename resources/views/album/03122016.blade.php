@@ -14,11 +14,9 @@
             <div class="breadcrumb-fullscreen-parent phone-menu-bg">
                 <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('../images/albums/album_03122016/cover-wide.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
                     <div class="breadTxt breadSingle">
-                        <h2>Gallery</h2>
-                        <p>03 December, 2016</p>
+                        <h2>3rd December, 2016</h2>
                         <p>
-                            This is Saturday in Square club!
-                            
+                            This is Saturday in Square club!                            
                         </p>
                         <a href="#content" data-easing="easeInOutQuint" data-scroll="" data-speed="900" data-url="false">
                             View More <i class="fa fa-angle-down"></i>
