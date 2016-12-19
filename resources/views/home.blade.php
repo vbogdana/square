@@ -48,6 +48,7 @@
             </div>
             <ul>
                 <li><a href="#home">home</a></li>
+                <li><a href="#new-year">new year's</a></li>
                 <li><a href="#events">events</a></li>
                 <li><a href="#aboutUs">about us</a></li>
                 <li><a href="#news">news from the club</a></li>
@@ -66,6 +67,137 @@
 @stop
 
 @section('content')
+<!-- =============== START NEW YEAR SECTION ================ -->
+<section id="new-year" class="shopHomePage padding hide-section">
+    <div class="shopSection">
+        <div class="container-fluid">
+            <div class="shopContent">
+                <div class="sectionTitle paddingBottom">
+                    <span class="heading-t3"></span>
+                    <h2>NEW YEAR'S</h2>
+                    <span class="heading-b3"></span>
+                </div><!-- end sectionTtile -->	
+                <div class="row">
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <nav class="shop-products">
+                            <ul class="clearfix">
+                                <li class="">
+                                    <figure>
+                                        <a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
+                                            <figcaption>
+                                                <img src="<?php echo url("") ?>/images/events/new-year.png" alt="">
+                                            </figcaption>
+                                            <div class="content">
+                                                <div class="eventHover">
+                                                    <div class="event">
+                                                        New Year's Eve 
+                                                    </div>
+                                                    <div class="fixLine"></div>
+                                                    <div  class="evTitle"> SATURDAY </div>
+                                                    <div class="evSubtitle">R'n'B | Hip Hop | House | The Nineties </div>
+                                                    <div class="dateOfParty"> 
+                                                        <div  class="evTitle"> date </div>
+                                                        31/12/2016 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </li>
+                                <li class="">
+                                    <figure>
+                                        <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 
+                                            <figcaption>
+                                                <img src="<?php echo url("") ?>/images/events/new-year-vol2.png" alt="">
+                                            </figcaption>
+                                            <div class="content">
+                                                <div class="eventHover">
+                                                    <div class="event">
+                                                        Total RNB Night
+                                                    </div>
+                                                    <div class="fixLine"></div>
+                                                    <div  class="evTitle"> SUNDAY  </div>
+                                                    <div class="evSubtitle">DJ Prema</div>
+                                                    <div class="dateOfParty"> 
+                                                        <div  class="evTitle"> date </div>
+                                                        01/01/2017 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1">
+                        <div class="contactTop">
+                            <h3>CLUB SQUARE</h3>
+                            <h2>New Year's Eve Packages</h2>
+                            
+                            <a href="#contact">
+                                <h4>If You wish to reserve Your place with us for New Year's Eve, please contact us.</h4> 
+                            </a>
+                            <div class="contactInfo">
+                                <ul>
+                                    <li>
+                                        <span>CENTRAL VIP LOUNGE / SITTING PACKAGE</span>
+                                        <br />
+                                        Price is 1000 eur (included 15 tickets + 
+                                        VIP entry, VIP table & 4 bottles included: 2 Piper Heidsieck champagne 
+                                        and 2 premium bottle of choice Belvedere 0.7 /Jack Daniel's / Gin / Jeger)   
+                                    </li>
+                                    <li>
+                                        <span>VIP LOUNGE / SITTING PACKAGE</span>
+                                        <br />
+                                        Price is 500 eur (included 10 tickets + 
+                                        VIP entry, VIP table & 2 bottles included: 1 Piper Heidsieck champagne 
+                                        and 1 premium bottle of choice Belvedere 0.7 /Jack Daniel's / Gin / Jeger)
+                                    </li>
+                                    <li>
+                                        <span>VIP LOUNGE / SITTING PACKAGE</span>
+                                        <br />
+                                        Price is 400 eur (included 7 tickets + 
+                                        VIP entry, VIP table & 2 bottles included: 1 Piper Heidsieck champagne 
+                                        and 1 premium bottle of choice Belvedere 0.7 /Jack Daniel's / Gin / Jeger)
+                                    </li>
+                                    <li>
+                                        <span>BIG VIP SITTING BAR TABLE PACKAGE</span>
+                                        <br />
+                                        Price is 300 eur (included 7 tickets + 
+                                        Vip entry, Bar table in VIP area & 1 premium bottle included belvedere 
+                                        0.7 / Piper Heidsieck champagne / Jack Daniel's / Gin / Jeger)
+
+                                    </li>
+                                    <li>
+                                        <span>NORMAL VIP SITTING BAR TABLE PACKAGE</span>
+                                        <br />
+                                        Price is 250 eur (included 5 tickets + 
+                                        Vip entry, VIP Bar table in VIP area & 1 premium bottle included 
+                                        (belvedere 0.7 / Piper Heidsieck champagne / Jack Daniel's / Gin / Jeger)
+                                    </li>
+                                    <li>
+                                        <span>BAR TABLE</span>
+                                        <br />
+                                        Price is 160 eur (included 4 tickets + bottle of your choice 
+                                        Absolut / Balantines / Gin / Jeger / Tequila / Martini)
+                                    </li>
+                                    <li>
+                                        <span>PLACE AT THE BAR / COMMUNITY TABLE</span>
+                                        <br />
+                                        Price is 0 eur. Tickets are 20 eur per person.
+                                    </li>                                               
+                                </ul>
+                            </div>                                                      
+                        </div>    
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =============== END NEW YEAR SECTION ================ -->
+
 <!-- =============== START EVENTS SECTION ================ -->
 <section id="events" class="shopHomePage padding hide-section">
     <div class="shopSection">
@@ -73,98 +205,103 @@
             <div class="shopContent">
                 <div class="sectionTitle paddingBottom">
                     <span class="heading-t3"></span>
-                    <h2><a href="">EVENTS</a></h2>
+                    <h2>EVENTS</h2>
                     <span class="heading-b3"></span>
                 </div><!-- end sectionTtile -->	
                 <div class="row">
                     <nav class="shop-products">
                         <ul class="clearfix">
                             <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "08122016"]) }}" class="info">
-                                    <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/thursday.png" alt="">
-                                    </figcaption>
-                                    <div class="content">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                The NINETIES
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evTitle"> THURSDAY  </div>
-                                            <div class="evSubtitle">DJ ALEX TIC</div>
-                                            <div class="dateOfParty"> 
-                                                <div  class="evTitle"> next </div>
-                                                22/12/2016 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                </figure>
-                            </li>
-                            <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "09122016"]) }}" class="info">
-                                    <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/friday.png" alt="">
-                                    </figcaption>
-                                    <div class="content">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                Live Music Hits
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evTitle"> FRIDAY </div>
-                                            <div class="evSubtitle">Scandal Band</div>
-                                            <div class="dateOfParty"> 
-                                                <div  class="evTitle"> next </div>
-                                                23/12/2016 
+                                <figure>
+                                    <a href="{{ route("album", ["album" => "08122016"]) }}" class="info">
+                                        <figcaption>
+                                            <img src="<?php echo url("") ?>/images/events/thursday.png" alt="">
+                                        </figcaption>
+                                        <div class="content">
+                                            <div class="eventHover">
+                                                <div class="event">
+                                                    The NINETIES
+                                                </div>
+                                                <div class="fixLine"></div>
+                                                <div  class="evTitle"> THURSDAY  </div>
+                                                <div class="evSubtitle">DJ ALEX TIC</div>
+                                                <div class="dateOfParty"> 
+                                                    <div  class="evTitle"> next </div>
+                                                    22/12/2016 
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </a>
-                                </figure>
-                            </li>
-                            <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
-                                    <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/saturday.png" alt="">
-                                    </figcaption>
-                                    <div class="content">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                Blood & Mode 
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evTitle"> SATURDAY </div>
-                                            <div class="evSubtitle">COLLE & MARC FUNK </div>
-                                            <div class="dateOfParty"> 
-                                                <div  class="evTitle"> next </div>
-                                                24/12/2016 
-                                            </div>
-                                        </div>
-                                    </div>
                                     </a>
                                 </figure>
                             </li>
                             <li class="col-sm-3">
-                                <figure><a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 
-                                    <figcaption>
-                                        <img src="<?php echo url("") ?>/images/events/sunday.png" alt="">
-                                    </figcaption>
-                                    <div class="content">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                Total RNB Night
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evTitle"> SUNDAY  </div>
-                                            <div class="evSubtitle">DJ Prema</div>
-                                            <div class="dateOfParty"> 
-                                                <div  class="evTitle"> next </div>
-                                                01/01/2017 
+                                <figure>
+                                    <a href="{{ route("album", ["album" => "09122016"]) }}" class="info">
+                                        <figcaption>
+                                            <img src="<?php echo url("") ?>/images/events/friday.png" alt="">
+                                        </figcaption>
+                                        <div class="content">
+                                            <div class="eventHover">
+                                                <div class="event">
+                                                    Live Music Hits
+                                                </div>
+                                                <div class="fixLine"></div>
+                                                <div  class="evTitle"> FRIDAY </div>
+                                                <div class="evSubtitle">Scandal Band</div>
+                                                <div class="dateOfParty"> 
+                                                    <div  class="evTitle"> next </div>
+                                                    23/12/2016 
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </a></figure>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="col-sm-3">
+                                <figure>
+                                    <a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
+                                        <figcaption>
+                                            <img src="<?php echo url("") ?>/images/events/saturday.png" alt="">
+                                        </figcaption>
+                                        <div class="content">
+                                            <div class="eventHover">
+                                                <div class="event">
+                                                    Blood & Mode 
+                                                </div>
+                                                <div class="fixLine"></div>
+                                                <div  class="evTitle"> SATURDAY </div>
+                                                <div class="evSubtitle">COLLE & MARC FUNK </div>
+                                                <div class="dateOfParty"> 
+                                                    <div  class="evTitle"> next </div>
+                                                    24/12/2016 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="col-sm-3">
+                                <figure>
+                                    <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 
+                                        <figcaption>
+                                            <img src="<?php echo url("") ?>/images/events/sunday.png" alt="">
+                                        </figcaption>
+                                        <div class="content">
+                                            <div class="eventHover">
+                                                <div class="event">
+                                                    Total RNB Night
+                                                </div>
+                                                <div class="fixLine"></div>
+                                                <div  class="evTitle"> SUNDAY  </div>
+                                                <div class="evSubtitle">DJ Prema</div>
+                                                <div class="dateOfParty"> 
+                                                    <div  class="evTitle"> next </div>
+                                                    01/01/2017 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </figure>
                             </li>
                         </ul>
                     </nav>
@@ -180,7 +317,7 @@
     <div class="container">
         <div class="sectionTitle paddingBottom">
             <span class="heading-t3"></span>
-            <h2><a href="#">About Us</a></h2>
+            <h2>About Us</h2>
             <span class="heading-b3"></span>
         </div>
         <div class="row">
@@ -258,7 +395,7 @@
         <div class="row">
             <div class="sectionTitle">
                 <span class="heading-t3"></span>
-                <h2><a href="">News from the Club</a></h2>
+                <h2>News from the Club</h2>
                 <span class="heading-b3"></span>
                 <p>Here You will soon be able to read the latest news from our <a>blog.</a> </p>
             </div>
@@ -336,7 +473,7 @@
         <div class="row">
             <div class="sectionTitle">
                 <span class="heading-t3"></span>
-                <h2><a href="">PHOTO GALLERY</a></h2>
+                <h2>PHOTO GALLERY</h2>
                 <span class="heading-b3"></span>
                 <p>Check out our latest photos and follow us on <a href="https://www.facebook.com/SquareClubBelgrade">Facebook</a> 
                     or <a href="https://www.instagram.com/square_club_belgrade/">Instagram</a> to view more.</p>
@@ -582,7 +719,7 @@
         <div class="row">
             <div class="sectionTitle">
                 <span class="heading-t3"></span>
-                <h2><a href="#">VIDEO GALLERY</a></h2>
+                <h2>VIDEO GALLERY</h2>
                 <span class="heading-b3"></span>
                 <p>Check out our latest videos and follow us on <a href="https://www.youtube.com/channel/UCYZ2dDvtu-ciQDaxhCGO2qA">Youtube</a> to view more.</p>
             </div>
@@ -607,7 +744,7 @@
             <div class="col-sm-12">
                 <div class="sectionTitle paddingBottom">
                     <span class="heading-t3"></span>
-                    <h2><a href="#">OUR DJs</a></h2>
+                    <h2>OUR DJs</h2>
                     <span class="heading-b3"></span>
                 </div>
             </div>
@@ -617,7 +754,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj1.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1">
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj1cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -629,7 +766,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon1">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj2.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1">
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj2cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -641,7 +778,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon2">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj3.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1">
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj3cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>
@@ -653,7 +790,7 @@
                 <li class="col-md-3 col-sm-3 col-xs-12">
                     <div class="album-icon albumIcon3">
                         <span class="thumbs-album">
-                            <a href="#"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></a>
+                            <img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj4.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1">
                         </span>
                         <span class="disk"><img width="270" height="270" src="<?php echo url("") ?>/images/djs/dj4cd.png" class="attachment-album-thumbnail wp-post-image" alt="album-cover-1"></span>
                     </div>

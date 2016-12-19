@@ -88,6 +88,7 @@
                     </div>
                     <ul>
                         <li><a href="{{ route("/") }}#home">home</a></li>
+                        <li><a href="{{ route("/") }}#new-year">new year's</a></li>
                         <li><a href="{{ route("/") }}#events">events</a></li>
                         <li><a href="{{ route("/") }}#aboutUs">about us</a></li>
                         <li><a href="{{ route("/") }}#news">news from the club</a></li>
