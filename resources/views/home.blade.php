@@ -83,7 +83,7 @@
                             <ul class="clearfix">
                                 <li class="">
                                     <figure>
-                                        <a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
+                                        <a href="{{ route("album", ["album" => "17122016"]) }}" class="info">
                                             <figcaption>
                                                 <img src="<?php echo url("") ?>/images/events/new-year.png" alt="">
                                             </figcaption>
@@ -259,7 +259,7 @@
                             </li>
                             <li class="col-sm-3">
                                 <figure>
-                                    <a href="{{ route("album", ["album" => "10122016"]) }}" class="info">
+                                    <a href="{{ route("album", ["album" => "17122016"]) }}" class="info">
                                         <figcaption>
                                             <img src="<?php echo url("") ?>/images/events/saturday.png" alt="">
                                         </figcaption>
@@ -296,7 +296,7 @@
                                                 <div class="evSubtitle">DJ Prema</div>
                                                 <div class="dateOfParty"> 
                                                     <div  class="evTitle"> next </div>
-                                                    01/01/2017 
+                                                    25/12/2016 
                                                 </div>
                                             </div>
                                         </div>
@@ -343,54 +343,8 @@
 </section>
 <!-- =============== END BIOGRAPHY SECTION ================ -->
 
-
-<!-- =============== START EVENTS SECTION-2 ================ -->
-<!--
-<section class="padding hide-section countdownSection background-properties" style="background-image: url(../public/images/events/next_event.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12"> 
-                <div class="countdownTitle">
-                    <h4>Next Event</h4>
-                    <div class="fixLine"></div>
-                </div>
-                <div class="sm-countdown sm_content_element sm-style2" id="sm_countdown-19" data-date="2016/12/8">
-                    <div class="displayCounter">
-                        <div class="column">
-                            <div class="sm_countdown_inner">
-                                <input class="element days" readonly="readonly" data-min="0" data-max="365" data-width="200" data-height="200" data-thickness="0.15" data-fgcolor="#fff" data-bgcolor="#8e8d8d" data-angleoffset="180">
-                                <span class="unit days-title">days</span>
-                            </div>
-                        </div>	
-                        <div class="column">
-                            <div class="sm_countdown_inner">
-                                <input class="element hour" readonly="readonly" data-min="0" data-max="24" data-width="200" data-height="200" data-thickness="0.15" data-fgcolor="#fff" data-bgcolor="#8e8d8d" data-angleoffset="180">
-                                <span class="unit hours-title">hrs</span>
-                            </div>
-                        </div>	
-                        <div class="column"> 
-                            <div class="sm_countdown_inner">
-                                <input class="element minute" readonly="readonly" data-min="0" data-max="60" data-width="200" data-height="200" data-thickness="0.15" data-fgcolor="#fff" data-bgcolor="#8e8d8d" data-angleoffset="180">
-                                <span class="unit mins-title">min</span>
-                            </div>
-                        </div>
-                        <div class="column"> 
-                            <div class="sm_countdown_inner">
-                                <input class="element second" readonly="readonly" data-min="0" data-max="60" data-width="200" data-height="200" data-thickness="0.15" data-fgcolor="#fff" data-bgcolor="#8e8d8d" data-angleoffset="180">
-                                <span class="unit secs-title">sec</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
-<!-- =============== END EVENTS SECTION-2 ================ -->
-
 <!-- =============== START HOME-BLOG SECTION ================ -->	
-<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image:url(<?php echo url("") ?>/images/bgcontact.png);">	
+<section id="news" class="padding hide-section background-properties blogHomeSection" style="background-image:url(<?php echo url("") ?>/images/bgnocu.jpg);">	
     <div class="container">
         <div class="row">
             <div class="sectionTitle">
@@ -488,6 +442,31 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_17122016/cover.jpg" alt="">        
+                                        </div>
+                                    </figcaption>
+                                    <div class="album-title">
+                                        17/12/2016
+                                    </div>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                17/12/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "17122016"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_11122016/cover.jpg" alt="">        
                                         </div>
                                     </figcaption>
@@ -563,6 +542,28 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+                                        </div>
+                                    </figcaption>
+                                    <div class="content" id="interior">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                interior
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_08122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
@@ -577,28 +578,6 @@
                                             <div class="fixLine"></div>
                                             <div  class="evSubtitle"> 
                                                 <a href="{{ route("album", ["album" => "08122016"]) }}" class="info"> view album </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </article>
-                            <!-- Single Album Article -->
-                            <article class="col-sm-4">
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
-                                        </div>
-                                    </figcaption>
-                                    <div class="content" id="interior">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                interior
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
                                             </div>
                                         </div>
                                     </div>
@@ -679,31 +658,6 @@
                                     </div>
                                 </figure>
                             </article>
-                            <!-- Single Album Article -->
-                            <article class="col-sm-4">
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01122016/cover.jpg" alt="">        
-                                        </div>
-                                    </figcaption>
-                                    <div class="album-title">
-                                        01/12/2016
-                                    </div>
-                                    <div class="content">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                01/12/2016
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "01122016"]) }}" class="info"> view album </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </article>
                         </div>
                     </div>
                 </div>
@@ -738,7 +692,7 @@
 <!-- =============== END VIDEO SECTION ================ -->
 
 <!-- =============== START ALBUM COVER SECTION ================ -->
-<section id="ourDJ" class="padding albumsHome hide-section background-properties">
+<section id="ourDJ" class="padding albumsHome hide-section background-properties" style="background-image:url(<?php echo url("") ?>/images/dj.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

@@ -72,7 +72,7 @@
 
 .footerWide.padding {
 
-   padding: 8rem 0 !important; 
+    padding: 8rem 0 !important; 
 
 }
 
@@ -3989,13 +3989,19 @@ pre code {
         width: 33.33333333%;
 
     }
-
+    
     .col-sm-3 {
+
+        width: 25%;
+
+    }
+
+    #events .col-sm-3, #ourDJ .col-sm-3, #album .col-sm-3 {
 
         width: 50%;
 
     }
-
+    
     .col-sm-2 {
 
         width: 16.66666667%;
@@ -4247,6 +4253,12 @@ pre code {
 @media (min-width: 1030px) {
 
     .col-sm-3 {
+
+        width: 25%;
+
+    }
+    
+    #events .col-sm-3, #ourDJ .col-sm-3, #album .col-sm-3 {
 
         width: 25%;
 
@@ -19175,7 +19187,7 @@ html body {
 
     -webkit-transform: translate(-50%, -50%);
 
-    //background: rgba(0, 0, 0, 0.7);
+    background: rgba(0,0,0,0.3);
 
     opacity: 1;
 
@@ -19413,7 +19425,7 @@ html body {
 
     }   
 
-    
+
 
     .shopHomePage .event,
 
@@ -20521,11 +20533,12 @@ body {
 
     margin: 0;
 
-    color: #6d6d6d;
+    //color: #6d6d6d;
+    color: #222;
 
     font-family: 'Michroma', sans-serif;
 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 
     font-weight: 300;
 
@@ -21695,7 +21708,7 @@ body {
 
     overflow-y: scroll;
 
--webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 
     overflow-x: hidden;
 
@@ -22762,8 +22775,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     position:absolute;
 
-    top:150px;
-
     left:0;
 
     text-decoration: none;
@@ -22789,9 +22800,11 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     transition: all 0.3s ease-in-out;
 
 }
-
-
-
+/*
+.gallerySection .hovereffect .evSubtitle a.info {
+    top:150px;
+}
+*/
 .gallerySection .hovereffect:hover img {
 
     -ms-transform: scale(1.2);
@@ -23048,7 +23061,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
         padding: 5rem 0 !important; 
 
-     }
+    }
 
     .padding {
 
@@ -23316,7 +23329,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     padding: 3.5rem 3rem;
 
-    background-color: #f4f4f4;
+    //background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.42);
 
 }
 
@@ -23400,7 +23414,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     font-family: 'Michroma', sans-serif;
 
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 
     line-height: 2.8rem;
 
@@ -23432,13 +23446,13 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     font-family: 'Jura', sans-serif;
 
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 
     line-height: 2.4rem;
 
-    font-weight: 400;
+    font-weight: 600;
 
-    color: #555;
+    color: #000;
 
 }
 
@@ -31264,7 +31278,7 @@ p a {
 
     left: 2.5rem;
 
-    content: url(../imagesg/aR.png);
+    content: url(../images/aR.png);
 
 }
 
@@ -33348,6 +33362,12 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 }
 
+#aboutUs {
+    
+    background-color: rgba(214, 214, 214, 0.26);
+    
+}
+
 #videos, #events {
 
     background-color: rgba(10, 10, 10, 0.97);   
@@ -33380,9 +33400,9 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 #photos .sectionTitle h2,
 
-#videos .sectionTitle h2/*,
+#videos .sectionTitle h2,
 
-#news .sectionTitle h2*/{
+#news .sectionTitle h2 {
 
     color: #eee;
 
@@ -33396,13 +33416,22 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 #videos .sectionTitle h2:hover/*,
 
-#news .sectionTitle h2:hover */{
+#news .sectionTitle h2:hover*/ {
 
     color: #888;
 
 }
 
+#news .sectionTitle h2:hover {
+    color: #000;
+}
 
+
+#news .sectionTitle p {
+    
+    color: #bbb;
+    
+}
 
 #photos .sectionTitle p, #videos .sectionTitle p {
 
@@ -33410,7 +33439,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 }
 
-#photos .sectionTitle p a, #videos .sectionTitle p a {
+#photos .sectionTitle p a, #videos .sectionTitle p a, #news .sectionTitle p a {
 
     color: #ccc;
 
@@ -33420,6 +33449,10 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     color: #888;
 
+}
+
+#news .sectionTitle p a:hover {
+    color: #000;
 }
 
 #photos .sectionTitle {
@@ -33463,7 +33496,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 #new-year .col-sm-3 {
 
     padding: 0;
-
+    
 }
 
 
@@ -33513,42 +33546,57 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 
 @media screen and (min-width: 1030px) {
-
-    /*#new-year .col-sm-3 li:first-child {
-
-        margin-bottom: 3rem;
-
-    }*/
-
-    #new-year .col-sm-3 li {
-
-        width: 25% !important;
-
-        margin-left: 15% !important;       
-
-        -webkit-transition: all 0.5s;
-
-        -moz-transition: all 0.5s;
-
-        transition: all 0.5s;
-
-        -webkit-animation: neon-box 1.5s ease-in-out infinite alternate;
-
-        -moz-animation: neon-box 1.5s ease-in-out infinite alternate;
-
-        animation: neon-box 1.5s ease-in-out infinite alternate;
-
-    }
-
-    #new-year .col-sm-3 li:last-child {
-
+/*  #new-year .col-sm-3 li:last-child {
         margin-left: 20% !important;
+    }   */    
 
+    #new-year .col-sm-3 nav {
+        background-color: rgba(0,0,0,0.85);
     }
-
-}
-
     
+    #new-year .col-sm-3 li img {
+/*      width: 25% !important;
+        margin-left: 15% !important;       */
+        border: 1px solid #222;
+    }
+    
+    #new-year .col-sm-3 figure figcaption  {
+        text-align: center;
+        width: 30%;
+        margin-left: 5%;
+        float: left;
+        margin-bottom: 6rem;
+        margin-top: 6rem;
+    }
+    
+    #new-year .col-sm-3 figure .content  {       
+        position: absolute;
+        background: transparent;
+        visibility: visible;
+        opacity: 1;
+        text-align: center;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        padding-bottom: 1rem;
+    }   
+    
+    #new-year .col-sm-3 figure .content .eventHover  {       
+        width: 50%;
+        position: relative;
+        margin-left: 45%;    
+    }
+    
+    #new-year .col-sm-3 figure .content .eventHover .event {
+        -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+        -moz-animation: neon 1.5s ease-in-out infinite alternate;
+        animation: neon 1.5s ease-in-out infinite alternate;
+    }
+    
+    #new-year .col-sm-3 ul li:hover figure .content {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }  
+}
 
 @media screen and (min-width: 800px) {
 
@@ -33571,10 +33619,12 @@ body.opacityPlaylist .main-music-player .mesh-title {
         width: 50%;
 
         float: left;
+        
+        overflow: visible;
 
     }
 
-    
+
 
     #new-year .col-sm-6 {
 
@@ -33626,13 +33676,13 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     from {
 
-        box-shadow: 0 0 10px #eee, 0 0 20px #eee, 0 0 30px #eee, 0 0 40px #888, 0 0 70px #888, 0 0 80px #888, 0 0 100px #888, 0 0 150px #888;
+        box-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #eee, 0 0 20px #888, 0 0 35px #888, 0 0 40px #888, 0 0 50px #888, 0 0 75px #888;
 
     }
 
     to {
 
-        box-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #eee, 0 0 20px #888, 0 0 35px #888, 0 0 40px #888, 0 0 50px #888, 0 0 75px #888;
+        box-shadow: 0 0 3px #eee, 0 0 5px #eee, 0 0 8px #eee, 0 0 10px #888, 0 0 18px #888, 0 0 20px #888, 0 0 25px #888, 0 0 38px #888;
 
     }
 
@@ -33658,13 +33708,13 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     from {
 
-        box-shadow: 0 0 10px #eee, 0 0 20px #eee, 0 0 30px #eee, 0 0 40px #888, 0 0 70px #888, 0 0 80px #888, 0 0 100px #888, 0 0 150px #888;
+        box-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #eee, 0 0 20px #888, 0 0 35px #888, 0 0 40px #888, 0 0 50px #888, 0 0 75px #888;
 
     }
 
     to {
 
-        box-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #eee, 0 0 20px #888, 0 0 35px #888, 0 0 40px #888, 0 0 50px #888, 0 0 75px #888;
+        box-shadow: 0 0 3px #eee, 0 0 5px #eee, 0 0 8px #eee, 0 0 10px #888, 0 0 18px #888, 0 0 20px #888, 0 0 25px #888, 0 0 38px #888;
 
     }
 
@@ -33690,13 +33740,13 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     from {
 
-        box-shadow: 0 0 10px #eee, 0 0 20px #eee, 0 0 30px #eee, 0 0 40px #888, 0 0 70px #888, 0 0 80px #888, 0 0 100px #888, 0 0 150px #888;
+        box-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #eee, 0 0 20px #888, 0 0 35px #888, 0 0 40px #888, 0 0 50px #888, 0 0 75px #888;
 
     }
 
     to {
 
-        box-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #eee, 0 0 20px #888, 0 0 35px #888, 0 0 40px #888, 0 0 50px #888, 0 0 75px #888;
+        box-shadow: 0 0 3px #eee, 0 0 5px #eee, 0 0 8px #eee, 0 0 10px #888, 0 0 18px #888, 0 0 20px #888, 0 0 25px #888, 0 0 38px #888;
 
     }
 
@@ -33706,59 +33756,59 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 #new-year {
 
-	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), 
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), 
 
-                          url('http://www.wearewebstars.dk/codepen/img//s2.png'), 
+        url('http://www.wearewebstars.dk/codepen/img//s2.png'), 
 
-                          url('http://www.wearewebstars.dk/codepen/img//s3.png');
+        url('http://www.wearewebstars.dk/codepen/img//s3.png');
 
-	-webkit-animation: snow 10s linear infinite;
+    -webkit-animation: snow 10s linear infinite;
 
-	-moz-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
 
-	-ms-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
 
-	animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
 
 }
 
 @keyframes snow {
 
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
 
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 
 }
 
 @-moz-keyframes snow {
 
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
 
-  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+    100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
 
 }
 
 @-webkit-keyframes snow {
 
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
 
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 
 }
 
 @-ms-keyframes snow {
 
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
 
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 
 }	
 

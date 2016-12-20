@@ -12,7 +12,7 @@
         <div class="col-sm-12">
             <div class="before-FullscreenSlider"></div>
             <div class="breadcrumb-fullscreen-parent phone-menu-bg">
-                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('../images/albums/album_10122016/cover-wide.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+                <div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('../images/albums/album_10122016/cover-wide.jpg'); background-color: #0a0a0a;" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
                     <div class="breadTxt breadSingle">
                         <h2>10th December, 2016</h2>
                         <p>
@@ -34,7 +34,7 @@
 @section('content')
 <!-- =============== START GALLERY SECTION ================ -->
 <section id="content">
-    <div class="gallerySection">
+    <div class="gallerySection" id="album">
         <div class="container-fluid" style="padding-left:0; padding-right:0;">
             <div class="col-sm-12">
                 <!-- Content Container -->

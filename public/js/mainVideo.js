@@ -1,4 +1,64 @@
 /* ================================================== */
+/* =============== START NEWS PAGINATION ================ */
+/* ================================================== */
+/*
+$(window).on("load", function(ev) {
+    ev.preventDefault();
+    $("#2.col-sm-8").hide();
+    $("#3.col-sm-8").hide();
+    
+    $(".previous").on("click", function(ev) {
+        ev.preventDefault();
+        $(".page").each(function() {
+            $element = $(this);
+            $curr_id = parseInt($element.attr("id"));
+            if ($curr_id == 1) {
+                $element.attr("id", "2");
+                $element.fadeOut("slow");
+                return;
+            }
+            if ($curr_id == 2) {
+                $element.attr("id", "3");
+                return;
+            }
+            if ($curr_id == 3) {
+                $element.attr("id", "1");
+                $element.delay(300).fadeIn("slow");
+                return;
+            }
+        });
+    });
+    
+    $(".next").on("click", function(ev) {
+        ev.preventDefault();
+        $(".page").each(function() {
+            $element = $(this);
+            $curr_id = parseInt($element.attr("id"));
+            if ($curr_id == 1) {
+                $element.attr("id", "3");
+                $element.fadeOut("slow");
+                return;
+            }
+            if ($curr_id == 2) {
+                $element.attr("id", "1");
+                $element.delay(300).fadeIn("slow");
+                return;
+            }
+            if ($curr_id == 3) {
+                $element.attr("id", "2");               
+                return;
+            }
+        });
+    });
+    
+});
+*/
+/* ================================================== */
+/* =============== END NEWS PAGINATION ================ */
+/* ================================================== */
+
+
+/* ================================================== */
 /* =============== START BREADCRUMB JS ================ */
 /* ================================================== */
 	

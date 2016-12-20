@@ -39,10 +39,9 @@
                     <div class="admin-list clearfix">
                         <ul>
                             <li><a href="#">08 dec 2016</a>&nbsp;/&nbsp;</li>
-                            <li><a href="#">By Admin</a>&nbsp;/&nbsp;</li>
-                            <li><a href="#">Categories</a>&nbsp;/&nbsp;</li>
-                            <li><a href="#">Gallery</a>&nbsp;/&nbsp;</li>
-                            <li><a href="#">2 Comments</a></li>
+                            <li><a href="#">Autor posta</a>&nbsp;/&nbsp;</li>
+                            <li><a href="#">Category</a>&nbsp;/&nbsp;</li>
+                            <li><a href="#">Koja kategorija</a>&nbsp;/&nbsp;</li>
                         </ul>
                     </div>
                     <div class="title">
@@ -56,9 +55,9 @@
                     <div class="tagBlogSingle">
                         <div class="content">
                             <p>Tag Cloud:</p>
-                            <a href="#">Festival</a>&nbsp;/&nbsp;
-                            <a href="#">Photography</a>&nbsp;/&nbsp;
-                            <a href="#">Party</a>&nbsp;/&nbsp;
+                            <a href="#">lista</a>&nbsp;/&nbsp;
+                            <a href="#">kljucnih</a>&nbsp;/&nbsp;
+                            <a href="#">reci</a>&nbsp;/&nbsp;
                             <a href="#">Music</a>&nbsp;/&nbsp;
                             <a href="#">Dj</a>
                         </div>
@@ -77,103 +76,18 @@
                             <p>Literally slow-carb umami, mixtape bicycle rights salvia skateboard. Selfies squid normcore chillwave, slow-carb cred Austin small batch leggings umami cliche trust fund Echo.</p>
                         </div>
                     </div>
-
-                    <div class="comment-container">
-                        <h1 class="title-comments">
-                            3 Comments
-                        </h1>
-                        <!-- ============== COMMENTS ============= -->
-                        <ul class="comments">
-                            <li>
-                                <div class="comment depth-1">
-                                    <div class="left-section">
-                                        <img alt="" src="assets/img/blog/author-avatar.jpg">
-                                    </div>
-                                    <div class="right-section">
-                                        <h1>
-                                            <a href="#">Gabriel Groza</a>
-                                        </h1>
-                                        <p class="time-comment">Dec 15, 2015<span class="slashComment">/</span><a class="comment-reply-link" href="#"> Reply</a></p>
-
-                                        <div class="comment-text">
-                                            <p>
-                                                Literally slow-carb umami, mixtape bicycle rights salvia skateboard. Selfies squid normcore chillwave, slow-carb cred Austin small batch leggings umami cliche trust fund Echo Park Pinterest 8-bit. PBR and B church-key keffiyeh
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <ul class="children">
-                                    <li>
-                                        <div class="comment depth-2">
-                                            <div class="left-section">
-                                                <img alt="" src="assets/img/blog/author-avatar.jpg">
-                                            </div>
-                                            <div class="right-section">
-
-                                                <h1>
-                                                    <a href="#">Calin Tasca</a>
-                                                </h1>
-                                                <p class="time-comment">Dec 15, 2015<span class="slashComment">/</span><a class="comment-reply-link" href="#"> Reply</a></p>
-                                                <div class="comment-text">
-                                                    <p>
-                                                        Literally slow-carb umami, mixtape bicycle rights salvia skateboard. Selfies squid normcore chillwave, slow-carb cred Austin small batch.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <div class="pingback even thread-even depth-1">
-                                    <div class="left-section">
-                                        <img alt="" src="assets/img/blog/author-avatar.jpg">
-                                    </div>
-                                    <div class="right-section">
-
-                                        <h1>
-                                            <a href="#">Nimeni Daniel</a>
-                                        </h1>
-                                        <p class="time-comment">Dec 15, 2015<span class="slashComment">/</span><a class="comment-reply-link" href="#"> Reply</a></p>
-                                        <div class="comment-text">
-                                            <p>
-                                                Literally slow-carb umami, mixtape bicycle rights salvia skateboard. Selfies squid normcore chillwave, slow-carb cred Austin small batch leggings umami cliche trust fund Echo Park Pinterest 8-bit. PBR and B church-key keffiyeh
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>		
-                        </ul>
-                    </div><!-- Comments -->
-
-                    <div class="singleBlogForm">
-                        <h1>Leave a comment</h1>
-                        <form action="#" method="post" class="comment-form">
-                            <input id="author" name="author" type="text" value="" aria-required="true" required placeholder="Name...">
-                            <input id="email" name="email" type="text" value="" aria-required="true" required placeholder="Email...">
-                            <input id="url" name="url" type="text" value="" placeholder="Website...">
-                            <textarea name="comment" placeholder="Message..." rows="6" required></textarea>
-                            <p class="form-submit">
-                                <input name="submit" type="submit" id="submit" value="Post Comment">
-                            </p>
-                        </form>
-                    </div>
+                    
+                    <div class="author-info">
+                        <!--
+                        <div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="560" data-include-parent="true"></div>
+                    ````EMBED FB COMMENT
+                        -->
+                    </div>                        
                 </div><!-- end col-sm-8 -->
             </div><!-- end blog-left -->
             <div class="blog-right">
                 <div class="col-sm-3 col-sm-offset-1">
                     <div class="blogSidebar">
-                        <div class="widget">
-                            <h3 class="widget-title">Categories</h3>
-                            <ul>
-                                <li>Audio<span>(2)</span></li>
-                                <li>News<span>(3)</span></li>
-                                <li>Standard<span>(5)</span></li>
-                                <li>Video<span>(1)</span></li>
-                                <li>Soundcloud<span>(6)</span></li>
-                                <li>Gallery<span>(3)</span></li>
-                            </ul>
-                        </div><!-- end widget -->
                         <div class="widget">
                             <h3 class="widget-title">Recent Posts</h3>
                             <ul>
@@ -186,10 +100,14 @@
                             </ul>
                         </div><!-- end widget -->
                         <div class="widget">
-                            <h3 class="widget-title">Tweets</h3>
-                            <!-- twitter -->
-                            <a class="twitter-timeline" href="https://twitter.com/UntoldFestival" data-widget-id="716220714324467712">Tweets by @UntoldFestival</a>
-                            <script>!function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location)?'http':'https'; if (!d.getElementById(id)){js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); }}(document, "script", "twitter-wjs");</script>
+                            <h3>Instagram</h3>
+                            <div class="instagram-widget">
+                                <!-- SnapWidget -->
+                                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                                <iframe src="https://snapwidget.com/embed/301262" class="snapwidget-widget" allowTransparency="true" frameborder="0" 
+                                        scrolling="no" style="border:none; overflow:hidden; width:100%; ">
+                                </iframe>
+                            </div>
                         </div><!-- end widget -->
                         <div class="widget tagCloud">
                             <h3 class="widget-title">Tag Cloud</h3>
