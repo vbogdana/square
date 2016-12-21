@@ -19005,6 +19005,26 @@ html body {
 
 }
 
+@media screen and (max-width: 799px) {
+    .photoHome .single-photo-album-container article figure .content {
+
+        opacity: 1;
+
+        visibility: visible;
+
+        transform: scale(0.75);
+
+        -webkit-transform: scale(0.75);
+
+    }
+    
+    .photoHome .single-photo-album-container article figure .album-title {
+
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
 .shopHomePage .icon-button,
 
 .shop-products .icon-button,
@@ -25216,7 +25236,9 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
 .starTitle h4,
 
-.starTitle h1 {
+.starTitle h1, 
+
+#mainTitle  {
 
     color: #fff;
 
@@ -25230,7 +25252,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
 }
 
-.starTitle h4 {
+.starTitle h4, #mainTitle {
 
     font-weight: 400;
 
@@ -25738,7 +25760,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     }
 
-    .starTitle h4 {
+    .starTitle h4, #mainTitle {
 
         font-size: 0.7rem;
 
@@ -25770,7 +25792,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     }
 
-    .starTitle h4 {
+    .starTitle h4, #mainTitle {
 
         font-size: 0.5rem;
 
@@ -25794,7 +25816,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     width: 100%;
 
-    height: 100%;
+    height: 100vh;
 
     display: table;
 
@@ -26254,7 +26276,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     display: block;
 
-    padding: 0 8px;
+    padding: 0 4px;
 
     cursor: pointer;
 
@@ -26274,9 +26296,9 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     height: 2px;
 
-    width: 17px;
+    width: 28px;
 
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 
     transform-origin: 0% 0%;
 

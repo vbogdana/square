@@ -26,7 +26,7 @@
                                 </div>
                             </h1>
                         </div>
-                        <h4>Belgrade,STUDENTSKI TRG 15</h4>
+                        <h1 id="mainTitle">Belgrade +381 69 20 10 110</h1>
                     </div>
                     <div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/yU7u0x6LA3Q',containment:'.player',autoPlay:true, mute:true, startAt:0, opacity:1}"></div>
                 </div>

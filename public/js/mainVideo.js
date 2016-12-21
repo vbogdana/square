@@ -436,7 +436,7 @@ jQuery(document).ready(function(){
   /***********************************************************************************************/
   /* MENU */
   /***********************************************************************************************/
-  jQuery('.open-menu').on('click', function(){
+  jQuery('.open-menu').on('touchstart', function(){
 
     jQuery(this).toggleClass('active');
 
@@ -444,7 +444,7 @@ jQuery(document).ready(function(){
 
   });
 
-  jQuery('#menu .x-filter').on('click',function(){
+  jQuery('#menu .x-filter').on('touchstart',function(){
 
     jQuery('.open-menu').toggleClass('active');
 
@@ -452,7 +452,7 @@ jQuery(document).ready(function(){
 
   });
 
-  jQuery('#menu > nav > ul > li > a').on('click',function(){
+  jQuery('#menu > nav > ul > li').on('click',function(){
       /*
         jQuery(this).parent().siblings().toggleClass('no-hovered');
         jQuery(this).parent().toggleClass('click');
