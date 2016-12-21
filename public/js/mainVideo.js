@@ -1,4 +1,64 @@
 /* ================================================== */
+/* =============== START NEWS PAGINATION ================ */
+/* ================================================== */
+/*
+$(window).on("load", function(ev) {
+    ev.preventDefault();
+    $("#2.col-sm-8").hide();
+    $("#3.col-sm-8").hide();
+    
+    $(".previous").on("click", function(ev) {
+        ev.preventDefault();
+        $(".page").each(function() {
+            $element = $(this);
+            $curr_id = parseInt($element.attr("id"));
+            if ($curr_id == 1) {
+                $element.attr("id", "2");
+                $element.fadeOut("slow");
+                return;
+            }
+            if ($curr_id == 2) {
+                $element.attr("id", "3");
+                return;
+            }
+            if ($curr_id == 3) {
+                $element.attr("id", "1");
+                $element.delay(300).fadeIn("slow");
+                return;
+            }
+        });
+    });
+    
+    $(".next").on("click", function(ev) {
+        ev.preventDefault();
+        $(".page").each(function() {
+            $element = $(this);
+            $curr_id = parseInt($element.attr("id"));
+            if ($curr_id == 1) {
+                $element.attr("id", "3");
+                $element.fadeOut("slow");
+                return;
+            }
+            if ($curr_id == 2) {
+                $element.attr("id", "1");
+                $element.delay(300).fadeIn("slow");
+                return;
+            }
+            if ($curr_id == 3) {
+                $element.attr("id", "2");               
+                return;
+            }
+        });
+    });
+    
+});
+*/
+/* ================================================== */
+/* =============== END NEWS PAGINATION ================ */
+/* ================================================== */
+
+
+/* ================================================== */
 /* =============== START BREADCRUMB JS ================ */
 /* ================================================== */
 	
@@ -376,7 +436,7 @@ jQuery(document).ready(function(){
   /***********************************************************************************************/
   /* MENU */
   /***********************************************************************************************/
-  jQuery('.open-menu').on('click', function(){
+  jQuery('.open-menu').on('touchstart', function(){
 
     jQuery(this).toggleClass('active');
 
@@ -384,7 +444,7 @@ jQuery(document).ready(function(){
 
   });
 
-  jQuery('#menu .x-filter').on('click',function(){
+  jQuery('#menu .x-filter').on('touchstart',function(){
 
     jQuery('.open-menu').toggleClass('active');
 
@@ -392,7 +452,7 @@ jQuery(document).ready(function(){
 
   });
 
-  jQuery('#menu > nav > ul > li > a').on('click',function(){
+  jQuery('#menu > nav > ul > li').on('click',function(){
       /*
         jQuery(this).parent().siblings().toggleClass('no-hovered');
         jQuery(this).parent().toggleClass('click');
