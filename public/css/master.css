@@ -25131,13 +25131,13 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -moz-transition: all 0.5s;
 
     transition: all 0.5s;
-
+/*
     -webkit-animation: neon 1.5s ease-in-out infinite alternate;
 
     -moz-animation: neon 1.5s ease-in-out infinite alternate;
 
     animation: neon 1.5s ease-in-out infinite alternate;
-
+*/
 }
 
 .logo-container-top.middle a:hover {
@@ -25780,8 +25780,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     visibility: hidden;
 
-    /*
-
     -webkit-transition-delay: 0;
 
     transition-delay: 0;
@@ -25803,8 +25801,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -o-transition: 0.4s;
 
     transition: 0.4s;
-
-    */
 
     //background: rgba(255, 255, 255, 0.98);
 
@@ -25838,8 +25834,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     cursor: pointer;
 
-    /*
-
     -webkit-transition-delay: 0;
 
     transition-delay: 0;
@@ -25861,8 +25855,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     -o-transition: 0.5s;
 
     transition: 0.5s;
-
-    */
 
     -webkit-transform: translateX(70px);
 
@@ -25962,8 +25954,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     display: block;
 
-    /*
-
     -webkit-transition-delay: 0;
 
     transition-delay: 0;
@@ -25980,7 +25970,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     transition-timing-function: ease-in-out;
 
-    */
 
 }
 
@@ -26012,8 +26001,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     outline: none;
 
-    /*
-
     -webkit-transition-delay: 0;
 
     transition-delay: 0;
@@ -26029,8 +26016,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     transition-duration: 0.2s;
 
     transition-timing-function: ease-in-out;
-
-    */
 
 }
 
@@ -33562,9 +33547,9 @@ body.opacityPlaylist .main-music-player .mesh-title {
     }
     
     #new-year .col-sm-3 figure .content .eventHover .event {
-        -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+       /* -webkit-animation: neon 1.5s ease-in-out infinite alternate;
         -moz-animation: neon 1.5s ease-in-out infinite alternate;
-        animation: neon 1.5s ease-in-out infinite alternate;
+        animation: neon 1.5s ease-in-out infinite alternate;*/
     }
     
     #new-year .col-sm-3 ul li:hover figure .content {

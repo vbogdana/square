@@ -434,8 +434,6 @@
             <div class="container">
 
                 <div class="row">
-                    
-                    <input id="test" type="text" value="" >
 
                     <div class="col-sm-4">
 
@@ -594,9 +592,10 @@
         </section>
 
         <!-- =============== END FOOTER ================ -->
+        @show
 
-
-
+        
+        @section('javascripts')
         <!-- ================================================== -->
 
         <!-- =============== START JQUERY SCRIPTS ================ -->
@@ -638,8 +637,8 @@
         <!-- =============== END JQUERY SCRIPTS ================ -->
 
         <!-- ================================================== -->
-
         @show
+        
 
 
 
