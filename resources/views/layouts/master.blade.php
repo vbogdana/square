@@ -239,7 +239,7 @@
 
                     <!-- =============== START RESERVATION ================ -->
 
-                    <section id="onlineReservation" class="onlineReservation contactSingle background-properties" >
+                    <section id="onlineReservation" class="onlineReservation contactSingle" >
 
                         <div class="container">
 
@@ -434,6 +434,8 @@
             <div class="container">
 
                 <div class="row">
+                    
+                    <input id="test" type="text" value="" >
 
                     <div class="col-sm-4">
 

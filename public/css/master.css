@@ -1,56 +1,8 @@
 @charset "UTF-8";
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext);
-
-@import url(https://fonts.googleapis.com/css?family=Lekton);
-
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
-
-@import url(https://fonts.googleapis.com/css?family=Abel);
-
-@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
-
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,400italic,300italic,500italic,600,600italic,700,700italic);
-
-@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
-
-@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
-
-
-
-/* novi fontovi */
-
-@import url('https://fonts.googleapis.com/css?family=Aldrich');
-
-@import url('https://fonts.googleapis.com/css?family=El+Messiri:400,500,600,700');
-
-@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
-@import url('https://fonts.googleapis.com/css?family=Gruppo');
-
 @import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600');
-
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
-
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i');
-
-@import url('https://fonts.googleapis.com/css?family=Michroma');        /* odlican za title */
-
-@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i');
-
-@import url('https://fonts.googleapis.com/css?family=Palanquin:100,200,300,400,500,600,700');
-
-@import url('https://fonts.googleapis.com/css?family=Play:400,700');
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
-
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
-
-@import url('https://fonts.googleapis.com/css?family=Sarpanch:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
 
 
 
@@ -10151,7 +10103,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
     font-weight: 400;
 
-    font-family: 'Raleway';
+    font-family: 'Jura';
 
     text-transform: uppercase;
 
@@ -10173,7 +10125,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
     font-size: 32px;
 
-    font-family: 'Raleway';
+    font-family: 'Jura';
 
 }
 
@@ -10185,7 +10137,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
     font-size: 32px;
 
-    font-family: 'Raleway';
+    font-family: 'Jura';
 
 }
 
@@ -10201,7 +10153,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
     color: #f2f2f2;
 
-    font-family: 'Raleway';
+    font-family: 'Jura';
 
 }
 
@@ -19583,7 +19535,7 @@ html body {
 
     font-weight: 600;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.3rem;
 
@@ -19617,7 +19569,7 @@ html body {
 
     font-weight: 300;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #262526;
 
@@ -19629,7 +19581,7 @@ html body {
 
     color: #000;
 
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.6rem;
 
@@ -19647,7 +19599,7 @@ html body {
 
     font-weight: 700;
 
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Jura Baskerville', serif;
 
 }
 
@@ -19747,7 +19699,7 @@ html body {
 
     font-weight: 400;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.6rem;
 
@@ -19759,7 +19711,7 @@ html body {
 
     padding: 12px 100px 12px 5px;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     border: none;
 
@@ -19775,7 +19727,7 @@ html body {
 
 .skuWrapper {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -19787,7 +19739,7 @@ html body {
 
 .skuWrapper .sku {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -19805,7 +19757,7 @@ html body {
 
 .meta-list .metaListHead {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -19819,7 +19771,7 @@ html body {
 
     font-weight: 400;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #919191;
 
@@ -19831,7 +19783,7 @@ html body {
 
 .metaList .metaListSpan {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -19843,7 +19795,7 @@ html body {
 
 .metaList a {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -19873,7 +19825,7 @@ html body {
 
     font-weight: 300;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.6rem;
 
@@ -19919,7 +19871,7 @@ html body {
 
     border-radius: 5px;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     background-color: #262526;
 
@@ -19997,7 +19949,7 @@ html body {
 
     font-weight: 400;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.5remshi;
 
@@ -20029,7 +19981,7 @@ html body {
 
     font-weight: 400;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.5remshi;
 
@@ -20081,7 +20033,7 @@ html body {
 
     font-weight: 400;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
 }
 
@@ -20093,7 +20045,7 @@ html body {
 
     font-weight: 700;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
 }
 
@@ -20395,7 +20347,7 @@ body {
 
 .twitter .linkTwitter {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 600;
 
@@ -20413,7 +20365,7 @@ body {
 
 .twitter p {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -20435,7 +20387,7 @@ body {
 
     text-decoration: none;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -20892,7 +20844,7 @@ body {
 
     border-bottom: 1px solid rgba(206, 206, 206, 0.3);
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
 }
 
@@ -20902,7 +20854,7 @@ body {
 
     color: #757575;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -21202,7 +21154,7 @@ body {
 
     font-weight: 400;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     width: 8rem;
 
@@ -21350,7 +21302,7 @@ body {
 
 .sm-countdown.sm-style2 input {
 
-    font-family: 'Karla', sans-serif !important;
+    font-family: 'Jura', sans-serif !important;
 
 }
 
@@ -21364,7 +21316,7 @@ body {
 
     text-transform: uppercase;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
 }
 
@@ -21498,7 +21450,7 @@ body {
 
 .SingleEventTitle h1 {
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     font-size: 3rem;
 
@@ -21546,7 +21498,7 @@ body {
 
     font-size: 1.4rem;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -21574,7 +21526,7 @@ body {
 
     padding-bottom: 4rem;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     color: #525252;
 
@@ -21592,7 +21544,7 @@ body {
 
     font-weight: 400;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -22178,7 +22130,7 @@ body {
 
 .copyFooter a {
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     font-size: 1rem;
 
@@ -22200,7 +22152,7 @@ body {
 
 .goTop a {
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     font-size: 1rem;
 
@@ -22344,7 +22296,7 @@ body {
 
     line-height: 85px;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     color: #fff;
 
@@ -22382,7 +22334,7 @@ body {
 
     text-transform: uppercase;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 300;
 
@@ -22508,7 +22460,7 @@ body {
 
 .fusion-row a {
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -22553,13 +22505,13 @@ body {
 
     text-transform: uppercase;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
 }
 
 .fusion-row p {
 
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -24700,7 +24652,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     font-size: 1.3rem;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #666;
 
@@ -24722,7 +24674,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     font-size: 1.3rem;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #666;
 
@@ -25258,7 +25210,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     font-size: 1.1rem;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
 }
 
@@ -29289,7 +29241,7 @@ body ul {
 
     position: relative;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -29311,7 +29263,7 @@ body ul {
 
     font-weight: 400;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -29445,7 +29397,7 @@ body ul {
 
     font-size: 1.2rem;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     text-transform: uppercase;
 
@@ -29471,7 +29423,7 @@ body ul {
 
     font-size: 1.2rem;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 700;
 
@@ -29597,7 +29549,7 @@ body ul {
 
     line-height: 3rem;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #757575;
 
@@ -29615,7 +29567,7 @@ body ul {
 
     color: #525252;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     text-transform: uppercase;
 
@@ -29753,7 +29705,7 @@ body ul {
 
     font-weight: 700;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     color: #525252;
 
@@ -29775,7 +29727,7 @@ body ul {
 
     font-weight: 700;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     text-transform: uppercase;
 
@@ -29795,7 +29747,7 @@ body ul {
 
     text-transform: uppercase;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     left: 0;
 
@@ -30177,7 +30129,7 @@ body.boxed .pagination-2 {
 
     color: #888;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     font-weight: 400;
 
@@ -30193,7 +30145,7 @@ body.boxed .pagination-2 {
 
     text-transform: uppercase;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     font-weight: 400;
 
@@ -30563,7 +30515,7 @@ body.boxed .pagination-2 {
 
     color: #bb9b69;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-size: 1.7rem;
 
@@ -30583,7 +30535,7 @@ body.boxed .pagination-2 {
 
     font-size: 1rem;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #9e9e9e;
 
@@ -30597,7 +30549,7 @@ p {
 
     font-size: 1.3rem;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #9e9e9e;
 
@@ -31737,7 +31689,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 .jp-playlist .header-text p {
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #000;
 
@@ -31765,7 +31717,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     font-weight: 700;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     color: #525252;
 
@@ -32131,7 +32083,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 .mesh-main-player .mesh-artist {
 
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -32157,7 +32109,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     margin-bottom: 0.6rem;
 
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     color: #fff;
 
@@ -32405,7 +32357,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     font-size: 1.1rem;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     font-weight: 400;
 
@@ -32641,7 +32593,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     text-align: center;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
 }
 
@@ -32673,7 +32625,7 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
     font-size: 1.4rem;
 
-    font-family: 'Karla', sans-serif;
+    font-family: 'Jura', sans-serif;
 
     letter-spacing: 0.1rem;
 
