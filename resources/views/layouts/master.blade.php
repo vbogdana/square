@@ -13,7 +13,7 @@
 
         <meta charset="UTF-8">
 
-        <title>Club Square Belgrade - Night Club STUDENTSKI TRG 15</title>
+        <title>Club Square Belgrade - Night Club +381 69 20 10 110</title>
 
         <meta name="HandheldFriendly" content="true" />
 
@@ -24,7 +24,10 @@
 		<meta property="og:locale" content="en_US">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="http://www.squareclubbelgrade.com">
+                <meta property="og:title"              content="Club Square Belgrade - Night Club +381 69 20 10 110" />
+                <meta property="og:description"        content="Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects." />
 		<meta property="og:site_name" content="Square Club Belgrade">
+
   
 
 
@@ -236,7 +239,7 @@
 
                     <!-- =============== START RESERVATION ================ -->
 
-                    <section id="onlineReservation" class="onlineReservation contactSingle background-properties" >
+                    <section id="onlineReservation" class="onlineReservation contactSingle" >
 
                         <div class="container">
 
@@ -252,13 +255,13 @@
 
                                         <div class="comment-form">
 
-                                            <input id="firstName" name="firstName" type="text" value="" aria-required="true" required="" placeholder="First Name *" autocomplete="off">
+                                            <input id="firstName" name="firstName" type="text" value="" aria-required="false" required="" placeholder="First Name *" autocomplete="off">
 
-                                            <input id="lastName" name="lastName" type="text" value="" aria-required="true" required="" placeholder="Last Name *" autocomplete="off">
+                                            <input id="lastName" name="lastName" type="text" value="" aria-required="false" required="" placeholder="Last Name *" autocomplete="off">
 
-                                            <input id="phone" name="phone" type="text" value="" aria-required="true" required="" placeholder="Phone Number *" autocomplete="off">
+                                            <input id="phone" name="phone" type="text" value="" aria-required="false" required="" placeholder="Phone Number *" autocomplete="off">
 
-                                            <select id="people" name="people" aria-required="true" required="">
+                                            <select id="people" name="people" aria-required="false" required="">
 
                                                 <option value="2-5">2-5 people</option>
 
@@ -589,9 +592,10 @@
         </section>
 
         <!-- =============== END FOOTER ================ -->
+        @show
 
-
-
+        
+        @section('javascripts')
         <!-- ================================================== -->
 
         <!-- =============== START JQUERY SCRIPTS ================ -->
@@ -633,8 +637,8 @@
         <!-- =============== END JQUERY SCRIPTS ================ -->
 
         <!-- ================================================== -->
-
         @show
+        
 
 
 
