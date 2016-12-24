@@ -83,7 +83,7 @@
                             <ul class="clearfix">
                                 <li class="">
                                     <figure>
-                                        <a href="{{ route("album", ["album" => "17122016"]) }}" class="info">
+                                        <a href="{{ route("album", ["album" => "23122016"]) }}" class="info">
                                             <figcaption>
                                                 <img src="<?php echo url("") ?>/images/events/new-year.png" alt="">
                                             </figcaption>
@@ -106,7 +106,7 @@
                                 </li>
                                 <li class="">
                                     <figure>
-                                        <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> 
+                                        <a href="{{ route("album", ["album" => "22122016"]) }}" class="info"> 
                                             <figcaption>
                                                 <img src="<?php echo url("") ?>/images/events/new-year-vol2.png" alt="">
                                             </figcaption>
