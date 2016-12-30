@@ -83,7 +83,7 @@
                             <ul class="clearfix">
                                 <li class="">
                                     <figure>
-                                        <a href="{{ route("album", ["album" => "25122016"]) }}" class="info">
+                                        <a href="{{ route("album", ["album" => "29122016"]) }}" class="info">
                                             <figcaption>
                                                 <img src="<?php echo url("") ?>/images/events/new-year.png" alt="">
                                             </figcaption>
@@ -106,7 +106,7 @@
                                 </li>
                                 <li class="">
                                     <figure>
-                                        <a href="{{ route("album", ["album" => "24122016"]) }}" class="info"> 
+                                        <a href="{{ route("album", ["album" => "25122016"]) }}" class="info"> 
                                             <figcaption>
                                                 <img src="<?php echo url("") ?>/images/events/new-year-vol2.png" alt="">
                                             </figcaption>
@@ -213,7 +213,7 @@
                         <ul class="clearfix">
                             <li class="col-sm-3">
                                 <figure>
-                                    <a href="{{ route("album", ["album" => "22122016"]) }}" class="info">
+                                    <a href="{{ route("album", ["album" => "29122016"]) }}" class="info">
                                         <figcaption>
                                             <img src="<?php echo url("") ?>/images/events/thursday.png" alt="">
                                         </figcaption>
@@ -437,6 +437,32 @@
                     <div class="single-photo-album-container">
                         <div class="row">
                             
+                             <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_29122016/cover.jpg" alt="">
+                                        </div>
+                                    </figcaption>
+                                    <div class="album-title">
+                                        29/12/2016
+                                    </div>
+                                    <div class="content">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                29/12/2016
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "29122016"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                            
                            <!-- Single Album Article -->
                             <article class="col-sm-4">
                                 <figure>
@@ -518,6 +544,28 @@
                                     <!-- Single Album Image -->
                                     <figcaption>
                                         <div class="hovereffect">
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+                                        </div>
+                                    </figcaption>
+                                    <div class="content" id="interior">
+                                        <div class="eventHover">
+                                            <div class="event">
+                                                interior
+                                            </div>
+                                            <div class="fixLine"></div>
+                                            <div  class="evSubtitle"> 
+                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                            <!-- Single Album Article -->
+                            <article class="col-sm-4">
+                                <figure>
+                                    <!-- Single Album Image -->
+                                    <figcaption>
+                                        <div class="hovereffect">
                                             <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_22122016/cover.jpg" alt="">
                                         </div>
                                     </figcaption>
@@ -537,28 +585,7 @@
                                     </div>
                                 </figure>
                             </article>
-                            <!-- Single Album Article -->
-                            <article class="col-sm-4">
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
-                                        </div>
-                                    </figcaption>
-                                    <div class="content" id="interior">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                interior
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </article>
+                            
                             <article class="col-sm-4">
                                 <figure>
                                     <!-- Single Album Image -->
@@ -634,34 +661,6 @@
                                     </div>
                                 </figure>
                             </article>
-                            
-                            
-                            <article class="col-sm-4">
-                                <figure>
-                                    <!-- Single Album Image -->
-                                    <figcaption>
-                                        <div class="hovereffect">
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_09122016/cover.jpg" alt="">
-                                        </div>
-                                    </figcaption>
-                                    <div class="album-title">
-                                        09/12/2016
-                                    </div>
-                                    <div class="content">
-                                        <div class="eventHover">
-                                            <div class="event">
-                                                09/12/2016
-                                            </div>
-                                            <div class="fixLine"></div>
-                                            <div  class="evSubtitle"> 
-                                                <a href="{{ route("album", ["album" => "09122016"]) }}" class="info"> view album </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </article>
-                            <!-- Single Album Article -->
-                            
                             <!-- Single Album Article -->
                             
                         </div>
