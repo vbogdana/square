@@ -376,7 +376,7 @@
 
 
 
-                        <li><a href="{{ route("/") }}#new-year">new year's</a></li>
+                   <!--     <li><a href="{{ route("/") }}#new-year">new year's</a></li> -->
 
 
 
