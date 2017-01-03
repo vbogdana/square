@@ -426,7 +426,7 @@
 
                         <ul class="clearfix">
 
-                            <li class="col-sm-3">
+                      <!--      <li class="col-sm-3">
 
                                 <figure>
 
@@ -471,7 +471,9 @@
                                 </figure>
 
                             </li>
-
+   // -->
+                            
+                            
                             <li class="col-sm-3">
 
                                 <figure>
@@ -568,7 +570,7 @@
 
                                 <figure>
 
-                                    <a href="{{ route("album", ["album" => "25122016"]) }}" class="info"> 
+                                    <a href="{{ route("album", ["album" => "01012017"]) }}" class="info"> 
 
                                         <figcaption>
 
@@ -597,6 +599,52 @@
                                                     <div  class="evTitle"> next </div>
 
                                                     01/01/2017 
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </figure>
+
+                            </li>
+                            
+                            <li class="col-sm-3">
+
+                                <figure>
+
+                                    <a href="{{ route("album", ["album" => "29122016"]) }}" class="info">
+                                    
+                                        <figcaption>
+
+                                            <img src="<?php echo url("") ?>/images/events/monday.png" alt="">
+
+                                        </figcaption>
+
+                                        <div class="content">
+
+                                            <div class="eventHover">
+
+                                                <div class="event">
+
+                                                    RNB & HOUSE
+
+                                                </div>
+
+                                                <div class="fixLine"></div>
+
+                                                <div  class="evTitle"> MONDAY  </div>
+
+                                                <div class="evSubtitle">DJ IKE & MARK FUNK</div>
+
+                                                <div class="dateOfParty"> 
+
+                                                    <div  class="evTitle"> next </div>
+
+                                                    02/01/2017 
 
                                                 </div>
 
@@ -756,13 +804,13 @@
 
                 <div class="blogBox">	
 
-                    <div class="videoBox"><iframe src="https://www.youtube.com/embed/H7YawBjDNzo" width="600" height="410"  ></iframe></div>
+                    <div class="videoBox"><iframe src="https://www.youtube.com/embed/watch?v=bGxoXtOc-HM&feature=youtu.be" width="600" height="410"  ></iframe></div>
 
                     <div class="blogBoxContent">
 
                         <div class="blogHeader">
 
-                            <h1><a href="#">The Square club is open!</a></h1>
+                            <h1><a href="#">THURSDAY IN SQUARE BELGRADE!</a></h1>
 
                         </div>
 
@@ -770,7 +818,7 @@
 
                             <ul>
 
-                                <li><a href="#">28 Nov 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">29 Dec 2016</a>&nbsp;&nbsp;</li>
 
                             </ul>
 
@@ -798,13 +846,13 @@
 
                 <div class="blogBox">	
 
-                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/VRjdddZosEU" width="600" height="410"  ></iframe></div>
+                     <div class="videoBox"><iframe src="https://www.youtube.com/embed/watch?v=QuaDhnRifXk&feature=youtu.be" width="600" height="410"  ></iframe></div>
 
                     <div class="blogBoxContent">
 
                         <div class="blogHeader">
 
-                            <h1><a href="#">Total RNB night in Square club</a></h1>
+                            <h1><a href="#">SUNDAY IN SQUARE BELGRADE</a></h1>
 
                         </div>
 
@@ -812,7 +860,7 @@
 
                             <ul>
 
-                                <li><a href="#">03 Nov 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="#">01 Jan 2017</a>&nbsp;&nbsp;</li>
 
                             </ul>
 
@@ -875,6 +923,55 @@
                     <div class="single-photo-album-container">
 
                         <div class="row">
+                          <!-- Single Album Article -->
+
+                            <article class="col-sm-4">
+
+                                <figure>
+
+                                    <!-- Single Album Image -->
+
+                                    <figcaption>
+
+                                        <div class="hovereffect">
+
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_01012017/cover.jpg" alt="">        
+
+                                        </div>
+
+                                    </figcaption>
+
+                                    <div class="album-title">
+
+                                        01/01/2017
+
+                                    </div>
+
+                                    <div class="content">
+
+                                        <div class="eventHover">
+
+                                            <div class="event">
+
+                                                01/01/2017
+
+                                            </div>
+
+                                            <div class="fixLine"></div>
+
+                                            <div  class="evSubtitle"> 
+
+                                                <a href="{{ route("album", ["album" => "01012017"]) }}" class="info"> view album </a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </figure>
+
+                            </article>
                             <!-- Single Album Article -->
 
                             <article class="col-sm-4">
@@ -1025,6 +1122,49 @@
                                 </figure>
 
                             </article>
+                           <!-- Single Album Article -->
+
+                            <article class="col-sm-4">
+
+                                <figure>
+
+                                    <!-- Single Album Image -->
+
+                                    <figcaption>
+
+                                        <div class="hovereffect">
+
+                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
+
+                                        </div>
+
+                                    </figcaption>
+
+                                    <div class="content" id="interior">
+
+                                        <div class="eventHover">
+
+                                            <div class="event">
+
+                                                interior
+
+                                            </div>
+
+                                            <div class="fixLine"></div>
+
+                                            <div  class="evSubtitle"> 
+
+                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </figure>
+
+                            </article>
 			
 			<article class="col-sm-4">
 
@@ -1073,49 +1213,7 @@
                                 </figure>
 
                             </article>
-                       <!-- Single Album Article -->
-
-                            <article class="col-sm-4">
-
-                                <figure>
-
-                                    <!-- Single Album Image -->
-
-                                    <figcaption>
-
-                                        <div class="hovereffect">
-
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_interior/cover.jpg" alt="">
-
-                                        </div>
-
-                                    </figcaption>
-
-                                    <div class="content" id="interior">
-
-                                        <div class="eventHover">
-
-                                            <div class="event">
-
-                                                interior
-
-                                            </div>
-
-                                            <div class="fixLine"></div>
-
-                                            <div  class="evSubtitle"> 
-
-                                                <a href="{{ route("album", ["album" => "interior"]) }}" class="info"> view album </a>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </figure>
-
-                            </article>
+                       
                         
 
 			<!-- Single Album Article -->
@@ -1267,55 +1365,7 @@
 
                             </article>
 
-                            <!-- Single Album Article -->
-
-                            <article class="col-sm-4">
-
-                                <figure>
-
-                                    <!-- Single Album Image -->
-
-                                    <figcaption>
-
-                                        <div class="hovereffect">
-
-                                            <img class="img-responsive" src="<?php echo url("") ?>/images/albums/album_11122016/cover.jpg" alt="">        
-
-                                        </div>
-
-                                    </figcaption>
-
-                                    <div class="album-title">
-
-                                        11/12/2016
-
-                                    </div>
-
-                                    <div class="content">
-
-                                        <div class="eventHover">
-
-                                            <div class="event">
-
-                                                11/12/2016
-
-                                            </div>
-
-                                            <div class="fixLine"></div>
-
-                                            <div  class="evSubtitle"> 
-
-                                                <a href="{{ route("album", ["album" => "11122016"]) }}" class="info"> view album </a>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </figure>
-
-                            </article>
+                            
 
                             
                             <!-- Single Album Article -->
@@ -1366,13 +1416,13 @@
 
             <div class="col-sm-4">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/H7YawBjDNzo"  allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=bGxoXtOc-HM&feature=youtu.be"  allowfullscreen></iframe>
 
             </div>
 
             <div class="col-sm-4">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ve1z3DgApB8"  allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=QuaDhnRifXk&feature=youtu.be"  allowfullscreen></iframe>
 
             </div>
 
