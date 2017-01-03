@@ -574,17 +574,7 @@
                                             <select id="day" name="day" aria-required="true" required="">
                               
                                               
-                                                <option value="Cetvrtak 29.12.2016.">Thursday | 29.12.2016. | The Nineties</option>
-
-
-                                                <option value="Petak 30.12.2016.">Friday | 30.12.2016. | Make Some Love</option>
-
-
-						<option value="Subota 31.12.2016.">Saturday | 31.12.2016. | New Year's Eve</option>
-
-
-                                                <option value="Nedelja 1.1.2017." selected="true">Sunday | 1.1.2017. | Total RnB</option>
-
+                                                
 						
 						<option value="Cetvrtak 5.1.2017.">Thursday | 5.1.2017. | The Nineties</option>
 
@@ -596,6 +586,18 @@
 
 
                                                 <option value="Nedelja 8.1.2017." selected="true">Sunday | 8.1.2017. | Total RnB</option>
+                                                
+
+                                                <option value="Cetvrtak 12.1.2017.">Thursday | 12.1.2017. | The Nineties</option>
+
+
+                                                <option value="Petak 13.1.2017.">Friday | 13.1.2017. | Make Some Love</option>
+
+
+						<option value="Subota 14.1.2017.">Saturday | 14.1.2017. | Blood & Mode</option>
+
+
+                                                <option value="Nedelja 15.1.2017." selected="true">Sunday | 15.1.2017. | Total RnB</option>
 
 
                                             </select>                                             
