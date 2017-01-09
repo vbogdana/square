@@ -576,17 +576,7 @@
                                               
                                                 
 						
-						<option value="Cetvrtak 5.1.2017.">Thursday | 5.1.2017. | The Nineties</option>
-
-
-                                                <option value="Petak 6.1.2017.">Friday | 6.1.2017. | Make Some Love</option>
-
-
-						<option value="Subota 7.1.2017.">Saturday | 7.1.2017. | Blood & Mode</option>
-
-
-                                                <option value="Nedelja 8.1.2017." selected="true">Sunday | 8.1.2017. | Total RnB</option>
-                                                
+						
 
                                                 <option value="Cetvrtak 12.1.2017.">Thursday | 12.1.2017. | The Nineties</option>
 
@@ -598,7 +588,19 @@
 
 
                                                 <option value="Nedelja 15.1.2017." selected="true">Sunday | 15.1.2017. | Total RnB</option>
+                                                
 
+                                                <option value="Cetvrtak 19.1.2017.">Thursday | 19.1.2017. | The Nineties</option>
+
+
+                                                <option value="Petak 20.1.2017.">Friday | 20.1.2017. | Make Some Love</option>
+
+
+						<option value="Subota 21.1.2017.">Saturday | 21.1.2017. | Blood & Mode</option>
+
+
+                                                <option value="Nedelja 22.1.2017." selected="true">Sunday | 22.1.2017. | Total RnB</option>
+                                                
 
                                             </select>                                             
 
