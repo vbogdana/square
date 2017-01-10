@@ -936,15 +936,15 @@
 
                                                 <div class="event">
 
-                                                        Blood & mode
+                                                        ROBY ROB
 
                                                 </div>
 
                                                 <div class="fixLine"></div>
 
-                                                <div  class="evTitle"> SATURDAY </div>
+                                                <div  class="evTitle"> THIS SATURDAY </div>
 
-                                                <div class="evSubtitle">COLLE & MARK FUNK  </div>
+                                                <div class="evSubtitle">& MARK FUNK  </div>
 
                                                 <div class="dateOfParty"> 
 
