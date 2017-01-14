@@ -581,10 +581,10 @@
                                                 <option value="Cetvrtak 12.1.2017.">Thursday | 12.1.2017. | The Nineties</option>
 
 
-                                                <option value="Petak 13.1.2017.">Friday | 13.1.2017. | Make Some Love</option>
+                                                <option value="Petak 13.1.2017.">Friday | 13.1.2017. | Live act</option>
 
 
-						<option value="Subota 14.1.2017.">Saturday | 14.1.2017. | Blood & Mode</option>
+						<option value="Subota 14.1.2017.">Saturday | 14.1.2017. | Roby Rob</option>
 
 
                                                 <option value="Nedelja 15.1.2017." selected="true">Sunday | 15.1.2017. | Total RnB</option>
@@ -852,6 +852,51 @@
 
         @section ('footer')
 
+        <!-- =============== START MAP ================ -->
+
+
+
+<section id="location" class="googleMap">
+
+
+
+    <div class="container-fluid">
+
+
+
+        <div class="row">
+
+
+
+            <div class="col-sm-12">
+
+
+
+                <div id="map-canvas" class="google-map" data-lat="44.820092" data-long="20.456819" data-img="<?php echo url("") ?>/images/blackpin.png" ></div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+</section>
+
+
+
+<!-- =============== END MAP ================ -->
 
 
         <!-- =============== START CONTACT ================ -->
