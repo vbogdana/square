@@ -50,11 +50,13 @@
 
 		<meta property="og:url" content="http://www.squareclubbelgrade.com">
 
-                <meta property="og:title"              content="Club Square Belgrade - Night Club +381 69 20 10 110" />
+                <meta property="og:title" content="Club Square Belgrade - Night Club +381 69 20 10 110" />
 
-                <meta property="og:description"        content="Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects." />
+                <meta property="og:description" content="Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects." />
 
 		<meta property="og:site_name" content="Square Club Belgrade">
+                
+                <meta property="og:image" content="<?php echo url("") ?>/images/bgnocu1.jpg"/>
 
 @show
 
@@ -1009,7 +1011,7 @@
 
 
 
-                            <a href='https://www.facebook.com/SquareClubBelgrade'>
+                            <a href='https://www.facebook.com/SquareClubBelgrade' target="_blank">
 
 
 
@@ -1041,7 +1043,7 @@
 
 
 
-                            <a href="https://www.instagram.com/square_club_belgrade/">
+                            <a href="https://www.instagram.com/square_club_belgrade/" target="_blank">
 
 
 
@@ -1129,7 +1131,7 @@
 
 
 
-                                <a href="http://www.code581.rs">&copy; 2016  code 581 </a>
+                                <a href="http://www.code581.rs" target="_blank">&copy; 2016  code 581 </a>
 
 
 
@@ -1153,15 +1155,11 @@
 
 
 
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
+                                    <li><a href="https://www.instagram.com/code581/" target="_blank" class="icon-button shopIcon"><i class="fa fa-instagram"></i><span></span></a></li>
 
 
 
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
-
-
-
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a></li>
+                                    <li><a href="https://www.facebook.com/code581/" target="_blank" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
 
 
 

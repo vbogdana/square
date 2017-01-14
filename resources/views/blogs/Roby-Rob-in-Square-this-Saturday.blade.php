@@ -5,19 +5,21 @@
 
         <meta property="fb:pages" content="squareclubbelgrade">
 
-        <meta name="description" content="World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss...">
+        <meta name="description" content="World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss..."/>
 
-        <meta property="og:locale" content="en_US">
+        <meta property="og:locale" content="en_US"/>
 
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="website"/>
 
-        <meta property="og:url" content="http://squareclubbelgrade.com/news/Roby-Rob-in-Square-this-Saturday">
+        <meta property="og:url" content="http://squareclubbelgrade.com/news/Roby-Rob-in-Square-this-Saturday"/>
 
-        <meta property="og:title"              content="Club Square Belgrade - Roby Rob in Square this Saturday" />
+        <meta property="og:title" content="Club Square Belgrade - Roby Rob in Square this Saturday" />
 
-        <meta property="og:description"        content="World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss..." />
+        <meta property="og:description" content="World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss..." />
 
-        <meta property="og:site_name" content="Square Club Belgrade">
+        <meta property="og:site_name" content="Square Club Belgrade"/>
+        
+        <meta property="og:image" content="<?php echo url("") ?>/images/events/saturday.png"/>
 
 @stop
 

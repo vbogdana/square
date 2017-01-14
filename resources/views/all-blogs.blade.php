@@ -1,6 +1,28 @@
 
 @extends('layouts.master')
 
+@section('meta')
+
+        <meta property="fb:pages" content="squareclubbelgrade">
+
+        <meta name="description" content="Here you can read latest news from our club! Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects.">
+
+        <meta property="og:locale" content="en_US">
+
+        <meta property="og:type" content="website">
+
+        <meta property="og:url" content="http://squareclubbelgrade.com/news">
+
+        <meta property="og:title"              content="Club Square Belgrade - News From the Club" />
+
+        <meta property="og:description"        content="Here you can read latest news from our club! Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects." />
+
+        <meta property="og:site_name" content="Square Club Belgrade">
+        
+        <meta property="og:image" content="<?php echo url("") ?>/images/bgnocu1.jpg"/>
+
+@stop
+
 @section('scripts')
 
 @stop
