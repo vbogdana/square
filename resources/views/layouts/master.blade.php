@@ -38,7 +38,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-
+@section('meta')
 
         <meta property="fb:pages" content="gaucosi.belgrade">
 
@@ -56,17 +56,7 @@
 
 		<meta property="og:site_name" content="Square Club Belgrade">
 
-
-
-  
-
-
-
-
-
-
-
-
+@show
 
         <link rel="icon" href="<?php echo url("") ?>/favicon.ico">
 

@@ -1,6 +1,26 @@
 
 @extends('layouts.master')
 
+@section('meta')
+
+        <meta property="fb:pages" content="squareclubbelgrade">
+
+        <meta name="description" content="World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss...">
+
+        <meta property="og:locale" content="en_US">
+
+        <meta property="og:type" content="website">
+
+        <meta property="og:url" content="http://squareclubbelgrade.com/news/Roby-Rob-in-Square-this-Saturday">
+
+        <meta property="og:title"              content="Club Square Belgrade - Roby Rob in Square this Saturday" />
+
+        <meta property="og:description"        content="World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss..." />
+
+        <meta property="og:site_name" content="Square Club Belgrade">
+
+@stop
+
 @section('scripts')
 
 @stop
@@ -81,14 +101,14 @@
                             <img src="<?php echo url("/") ?>/images/blog/roby-rob1.jpg"> 
                         </p>
                     </div>
-                    <!--
+                    
                     <div class="author-info">
-                       
+                     <!--  
                         <div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="560" data-include-parent="true"></div>
  
-                       
+                     -->  
                     </div> 
-                    -->
+                    
                 </div>
             </div><!-- end blog-left -->
             <div class="blog-right">
