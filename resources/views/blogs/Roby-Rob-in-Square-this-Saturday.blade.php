@@ -105,10 +105,7 @@
                     </div>
                     
                     <div class="author-info">
-                     <!--  
-                        <div class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="560" data-include-parent="true"></div>
- 
-                     -->  
+                        <div class="fb-comments" data-href="https://www.facebook.com/SquareClubBelgrade/posts/1699958606961247" data-numposts="5" data-mobile="true"></div>
                     </div> 
                     
                 </div>
