@@ -5489,7 +5489,6 @@ output {
 
     }
 
-}
 
 .form-group {
 
@@ -22039,6 +22038,11 @@ body {
 
 }
 
+.goTop a:hover,
+.copyFooter a:hover {
+    color: #000;
+}
+
 .goTop i {
 
     position: relative;
@@ -23475,18 +23479,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
 }
 
-.blogSingle .admin-list ul li:nth-child(2) a {
-
-    color: #bb9b69;
-
-}
-
-.blogSingle .admin-list ul li:nth-child(4) a {
-
-    color: #bb9b69;
-
-}
-
 .blogSingle .title h2 {
 
     font-family: 'Michroma', sans-serif;
@@ -23505,11 +23497,11 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
     font-family: 'Jura', sans-serif;
 
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 
     color: #4e4e4e;
 
-    font-weight: 400;
+    font-weight: 500;
 
     line-height: 1.8;
 
@@ -23579,9 +23571,11 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
 .blogSingle .author-info {
 
-    padding: 2rem 0;
+    padding: 3rem 0;
 
-    border-bottom: 1px solid #dddcdc;
+    border-top: 1px solid #dddcdc;
+    
+    margin: 5rem 0 3rem 0;
 
 }
 
@@ -24690,11 +24684,19 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 
 .blogSingle .widget a:hover,
+.blogSidebarRight .widget a:hover,
+.blogSidebarRight .widget .previous:hover,
+.blogSidebarRight .widget .next:hover
+{
+    cursor: pointer;
+    color: #000;
+}
 
-.blogSidebarRight .widget a:hover {
-
-    color: #bb9b69;
-
+.blogSidebarRight .widget .previous,
+.blogSidebarRight .widget .next {
+    color: #555454;
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
 }
 
 .blogSingle .widget ul li,
@@ -33185,6 +33187,23 @@ body.opacityPlaylist .main-music-player .mesh-title {
 
 =======================================================================================*/
 
+.archive {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.archive a {
+    color: #eee;
+}
+
+.archive a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.widget.next-events .col-sm-12 {
+    padding: 1rem 0;
+}
 
 
 .biography.background-properties {

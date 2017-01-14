@@ -26,12 +26,11 @@ Route::get('/online-reservation/{result}', function ($result) {
  */
 
 Route::post('/reserve', 'ContactController@reserve');
-/*
+
 Route::get('/news', function () {
     return view('all-blogs');
-})->name("blogs");
+})->name("news");
 
 Route::get('/news/{blog_id}', function ($blog_id) {
-    return view('/blogs/single-blog');
+    return view('/blogs/'.$blog_id);
 })->name("blog");
- */

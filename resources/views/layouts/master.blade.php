@@ -38,7 +38,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-
+@section('meta')
 
         <meta property="fb:pages" content="gaucosi.belgrade">
 
@@ -50,23 +50,15 @@
 
 		<meta property="og:url" content="http://www.squareclubbelgrade.com">
 
-                <meta property="og:title"              content="Club Square Belgrade - Night Club +381 69 20 10 110" />
+                <meta property="og:title" content="Club Square Belgrade - Night Club +381 69 20 10 110" />
 
-                <meta property="og:description"        content="Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects." />
+                <meta property="og:description" content="Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects." />
 
 		<meta property="og:site_name" content="Square Club Belgrade">
+                
+                <meta property="og:image" content="<?php echo url("") ?>/images/bgnocu1.jpg"/>
 
-
-
-  
-
-
-
-
-
-
-
-
+@show
 
         <link rel="icon" href="<?php echo url("") ?>/favicon.ico">
 
@@ -581,10 +573,10 @@
                                                 <option value="Cetvrtak 12.1.2017.">Thursday | 12.1.2017. | The Nineties</option>
 
 
-                                                <option value="Petak 13.1.2017.">Friday | 13.1.2017. | Make Some Love</option>
+                                                <option value="Petak 13.1.2017.">Friday | 13.1.2017. | Live act</option>
 
 
-						<option value="Subota 14.1.2017.">Saturday | 14.1.2017. | Blood & Mode</option>
+						<option value="Subota 14.1.2017.">Saturday | 14.1.2017. | Roby Rob</option>
 
 
                                                 <option value="Nedelja 15.1.2017." selected="true">Sunday | 15.1.2017. | Total RnB</option>
@@ -852,6 +844,51 @@
 
         @section ('footer')
 
+        <!-- =============== START MAP ================ -->
+
+
+
+<section id="location" class="googleMap">
+
+
+
+    <div class="container-fluid">
+
+
+
+        <div class="row">
+
+
+
+            <div class="col-sm-12">
+
+
+
+                <div id="map-canvas" class="google-map" data-lat="44.820092" data-long="20.456819" data-img="<?php echo url("") ?>/images/blackpin.png" ></div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+</section>
+
+
+
+<!-- =============== END MAP ================ -->
 
 
         <!-- =============== START CONTACT ================ -->
@@ -974,7 +1011,7 @@
 
 
 
-                            <a href='https://www.facebook.com/SquareClubBelgrade'>
+                            <a href='https://www.facebook.com/SquareClubBelgrade' target="_blank">
 
 
 
@@ -1006,7 +1043,7 @@
 
 
 
-                            <a href="https://www.instagram.com/square_club_belgrade/">
+                            <a href="https://www.instagram.com/square_club_belgrade/" target="_blank">
 
 
 
@@ -1094,7 +1131,7 @@
 
 
 
-                                <a href="http://www.code581.rs">&copy; 2016  code 581 </a>
+                                <a href="http://www.code581.rs" target="_blank">&copy; 2016  code 581 </a>
 
 
 
@@ -1118,15 +1155,11 @@
 
 
 
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
+                                    <li><a href="https://www.instagram.com/code581/" target="_blank" class="icon-button shopIcon"><i class="fa fa-instagram"></i><span></span></a></li>
 
 
 
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
-
-
-
-                                    <li><a href="#" class="icon-button shopIcon"><i class="fa fa-youtube-play"></i><span></span></a></li>
+                                    <li><a href="https://www.facebook.com/code581/" target="_blank" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
 
 
 

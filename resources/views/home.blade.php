@@ -942,7 +942,7 @@
 
                                                 <div class="fixLine"></div>
 
-                                                <div  class="evTitle"> THIS SATURDAY </div>
+                                                <div  class="evTitle"> SATURDAY </div>
 
                                                 <div class="evSubtitle">& MARK FUNK  </div>
 
@@ -1203,7 +1203,7 @@
 
 
 
-                <p>Here You will soon be able to read the latest news from our <a>blog.</a> </p>
+                <p>Here You will soon be able to read the latest news from our <a href="{{ route("news") }}">blog.</a> </p>
 
 
 
@@ -1219,7 +1219,7 @@
 
 
 
-                    <div class="imgBox"><img src="<?php echo url("") ?>/images/events/next_event.jpg" alt="box-img"></div>
+                    <div class="imgBox"><img src="<?php echo url("") ?>/images/events/saturday.png" alt="Roby Rob Club Square Saturday"></div>
 
 
 
@@ -1231,7 +1231,7 @@
 
 
 
-                            <h1><a href="#">Last Friday in Square</a></h1>
+                            <h1><a href="{{ route("blog", ["blog_id" => "Roby-Rob-in-Square-this-Saturday"]) }}">Roby Rob in Square this Saturday</a></h1>
 
 
 
@@ -1247,7 +1247,7 @@
 
 
 
-                                <li><a href="#">12 Dec 2016</a>&nbsp;&nbsp;</li>
+                                <li><a href="{{ route("blog", ["blog_id" => "Roby-Rob-in-Square-this-Saturday"]) }}">14 Jan 2017</a>&nbsp;&nbsp;</li>
 
 
 
@@ -1263,7 +1263,7 @@
 
 
 
-                            <p> Soon... </p>
+                            <p> World DJ star from Switzerland in new Belgrade club this weekend! Great Swiss DJ and MC, producer, musician and composer, one of the most famous Swiss...</p>
 
 
 
@@ -1275,7 +1275,7 @@
 
 
 
-                            <a href="#">Read More</a>
+                            <a href="{{ route("blog", ["blog_id" => "Roby-Rob-in-Square-this-Saturday"]) }}">Read More</a>
 
 
 
@@ -1315,7 +1315,7 @@
 
 
 
-                            <h1><a href="#">Thursday in Square Belgrade!</a></h1>
+                            <h1><a href="{{ route("news") }}">Thursday in Square Belgrade!</a></h1>
 
 
 
@@ -1331,7 +1331,7 @@
 
 
 
-                                <li><a href="#">29 Dec 2017</a>&nbsp;&nbsp;</li>
+                                <li><a href="{{ route("news") }}">29 Dec 2016</a>&nbsp;&nbsp;</li>
 
 
 
@@ -1361,7 +1361,7 @@ booking: +381 69 20 10 110 <br> Soon... </p>
 
 
 
-                            <a href="#">Read More</a>
+                            <a href="{{ route("news") }}">Read More</a>
 
 
 
@@ -1401,7 +1401,7 @@ booking: +381 69 20 10 110 <br> Soon... </p>
 
 
 
-                            <h1><a href="#">Sunday in Square Belgrade!</a></h1>
+                            <h1><a href="{{ route("news") }}">Sunday in Square Belgrade!</a></h1>
 
 
 
@@ -1417,7 +1417,7 @@ booking: +381 69 20 10 110 <br> Soon... </p>
 
 
 
-                                <li><a href="#">01 Jan 2017</a>&nbsp;&nbsp;</li>
+                                <li><a href="{{ route("news") }}">01 Jan 2017</a>&nbsp;&nbsp;</li>
 
 
 
@@ -1447,7 +1447,7 @@ booking: +381 69 20 10 110 <br> Soon... </p>
 
 
 
-                            <a href="#">Read More</a>
+                            <a href="{{ route("news") }}">Read More</a>
 
 
 
@@ -1465,7 +1465,13 @@ booking: +381 69 20 10 110 <br> Soon... </p>
 
             </div>
 
+            <div class="col-sm-12 archive">
 
+                <a href="{{ route("news") }}">
+                    <h3>MORE NEWS...</h3>
+                </a>
+
+            </div>
 
         </div>	
 
@@ -2361,63 +2367,5 @@ booking: +381 69 20 10 110 <br> Soon... </p>
 
 
 <!-- =============== END ALBUM COVER SECTION ================ -->
-
-
-
-
-
-
-
-<!-- =============== START MAP ================ -->
-
-
-
-<section id="location" class="googleMap">
-
-
-
-    <div class="container-fluid">
-
-
-
-        <div class="row">
-
-
-
-            <div class="col-sm-12">
-
-
-
-                <div id="map-canvas" class="google-map" data-lat="44.820092" data-long="20.456819" data-img="<?php echo url("") ?>/images/blackpin.png" ></div>
-
-
-
-            </div>
-
-
-
-        </div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-</section>
-
-
-
-<!-- =============== END MAP ================ -->
-
-
-
-
-
-
 
 @stop
