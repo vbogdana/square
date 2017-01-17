@@ -40,7 +40,7 @@
 
 @section('meta')
 
-        <meta property="fb:pages" content="gaucosi.belgrade">
+        <meta property="fb:pages" content="SquareClubBelgrade">
 
 		<meta name="description" content="Club Square is among the best places to go out when it comes to winter Belgrade night clubs! Club Square is in the beautiful area of the city, at address Studentski trg 15, near the luxury hotel Square Nine. It's luxurious and elegant ambiance, as well as modern lighting and lighting effects.">
 
