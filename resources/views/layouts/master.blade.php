@@ -569,7 +569,7 @@
                                                 <option value="Cetvrtak 19.1.2017.">Thursday | 19.1.2017. | The Nineties</option>
 
 
-                                                <option value="Petak 20.1.2017.">Friday | 20.1.2017. | Make Some Love</option>
+                                                <option value="Petak 20.1.2017.">Friday | 20.1.2017. | Live act</option>
 
 
 						<option value="Subota 21.1.2017.">Saturday | 21.1.2017. | Blood & Mode</option>
@@ -584,7 +584,7 @@
                                                 <option value="Petak 27.1.2017.">Friday | 27.1.2017. | Live act</option>
 
 
-						<option value="Subota 28.1.2017.">Saturday | 28.1.2017. | Roby Rob</option>
+						<option value="Subota 28.1.2017.">Saturday | 28.1.2017. | Blood & Mode</option>
 
 
                                                 <option value="Nedelja 29.1.2017." selected="true">Sunday | 29.1.2017. | Total RnB</option>

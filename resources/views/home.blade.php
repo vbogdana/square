@@ -936,7 +936,7 @@
 
                                                 <div class="event">
 
-                                                        ROBY ROB
+                                                        Blood & mode
 
                                                 </div>
 
@@ -944,7 +944,7 @@
 
                                                 <div  class="evTitle"> SATURDAY </div>
 
-                                                <div class="evSubtitle">& MARK FUNK  </div>
+                                                <div class="evSubtitle"> MARK FUNK  </div>
 
                                                 <div class="dateOfParty"> 
 
