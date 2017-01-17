@@ -57,7 +57,7 @@
                 <div class="col-sm-8 page" id="1">
                     <div class="blogBox">	
                         <div class="owl-carousel">
-                            <div class="item"><img src="<?php echo url("") ?>/images/events/saturday.png" alt=""></div>
+                            <div class="item"><img src="<?php echo url("") ?>/images/blog/roby-rob4.png" alt=""></div>
                         </div>	
                         <div class="blogBoxContent">
                             <div class="blogHeader">

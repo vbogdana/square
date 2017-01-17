@@ -1219,7 +1219,7 @@
 
 
 
-                    <div class="imgBox"><img src="<?php echo url("") ?>/images/events/saturday.png" alt="Roby Rob Club Square Saturday"></div>
+                    <div class="imgBox"><img src="<?php echo url("") ?>/images/blog/roby-rob4.png" alt="Roby Rob Club Square Saturday"></div>
 
 
 
