@@ -19,7 +19,7 @@
 
         <meta property="og:site_name" content="Square Club Belgrade"/>
         
-        <meta property="og:image" content="<?php echo url("") ?>/images/events/saturday.png"/>
+        <meta property="og:image" content="<?php echo url("") ?>/images/blog/roby-rob4.png"/>
 
 @stop
 
@@ -55,7 +55,7 @@
             <div class="blog-left">
                 <div class="col-sm-8">
                     <div class="owl-carousel">
-                        <div class="item"><img src="<?php echo url("/") ?>/images/events/saturday.png" alt=""></div>
+                        <div class="item"><img src="<?php echo url("/") ?>/images/blog/roby-rob4.png" alt=""></div>
                     </div>
                     <div class="admin-list clearfix">
                         <ul>
