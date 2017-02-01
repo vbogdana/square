@@ -566,16 +566,6 @@
                                             <select id="day" name="day" aria-required="true" required="">
                               
 
-                                                <option value="Cetvrtak 26.1.2017.">Thursday | 26.1.2017. | The Nineties</option>
-
-
-                                                <option value="Petak 27.1.2017.">Friday | 27.1.2017. | Live act</option>
-
-
-						<option value="Subota 28.1.2017.">Saturday | 28.1.2017. | Blood & Mode</option>
-
-
-                                                <option value="Nedelja 29.1.2017." selected="true">Sunday | 29.1.2017. | Total RnB</option>
                                                 
                                                 
                                                 <option value="Cetvrtak 2.2.2017.">Thursday | 2.2.2017. | The Nineties</option>
@@ -588,6 +578,18 @@
 
 
                                                 <option value="Nedelja 5.2.2017." selected="true">Sunday | 5.2.2017. | Total RnB</option>
+                                                
+                                               
+                                                <option value="Cetvrtak 9.2.2017.">Thursday | 9.2.2017. | The Nineties</option>
+
+
+                                                <option value="Petak 10.2.2017.">Friday | 10.2.2017. | Live act</option>
+
+
+						<option value="Subota 11.2.2017.">Saturday | 11.2.2017. | Blood & Mode</option>
+
+
+                                                <option value="Nedelja 12.2.2017." selected="true">Sunday | 12.2.2017. | Total RnB</option>
                                                
                                                 
 
